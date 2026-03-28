@@ -1,0 +1,399 @@
+{
+  "course_id": "computer_vision_technologies",
+  "course_name": "Computer Vision Technologies",
+  "version": "v1",
+  "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/computer_vision_technologies.json",
+  "course_profile": {
+    "one_sentence_summary": "This course provides a comprehensive theoretical foundation and practical skills in implementing Computer Vision methods, mathematical models, and algorithms using Python.",
+    "short_summary": "Students will explore the classic digital image processing pipeline, including 2D/3D image synthesis, rasterization, vectorization, realistic rendering, and advanced digital processing like segmentation and recognition. Through hands-on Python labs using libraries such as OpenCV, NumPy, and OpenGL, learners will build functional scripts and modules, preparing them for roles in software and embedded development for computer vision systems.",
+    "discipline_positioning": [
+      "Computer Science",
+      "Software Engineering",
+      "Artificial Intelligence",
+      "Computer Graphics"
+    ],
+    "course_nature": {
+      "theory_level": "medium",
+      "implementation_level": "high",
+      "research_orientation": "medium",
+      "software_engineering_orientation": "high"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "computer_vision",
+      "domain_label": "Computer Vision",
+      "score": 0.95
+    },
+    {
+      "domain_id": "computer_graphics",
+      "domain_label": "Computer Graphics",
+      "score": 0.8
+    },
+    {
+      "domain_id": "digital_image_processing",
+      "domain_label": "Digital Image Processing",
+      "score": 0.9
+    },
+    {
+      "domain_id": "machine_learning",
+      "domain_label": "Machine Learning",
+      "score": 0.6
+    }
+  ],
+  "discipline_tags": [
+    "Computer Vision",
+    "Computer Graphics",
+    "Digital Image Processing",
+    "Artificial Intelligence",
+    "Software Engineering"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Digital Image Pipeline",
+      "Image Synthesis",
+      "Rasterization",
+      "Vectorization",
+      "Rendering",
+      "Morphological Processing",
+      "Image Segmentation",
+      "Color Correction"
+    ],
+    "methods_models": [
+      "Geometric Transformations",
+      "Splines",
+      "Bezier Curves",
+      "Ordinary Least Squares (OLS)",
+      "Convolutional Neural Networks (CNN)",
+      "Deep Learning",
+      "Light and Shadow Models"
+    ],
+    "data_modalities": [
+      "Raster Images",
+      "Vector Images",
+      "2D/3D Objects",
+      "Video Streams",
+      "Sensor Data"
+    ],
+    "problem_types": [
+      "Object Detection",
+      "Image Recognition",
+      "Multiple Tracking",
+      "Activity Detection",
+      "Structure-from-Motion",
+      "Scene Understanding"
+    ],
+    "application_domains": [
+      "Autonomous Driving",
+      "Augmented Reality",
+      "Navigation Systems",
+      "Robotics"
+    ],
+    "engineering_aspects": [
+      "Python Scripting",
+      "Software Engineering Processes",
+      "Algorithm Implementation",
+      "Pipeline Construction"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [
+      "Python"
+    ],
+    "libraries_frameworks_tools_explicit": [
+      "Graphics",
+      "Tkinter",
+      "Matplotlib",
+      "NumPy",
+      "PIL",
+      "Pillow",
+      "OpenGL",
+      "OpenCV"
+    ],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [],
+    "technologies_mentioned_in_resources_only": []
+  },
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the classic pipeline of digital image processing, from synthesis to vectorization.",
+      "Comprehend mathematical models and algorithms for approximation, interpolation, and smoothing (e.g., OLS, Splines, Bezier curves).",
+      "Understand models of realistic images, light and shadow models, and the 3D rendering pipeline."
+    ],
+    "practical_implementation": [
+      "Implement raw computer vision algorithms using Python libraries like NumPy and Matplotlib.",
+      "Develop functional software modules for computer vision tasks using specialized packages like OpenCV, OpenGL, and PIL/Pillow.",
+      "Apply base geometric transformations (scaling, translating, rotating, projecting) to 2D and 3D objects."
+    ],
+    "analysis_validation": [
+      "Process sensor data for applied tasks such as navigation and autonomous driving.",
+      "Perform color correction, filtering, morphological processing, and segmentation on digital images."
+    ],
+    "architecture_design": [
+      "Design complex digital image processing pipelines applying software engineering best practices.",
+      "Build Python scripts adhering to the principle of incremental functionality development."
+    ],
+    "research_and_prototyping": [
+      "Prototype systems for object detection, activity prediction, and scene understanding using modern approaches including CNNs and Deep Learning."
+    ]
+  },
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "The theoretical foundations and mathematical models behind modern computer vision.",
+      "The complete pipeline of processing digital images, from raw sensor data to recognized objects.",
+      "How rendering pipelines generate realistic 3D scenes using light and shadow models."
+    ],
+    "what_student_can_build": [
+      "Python applications that process raster and vector graphics using NumPy, PIL, and OpenCV.",
+      "Programs that apply geometric transformations to 2D and 3D shapes.",
+      "Software pipelines for image filtering, segmentation, and object detection."
+    ],
+    "what_student_can_apply": [
+      "Computer vision techniques for real-world domains like autonomous driving, augmented reality, and significance mapping.",
+      "Deep learning concepts for image retrieval and object recognition."
+    ]
+  },
+  "input_skill_refs": [
+    {
+      "canonical_skill_id": "programming_fundamentals",
+      "source_skill_id": "programming_basics",
+      "skill_label": "Programming fundamentals",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Базові знання з програмування"
+      ],
+      "evidence": [
+        "Вимоги до початку вивчення: Базові знання з програмування"
+      ],
+      "normalization_status": "aliased"
+    },
+    {
+      "canonical_skill_id": "computer_architecture_basics",
+      "source_skill_id": "computer_architecture_basics",
+      "skill_label": "Computer Architecture Basics",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "архітектури обчислювальних систем і мереж"
+      ],
+      "evidence": [
+        "Вимоги до початку вивчення: архітектури обчислювальних систем і мереж"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "discrete_mathematics",
+      "source_skill_id": "discrete_mathematics",
+      "skill_label": "Discrete Mathematics",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "дискретної математики"
+      ],
+      "evidence": [
+        "Вимоги до початку вивчення: дискретної математики"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "software_engineering_processes",
+      "source_skill_id": "software_engineering_processes",
+      "skill_label": "Software Engineering Processes",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "процесів інженерії програмного забезпечення"
+      ],
+      "evidence": [
+        "Вимоги до початку вивчення: процесів інженерії програмного забезпечення"
+      ],
+      "normalization_status": "canonical"
+    }
+  ],
+  "output_skill_refs": [
+    {
+      "canonical_skill_id": "cv_algorithm_implementation_python",
+      "source_skill_id": "cv_algorithm_implementation_python",
+      "skill_label": "Computer Vision Algorithm Implementation in Python",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "програмної реалізації методів... Computer Vision",
+        "застосування мови програмування високого рівня Python"
+      ],
+      "evidence": [
+        "Практична частина дисципліни орієнтована на застосування мови програмування високого рівня Python з вивченням можливостей графічних бібліотек... для створення програмних модулів завершеної практичної спрямованості."
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "geometric_transformations_2d_3d",
+      "source_skill_id": "geometric_transformations_2d_3d",
+      "skill_label": "2D/3D Geometric Transformations",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "синтез 2D, 3D графічних об'єктів та їх геометричні перетворення",
+        "масштабування, переміщення, обертання, проекції"
+      ],
+      "evidence": [
+        "Базові геометричні перетворення 2D, 3D об'єктів (масштабування, переміщення, обертання, проекції)"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "digital_image_processing",
+      "source_skill_id": "digital_image_processing",
+      "skill_label": "Digital Image Processing",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "цифрової обробки зображень",
+        "фільтрація; корекція кольору; сегментація; векторизація; морфологічна обробка"
+      ],
+      "evidence": [
+        "Цифрова обробка зображень: фільтрація; корекція кольору; сегментація; векторизація; морфологічна обробка; розпізнавання."
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "raster_and_vector_graphics",
+      "source_skill_id": "raster_and_vector_graphics",
+      "skill_label": "Raster and Vector Graphics Processing",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "синтезу та обробки растрових зображень",
+        "синтезу та обробки векторних зображень"
+      ],
+      "evidence": [
+        "Растеризація і растрові зображення, принципи створення, характеристики та алгоритми обробки",
+        "Векторизація і векторні зображення, математичні моделі, алгоритми апроксимації, інтерполяції та згладжування"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "image_recognition_and_detection",
+      "source_skill_id": "image_recognition_and_detection",
+      "skill_label": "Image Recognition and Object Detection",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Розпізнавання зображень, ідентифікація об'єктів",
+        "object detection and recognition"
+      ],
+      "evidence": [
+        "Розпізнавання зображень, ідентифікація об'єктів (Convolution networks, Deep learning, Image Retrieval, Object Detection)."
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "scene_understanding_and_tracking",
+      "source_skill_id": "scene_understanding_and_tracking",
+      "skill_label": "Scene Understanding and Tracking",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Сегментація сцени і розуміння сюжету",
+        "multiple tracking, object detection, activity detection"
+      ],
+      "evidence": [
+        "Сегментація сцени і розуміння сюжету (Significance maps, video and 3D segmentation, 3D stream, multiple tracking, object detection, activity detection and prediction, group analysis)"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "3d_reconstruction",
+      "source_skill_id": "3d_reconstruction",
+      "skill_label": "3D Scene Reconstruction",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Реконструкція 3D сцени",
+        "Structure-from-Motion"
+      ],
+      "evidence": [
+        "Реконструкція 3D сцени та навігація в ній (Structure-from-Motion, Road Scene Understanding and Autonomous Driving)"
+      ],
+      "normalization_status": "canonical"
+    }
+  ],
+  "practical_profile": {
+    "lab_formats": [
+      "Scripting assignments with incremental functionality",
+      "Raw algorithm implementations from scratch",
+      "Practical usage of specialized CV and graphics libraries"
+    ],
+    "expected_artifacts": [
+      "Python scripts and software modules",
+      "Processed digital images (raster and vector)",
+      "Rendered 3D objects and scenes"
+    ],
+    "implementation_tasks": [
+      "Image synthesis and 2D/3D geometric transformations",
+      "Image rasterization, vectorization, and filtering",
+      "Object identification and image recognition workflows"
+    ],
+    "engineering_practices": [
+      "Application of software engineering processes",
+      "Incremental functional development",
+      "Utilization of specialized software libraries (OpenCV, OpenGL)"
+    ]
+  },
+  "intra_course_relations": [
+    {
+      "from_skill_id": "cv_algorithm_implementation_python",
+      "to_skill_id": "digital_image_processing",
+      "from_canonical_skill_id": "cv_algorithm_implementation_python",
+      "to_canonical_skill_id": "digital_image_processing",
+      "from_label": "Computer Vision Algorithm Implementation in Python",
+      "to_label": "Digital Image Processing",
+      "relation": "enables",
+      "reason": "Proficiency in Python and its libraries is explicitly required to execute the digital image processing tasks in the labs."
+    },
+    {
+      "from_skill_id": "geometric_transformations_2d_3d",
+      "to_skill_id": "3d_reconstruction",
+      "from_canonical_skill_id": "geometric_transformations_2d_3d",
+      "to_canonical_skill_id": "3d_reconstruction",
+      "from_label": "2D/3D Geometric Transformations",
+      "to_label": "3D Scene Reconstruction",
+      "relation": "supports",
+      "reason": "Understanding spatial transformations and projections is foundational for complex 3D scene reconstruction like Structure-from-Motion."
+    },
+    {
+      "from_skill_id": "digital_image_processing",
+      "to_skill_id": "image_recognition_and_detection",
+      "from_canonical_skill_id": "digital_image_processing",
+      "to_canonical_skill_id": "image_recognition_and_detection",
+      "from_label": "Digital Image Processing",
+      "to_label": "Image Recognition and Object Detection",
+      "relation": "culminates_in",
+      "reason": "Basic digital image processing (filtering, morphology) is part of the pipeline that leads to advanced object recognition and detection."
+    }
+  ],
+  "quality_ref": "course:computer_vision_technologies"
+}

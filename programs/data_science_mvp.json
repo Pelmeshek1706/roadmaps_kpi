@@ -1,0 +1,413 @@
+{
+  "program_id": "data_science_certification_mvp",
+  "title": "Data Science Certification MVP",
+  "track_id": "data_science",
+  "version": "v2",
+  "roadmap_mode": "semester",
+  "tracks": [
+    {
+      "track_id": "data_science",
+      "title": "Data Science",
+      "selector_domains": [
+        {
+          "domain_id": "data_science",
+          "weight": 1.0
+        },
+        {
+          "domain_id": "machine_learning",
+          "weight": 0.8
+        },
+        {
+          "domain_id": "statistical_learning",
+          "weight": 0.7
+        },
+        {
+          "domain_id": "predictive_analytics",
+          "weight": 0.5
+        },
+        {
+          "domain_id": "natural_language_processing",
+          "weight": 0.4
+        },
+        {
+          "domain_id": "computer_vision",
+          "weight": 0.4
+        }
+      ],
+      "selector_tags": [
+        "data science",
+        "machine learning",
+        "data mining",
+        "statistical learning",
+        "natural language processing",
+        "computer vision",
+        "predictive modeling",
+        "big data"
+      ],
+      "selector_skill_ids": [
+        "feature_extraction",
+        "similarity_computation",
+        "data_preprocessing",
+        "data_visualization",
+        "ols_regression",
+        "multicriteria_decision_analysis",
+        "time_series_decomposition",
+        "ann_time_series_forecasting",
+        "image_recognition_and_detection",
+        "digital_image_processing",
+        "text_vectorization",
+        "lemmatization"
+      ],
+      "target_skill_profile": [
+        {
+          "skill_id": "feature_extraction",
+          "target_level": 3,
+          "weight": 0.8
+        },
+        {
+          "skill_id": "similarity_computation",
+          "target_level": 3,
+          "weight": 0.7
+        },
+        {
+          "skill_id": "data_preprocessing",
+          "target_level": 3,
+          "weight": 1.0
+        },
+        {
+          "skill_id": "data_visualization",
+          "target_level": 3,
+          "weight": 0.9
+        },
+        {
+          "skill_id": "ols_regression",
+          "target_level": 3,
+          "weight": 0.7
+        },
+        {
+          "skill_id": "multicriteria_decision_analysis",
+          "target_level": 3,
+          "weight": 0.7
+        },
+        {
+          "skill_id": "time_series_decomposition",
+          "target_level": 3,
+          "weight": 0.8
+        },
+        {
+          "skill_id": "ann_time_series_forecasting",
+          "target_level": 3,
+          "weight": 0.8
+        },
+        {
+          "skill_id": "image_recognition_and_detection",
+          "target_level": 3,
+          "weight": 0.7
+        },
+        {
+          "skill_id": "digital_image_processing",
+          "target_level": 3,
+          "weight": 0.7
+        },
+        {
+          "skill_id": "text_vectorization",
+          "target_level": 3,
+          "weight": 0.7
+        },
+        {
+          "skill_id": "lemmatization",
+          "target_level": 3,
+          "weight": 0.6
+        }
+      ],
+      "target_domain_scores": [
+        {
+          "domain_id": "data_science",
+          "weight": 1.0
+        },
+        {
+          "domain_id": "machine_learning",
+          "weight": 0.8
+        },
+        {
+          "domain_id": "statistical_learning",
+          "weight": 0.7
+        },
+        {
+          "domain_id": "predictive_analytics",
+          "weight": 0.5
+        },
+        {
+          "domain_id": "natural_language_processing",
+          "weight": 0.4
+        },
+        {
+          "domain_id": "computer_vision",
+          "weight": 0.4
+        }
+      ],
+      "foundation_skill_ids": [
+        "feature_extraction",
+        "similarity_computation",
+        "data_preprocessing",
+        "data_visualization"
+      ],
+      "roadmap_policy": {
+        "max_semesters": 4,
+        "max_courses_per_semester": 3,
+        "min_track_affinity": 0.18,
+        "max_pairwise_overlap": 0.85,
+        "min_target_coverage": 0.9
+      },
+      "manual_includes": [
+        "fundamentals_of_data_science",
+        "data_science_technologies",
+        "analysis_and_processing_of_time_series",
+        "computer_vision_technologies",
+        "natural_language_analysis_and_processing_nlp"
+      ],
+      "manual_excludes": []
+    }
+  ],
+  "planning_window": {
+    "start_term": {
+      "course": 1,
+      "semester": 1
+    },
+    "horizon_semesters": 4,
+    "max_courses_per_semester": 3
+  },
+  "student_profile": {
+    "student_id": "sample_data_science_student",
+    "baseline_skill_bank": [
+      {
+        "skill_id": "programming_fundamentals",
+        "level": 2
+      },
+      {
+        "skill_id": "python_basics",
+        "level": 3
+      },
+      {
+        "skill_id": "algorithms_and_data_structures",
+        "level": 2
+      },
+      {
+        "skill_id": "object_oriented_programming",
+        "level": 2
+      },
+      {
+        "skill_id": "computer_architecture_basics",
+        "level": 1
+      },
+      {
+        "skill_id": "software_engineering_processes",
+        "level": 1
+      },
+      {
+        "skill_id": "algorithmic_thinking",
+        "level": 2
+      },
+      {
+        "skill_id": "python_environment_setup",
+        "level": 1
+      },
+      {
+        "skill_id": "probability_statistics",
+        "level": 2
+      },
+      {
+        "skill_id": "linear_algebra",
+        "level": 2
+      },
+      {
+        "skill_id": "discrete_mathematics",
+        "level": 2
+      },
+      {
+        "skill_id": "analytical_geometry",
+        "level": 2
+      },
+      {
+        "skill_id": "calculus",
+        "level": 2
+      }
+    ],
+    "completed_course_ids": [],
+    "starting_term": {
+      "course": 1,
+      "semester": 1
+    }
+  },
+  "course_offerings": [
+    {
+      "course_id": "fundamentals_of_data_science",
+      "stage": "foundation",
+      "available_terms": [
+        {
+          "course": 1,
+          "semester": 1
+        },
+        {
+          "course": 1,
+          "semester": 2
+        }
+      ],
+      "availability_confidence": "high",
+      "source": "manual_mvp"
+    },
+    {
+      "course_id": "data_science_technologies",
+      "stage": "core",
+      "available_terms": [
+        {
+          "course": 1,
+          "semester": 2
+        },
+        {
+          "course": 2,
+          "semester": 1
+        }
+      ],
+      "availability_confidence": "high",
+      "source": "manual_mvp"
+    },
+    {
+      "course_id": "analysis_and_processing_of_time_series",
+      "stage": "advanced",
+      "available_terms": [
+        {
+          "course": 2,
+          "semester": 1
+        },
+        {
+          "course": 2,
+          "semester": 2
+        }
+      ],
+      "availability_confidence": "high",
+      "source": "manual_mvp"
+    },
+    {
+      "course_id": "natural_language_analysis_and_processing_nlp",
+      "stage": "advanced",
+      "available_terms": [
+        {
+          "course": 2,
+          "semester": 1
+        },
+        {
+          "course": 2,
+          "semester": 2
+        }
+      ],
+      "availability_confidence": "high",
+      "source": "manual_mvp"
+    },
+    {
+      "course_id": "computer_vision_technologies",
+      "stage": "advanced",
+      "available_terms": [
+        {
+          "course": 2,
+          "semester": 2
+        }
+      ],
+      "availability_confidence": "high",
+      "source": "manual_mvp"
+    }
+  ],
+  "program_edges": [
+    {
+      "from_course_id": "fundamentals_of_data_science",
+      "to_course_id": "data_science_technologies",
+      "relation_type": "recommended_after",
+      "support_skill_ids": [
+        "probability_statistics",
+        "linear_algebra",
+        "programming_fundamentals"
+      ],
+      "strength": 0.65,
+      "status": "active",
+      "provenance": "manual_mvp"
+    },
+    {
+      "from_course_id": "data_science_technologies",
+      "to_course_id": "analysis_and_processing_of_time_series",
+      "relation_type": "recommended_after",
+      "support_skill_ids": [
+        "data_preprocessing",
+        "ols_regression",
+        "kalman_filtering"
+      ],
+      "strength": 0.72,
+      "status": "active",
+      "provenance": "manual_mvp"
+    },
+    {
+      "from_course_id": "data_science_technologies",
+      "to_course_id": "computer_vision_technologies",
+      "relation_type": "recommended_after",
+      "support_skill_ids": [
+        "programming_fundamentals",
+        "python_basics"
+      ],
+      "strength": 0.52,
+      "status": "active",
+      "provenance": "manual_mvp"
+    },
+    {
+      "from_course_id": "data_science_technologies",
+      "to_course_id": "natural_language_analysis_and_processing_nlp",
+      "relation_type": "recommended_after",
+      "support_skill_ids": [
+        "python_basics",
+        "data_preprocessing"
+      ],
+      "strength": 0.58,
+      "status": "active",
+      "provenance": "manual_mvp"
+    },
+    {
+      "from_course_id": "analysis_and_processing_of_time_series",
+      "to_course_id": "computer_vision_technologies",
+      "relation_type": "overlap_alternative",
+      "support_skill_ids": [
+        "programming_fundamentals",
+        "discrete_mathematics"
+      ],
+      "strength": 0.18,
+      "status": "active",
+      "provenance": "manual_mvp"
+    },
+    {
+      "from_course_id": "analysis_and_processing_of_time_series",
+      "to_course_id": "natural_language_analysis_and_processing_nlp",
+      "relation_type": "overlap_alternative",
+      "support_skill_ids": [
+        "python_basics",
+        "programming_fundamentals"
+      ],
+      "strength": 0.2,
+      "status": "active",
+      "provenance": "manual_mvp"
+    },
+    {
+      "from_course_id": "computer_vision_technologies",
+      "to_course_id": "natural_language_analysis_and_processing_nlp",
+      "relation_type": "overlap_alternative",
+      "support_skill_ids": [
+        "python_basics",
+        "programming_fundamentals"
+      ],
+      "strength": 0.16,
+      "status": "active",
+      "provenance": "manual_mvp"
+    }
+  ],
+  "completion_rules": {
+    "required_slot_ids": [],
+    "min_selected_courses": 4,
+    "target_coverage_threshold": 0.9
+  }
+}

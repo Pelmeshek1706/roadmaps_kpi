@@ -1,0 +1,410 @@
+{
+  "status": "ok",
+  "course_name": "Analysis and Processing of Time Series",
+  "course_profile": {
+    "one_sentence_summary": "A comprehensive course on time series analysis methodologies and technologies, spanning from classical statistical methods to modern deep learning implementations.",
+    "short_summary": "This course provides in-depth competencies in processing sequential data, building upon foundational Data Science concepts. Students learn to prepare temporal data and apply diverse forecasting and analysis techniques, including ARIMA models, Kalman filtering, and artificial neural networks using Python, TensorFlow, and PyTorch. The curriculum heavily emphasizes practical application in domains like economics, digital twins, and automated systems.",
+    "discipline_positioning": [
+      "Data Science",
+      "Machine Learning",
+      "Predictive Analytics",
+      "Artificial Intelligence"
+    ],
+    "course_nature": {
+      "theory_level": "medium",
+      "implementation_level": "high",
+      "research_orientation": "high",
+      "software_engineering_orientation": "medium"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "data_science",
+      "domain_label": "Data Science",
+      "score": 0.95
+    },
+    {
+      "domain_id": "machine_learning",
+      "domain_label": "Machine Learning",
+      "score": 0.90
+    },
+    {
+      "domain_id": "artificial_intelligence",
+      "domain_label": "Artificial Intelligence",
+      "score": 0.85
+    },
+    {
+      "domain_id": "predictive_analytics",
+      "domain_label": "Predictive Analytics",
+      "score": 0.95
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 0,
+    "lectures_used_count": 0,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Extraction is based on a structured course syllabus (description) detailing topics, tools, outcomes, and prerequisites."
+  },
+  "discipline_tags": [
+    "Time Series Analysis",
+    "Data Science",
+    "Machine Learning",
+    "Predictive Modeling",
+    "Deep Learning",
+    "Statistical Learning"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "random processes",
+      "time series properties",
+      "data normalization",
+      "anomaly detection",
+      "data imputation"
+    ],
+    "methods_models": [
+      "Ordinary Least Squares (OLS)",
+      "Kalman filter",
+      "ARIMA",
+      "ARMA",
+      "Moving Average (MA)",
+      "exponential smoothing",
+      "artificial neural networks"
+    ],
+    "data_modalities": [
+      "time series",
+      "hierarchical time series",
+      "grouped time series",
+      "economic indicators"
+    ],
+    "problem_types": [
+      "forecasting",
+      "clustering",
+      "decomposition",
+      "correlation analysis",
+      "scoring"
+    ],
+    "application_domains": [
+      "economics",
+      "digital twins",
+      "automated control systems",
+      "currency markets",
+      "social phenomena"
+    ],
+    "engineering_aspects": [
+      "data parsing",
+      "model optimization",
+      "R&D prototyping"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [
+      "Python"
+    ],
+    "libraries_frameworks_tools_explicit": [
+      "Numpy",
+      "Pandas",
+      "Requests",
+      "Scipy",
+      "Scikit-learn",
+      "Tensorflow",
+      "Keras",
+      "PyTorch"
+    ],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [
+      "Jupyter Notebooks"
+    ],
+    "technologies_mentioned_in_resources_only": []
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "basic_programming",
+      "skill_label": "Basic Programming",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Базові знання з програмування"
+      ],
+      "evidence": [
+        "Вимоги до початку вивчення: Базові знання з програмування"
+      ]
+    },
+    {
+      "skill_id": "computer_architecture_basics",
+      "skill_label": "Computer Architecture Basics",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "архітектури обчислювальних систем і мереж"
+      ],
+      "evidence": [
+        "Вимоги до початку вивчення: ... архітектури обчислювальних систем і мереж"
+      ]
+    },
+    {
+      "skill_id": "discrete_mathematics",
+      "skill_label": "Discrete Mathematics",
+      "min_level_required": 1,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "дискретної математики"
+      ],
+      "evidence": [
+        "Вимоги до початку вивчення: ... дискретної математики"
+      ]
+    },
+    {
+      "skill_id": "software_engineering_processes",
+      "skill_label": "Software Engineering Processes",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "процесів інженерії програмного забезпечення"
+      ],
+      "evidence": [
+        "Вимоги до початку вивчення: ... процесів інженерії програмного забезпечення"
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "time_series_preprocessing",
+      "skill_label": "Time Series Preprocessing",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "парсинг",
+        "Підготовка Time Series: нормалізація, балансування, пропуски та аномалії"
+      ],
+      "evidence": [
+        "Підготовка Time Series: нормалізація, балансування, пропуски та аномалії."
+      ]
+    },
+    {
+      "skill_id": "ols_regression_modeling",
+      "skill_label": "OLS Regression Modeling",
+      "result_level": 3,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Статистичне навчання за МНК: оптимізація моделі, оцінювання та прогнозування"
+      ],
+      "evidence": [
+        "Статистичне навчання за МНК: оптимізація моделі, оцінювання та прогнозування."
+      ]
+    },
+    {
+      "skill_id": "kalman_filtering",
+      "skill_label": "Kalman Filtering",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Рекурентні алгоритми фільтрація Калмана"
+      ],
+      "evidence": [
+        "Рекурентні алгоритми фільтрація Калмана."
+      ]
+    },
+    {
+      "skill_id": "time_series_decomposition",
+      "skill_label": "Time Series Decomposition",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Декомпозиція, властивості, прогнозування"
+      ],
+      "evidence": [
+        "Декомпозиція, властивості, прогнозування."
+      ]
+    },
+    {
+      "skill_id": "time_series_clustering",
+      "skill_label": "Time Series Clustering",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Подібність, кластеризація часових рядів"
+      ],
+      "evidence": [
+        "Подібність, кластеризація часових рядів Кореляційний аналіз."
+      ]
+    },
+    {
+      "skill_id": "arima_modeling",
+      "skill_label": "ARIMA Modeling",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Moving Average (MA)",
+        "автокореляційні алгоритми типу ARMA, ARIMA"
+      ],
+      "evidence": [
+        "Алгоритми ковзного вікна: Moving Average (MA), автокореляційні алгоритми типу ARMA, ARIMA."
+      ]
+    },
+    {
+      "skill_id": "ann_time_series_forecasting",
+      "skill_label": "Artificial Neural Networks for Time Series",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Конструювання штучних нейронних мереж для Time Series з TensorFlow",
+        "Конструювання штучних нейронних мереж для Time Series з PyTorch"
+      ],
+      "evidence": [
+        "Конструювання штучних нейронних мереж для Time Series 3 TensorFlow та із PyTorch."
+      ]
+    },
+    {
+      "skill_id": "hierarchical_time_series_forecasting",
+      "skill_label": "Hierarchical Time Series Forecasting",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Прогнозування ієрархічних та згрупованих часових рядів"
+      ],
+      "evidence": [
+        "Прогнозування ієрархічних та згрупованих часових рядів."
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the mathematical models and properties of random processes.",
+      "Comprehend the theory behind statistical learning methods like Ordinary Least Squares (OLS) and nonlinear models.",
+      "Understand how artificial neural networks are conceptualized and applied to sequential data."
+    ],
+    "practical_implementation": [
+      "Implement robust data preparation pipelines handling parsing, missing values, anomalies, and normalization.",
+      "Develop and train statistical models including ARMA, ARIMA, and exponential smoothing using Python.",
+      "Construct deep learning architectures for time series using TensorFlow, Keras, and PyTorch."
+    ],
+    "analysis_validation": [
+      "Conduct time series decomposition, correlation analysis, and clustering to derive insights.",
+      "Evaluate forecasting models and perform multifactor scoring."
+    ],
+    "architecture_design": [
+      "Design analytical solutions capable of forecasting hierarchical and grouped time series data.",
+      "Integrate multiple Python libraries (Numpy, Pandas, Scipy, Scikit-learn) into cohesive data processing pipelines."
+    ],
+    "research_and_prototyping": [
+      "Execute R&D projects predicting economic indicators, currency market changes, and behaviors of automated/unmanned systems."
+    ]
+  },
+  "practical_components": {
+    "lab_formats": [
+      "programming laboratories",
+      "project practicum (R&D projects)"
+    ],
+    "expected_artifacts": [
+      "data preparation pipelines",
+      "trained statistical forecasting models",
+      "deep learning network implementations"
+    ],
+    "implementation_tasks": [
+      "parsing raw time series data",
+      "handling anomalies and balancing data",
+      "configuring and optimizing ARIMA/ARMA models",
+      "implementing Kalman filters",
+      "training ANNs in PyTorch/TensorFlow"
+    ],
+    "engineering_practices": [
+      "utilizing standard high-level Python ML libraries",
+      "model optimization and evaluation"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "time_series_preprocessing",
+      "to_id": "arima_modeling",
+      "from_label": "Time Series Preprocessing",
+      "to_label": "ARIMA Modeling",
+      "relation": "requires",
+      "reason": "Accurate statistical modeling with ARIMA inherently requires properly normalized data free of severe anomalies."
+    },
+    {
+      "from_id": "time_series_preprocessing",
+      "to_id": "ann_time_series_forecasting",
+      "from_label": "Time Series Preprocessing",
+      "to_label": "Artificial Neural Networks for Time Series",
+      "relation": "enables",
+      "reason": "Deep learning models require correctly formatted, balanced, and cleaned sequential data for stable training."
+    },
+    {
+      "from_id": "ols_regression_modeling",
+      "to_id": "ann_time_series_forecasting",
+      "from_label": "OLS Regression Modeling",
+      "to_label": "Artificial Neural Networks for Time Series",
+      "relation": "supports",
+      "reason": "Understanding basic statistical optimization provides a conceptual foundation for advanced neural network loss optimization."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "The underlying statistical properties of time series and how random processes behave.",
+      "The theoretical mechanisms of classical models like moving averages, Kalman filters, and ARIMA.",
+      "How different neural network frameworks (PyTorch vs TensorFlow) manage sequential temporal data."
+    ],
+    "what_student_can_build": [
+      "Complete data preprocessing pipelines in Python using Pandas and Numpy.",
+      "Predictive statistical models using Scikit-learn and Scipy.",
+      "Custom neural network forecasting models trained on domain-specific historical data."
+    ],
+    "what_student_can_apply": [
+      "Time series analysis to real-world problems like currency market prediction, automated system control, and economic indicator forecasting."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "Course is a continuation of Data Science and relies on Python libraries.",
+      "source_type": "syllabus",
+      "source_title": "Syllabus Extract",
+      "evidence_text": "Дисципліна є продовженням технологій Data Science... Практична частина орієнтована на застосування мови програмування високого рівня Python з вивченням функціоналу бібліотек: Numpy, Pandas, Requests, Scipy, Scikit-learn, Tensorflow, Keras, PyTorch та інші."
+    },
+    {
+      "claim": "Teaches classical statistical forecasting like ARIMA and ARMA.",
+      "source_type": "syllabus",
+      "source_title": "Syllabus Extract",
+      "evidence_text": "Алгоритми ковзного вікна: Moving Average (MA), автокореляційні алгоритми типу ARMA, ARIMA."
+    },
+    {
+      "claim": "Teaches neural network construction for temporal data.",
+      "source_type": "syllabus",
+      "source_title": "Syllabus Extract",
+      "evidence_text": "Конструювання штучних нейронних мереж для Time Series 3 TensorFlow. Конструювання штучних нейронних мереж для Time Series 3 PyTorch."
+    },
+    {
+      "claim": "Requires basic programming and math knowledge.",
+      "source_type": "syllabus",
+      "source_title": "Syllabus Extract",
+      "evidence_text": "Базові знання з програмування, архітектури обчислювальних систем і мереж, дискретної математики, комп'ютерної логіки..."
+    }
+  ],
+  "confidence": "high"
+}

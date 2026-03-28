@@ -1,0 +1,783 @@
+{
+  "status": "ok",
+  "course_name": "Natural Language Analysis and Processing (NLP)",
+  "course_profile": {
+    "one_sentence_summary": "An applied Python-centered NLP course that moves from text acquisition and preprocessing to semantic analysis and introductory neural methods, with progressive laboratory implementation tasks and a project practicum.  ",
+    "short_summary": "The course is positioned as a continuation of Data Science and is designed to develop the ability to synthesize and verify mathematical models and build specialized software for natural language processing. The accessible materials show a progressive structure: text acquisition and filtering, tokenization and normalization, vectorization and POS analysis, frequency/probabilistic and semantic analysis, classification, similarity, sentiment, and neural-network-based text analysis; the official syllabus then extends this trajectory into audio, GPT-supported NLP, and a project practicum, although those later source documents were not uploaded.  ",
+    "discipline_positioning": [
+      "Applied Natural Language Processing",
+      "Python-based Text Analytics",
+      "Machine-Learning-Oriented Data Science Elective"
+    ],
+    "course_nature": {
+      "theory_level": "medium",
+      "implementation_level": "high",
+      "research_orientation": "medium",
+      "software_engineering_orientation": "medium"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "natural_language_processing",
+      "domain_label": "Natural Language Processing",
+      "score": 0.98
+    },
+    {
+      "domain_id": "machine_learning",
+      "domain_label": "Machine Learning",
+      "score": 0.72
+    },
+    {
+      "domain_id": "data_science",
+      "domain_label": "Data Science",
+      "score": 0.64
+    },
+    {
+      "domain_id": "deep_learning",
+      "domain_label": "Deep Learning",
+      "score": 0.43
+    },
+    {
+      "domain_id": "software_engineering",
+      "domain_label": "Software Engineering",
+      "score": 0.38
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "multi_source",
+    "single_document_used": false,
+    "syllabus_used": true,
+    "lab_works_used_count": 6,
+    "lectures_used_count": 11,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Analysis used the official syllabus, laboratory works 1-6, and lectures 1-11. The syllabus also lists later topics and labs on audio messages, GPT-supported NLP, and global information space, but those source documents were not uploaded, so they are treated as scope-level topics rather than strongly evidenced output skills.  "
+  },
+  "discipline_tags": [
+    "Natural Language Processing",
+    "Text Analytics",
+    "Computational Linguistics",
+    "Machine Learning for Text",
+    "Deep Learning for NLP",
+    "Applied Data Science"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "NLP pipeline",
+      "text preprocessing",
+      "syntactic analysis",
+      "semantic analysis",
+      "feature representation of text",
+      "neural text analysis"
+    ],
+    "methods_models": [
+      "web scraping",
+      "tokenization",
+      "stop-word removal",
+      "lemmatization",
+      "stemming",
+      "text vectorization",
+      "POS tagging",
+      "frequency analysis",
+      "probabilistic text analysis",
+      "text clustering",
+      "text classification",
+      "semantic similarity",
+      "sentiment analysis",
+      "artificial neural networks",
+      "transformer-based similarity modeling"
+    ],
+    "data_modalities": [
+      "text documents",
+      "web text",
+      "news streams",
+      "job postings",
+      "product reviews",
+      "real estate listings",
+      "audio messages"
+    ],
+    "problem_types": [
+      "text cleaning",
+      "keyword extraction",
+      "topic drift tracking",
+      "requirements mining",
+      "text clustering",
+      "text classification",
+      "similarity matching",
+      "sentiment detection"
+    ],
+    "application_domains": [
+      "news analytics",
+      "labor market analytics",
+      "e-commerce review analysis",
+      "real estate listing analysis",
+      "search and retrieval",
+      "recommendation systems",
+      "chatbots and question answering",
+      "machine translation"
+    ],
+    "engineering_aspects": [
+      "Python script development",
+      "data storage in files",
+      "verification of implementations",
+      "result visualization",
+      "comparative experiment analysis",
+      "architecture design",
+      "virtual environment setup",
+      "project practicum"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [
+      "Python"
+    ],
+    "libraries_frameworks_tools_explicit": [
+      "NumPy",
+      "Pandas",
+      "Requests",
+      "NLTK",
+      "spaCy",
+      "Gensim",
+      "fastText",
+      "SciPy",
+      "scikit-learn",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "matplotlib",
+      "BeautifulSoup"
+    ],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [
+      "regex-based text cleaning"
+    ],
+    "technologies_mentioned_in_resources_only": [
+      "Jupyter",
+      "Google Colab",
+      "Visual Studio Code",
+      "PyCharm",
+      "Kaggle",
+      "Hugging Face"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "python_basics",
+      "skill_label": "Python Basics",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "базових знань мови програмування Python: синтаксис, типи та структури даних, базові оператори розгалужених обчислень"
+      ],
+      "evidence": [
+        "The syllabus explicitly requires basic Python knowledge including syntax, data types, data structures, and control flow. "
+      ]
+    },
+    {
+      "skill_id": "algorithmic_thinking",
+      "skill_label": "Algorithmic Thinking",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "принципи програмування, алгоритмізація та базові алгоритми"
+      ],
+      "evidence": [
+        "The syllabus lists programming principles, algorithmization, and basic algorithms as prerequisites. "
+      ]
+    },
+    {
+      "skill_id": "data_structures_and_algorithms",
+      "skill_label": "Data Structures and Algorithms",
+      "min_level_required": 2,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Структури даних та алгоритми",
+        "Алгоритми та структури даних"
+      ],
+      "evidence": [
+        "Supporting prerequisite disciplines named in the syllabus include data structures and algorithms for both study programs. "
+      ]
+    },
+    {
+      "skill_id": "object_oriented_programming",
+      "skill_label": "Object-Oriented Programming",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "medium",
+      "raw_mentions": [
+        "функціональне та ООП програмування",
+        "Об'єктно-орієнтоване програмування"
+      ],
+      "evidence": [
+        "The prerequisite section explicitly mentions OOP programming and object-oriented programming courses. "
+      ]
+    },
+    {
+      "skill_id": "probability_statistics",
+      "skill_label": "Probability and Statistics",
+      "min_level_required": 2,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "елементи теорія ймовірностей",
+        "Теорія ймовірності та математична статистика"
+      ],
+      "evidence": [
+        "Probability-related mathematics is explicitly listed in the prerequisite section. "
+      ]
+    },
+    {
+      "skill_id": "linear_algebra_basics",
+      "skill_label": "Linear Algebra Basics",
+      "min_level_required": 2,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "теорія матриць",
+        "Лінійна алгебра та аналітична геометрія"
+      ],
+      "evidence": [
+        "Matrix theory and linear algebra are explicitly named as prerequisite mathematical foundations. "
+      ]
+    },
+    {
+      "skill_id": "discrete_mathematics",
+      "skill_label": "Discrete Mathematics",
+      "min_level_required": 2,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "дискретна математика",
+        "Комп'ютерна дискретна математика"
+      ],
+      "evidence": [
+        "Discrete mathematics is explicitly included among prerequisite foundations. "
+      ]
+    },
+    {
+      "skill_id": "python_environment_setup",
+      "skill_label": "Python Environment Setup",
+      "min_level_required": 1,
+      "importance": "optional",
+      "source": "explicit",
+      "confidence": "medium",
+      "raw_mentions": [
+        "робота з IDE, створення оточення",
+        "налаштування віртуального середовища для виконання лабораторних робіт"
+      ],
+      "evidence": [
+        "The syllabus mentions IDE work and environment creation as prerequisites and also allocates self-study time for virtual environment setup.  "
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "text_data_collection_web_scraping",
+      "skill_label": "Text Data Collection via Web Scraping",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Парсинг даних – web-скрапінг",
+        "Реалізуйте web-скрапінг"
+      ],
+      "evidence": [
+        "Web scraping appears repeatedly across labs as a required implementation step and as a skill being developed.  "
+      ]
+    },
+    {
+      "skill_id": "text_cleaning_and_filtering",
+      "skill_label": "Text Cleaning and Filtering",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "попередня фільтрація",
+        "Фільтрацію вхідних даних",
+        "очищення / фільтрація"
+      ],
+      "evidence": [
+        "The syllabus and early labs explicitly center on obtaining and filtering natural language data, and lab tasks require filtering input data and saving outputs.  "
+      ]
+    },
+    {
+      "skill_id": "tokenization",
+      "skill_label": "Tokenization",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Токенізація",
+        "Токенізація текстових повідомлень"
+      ],
+      "evidence": [
+        "Tokenization is both a dedicated lecture topic and a required step in lab assignments.  "
+      ]
+    },
+    {
+      "skill_id": "stopword_removal",
+      "skill_label": "Stop-word Removal",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "видалення стоп-слів",
+        "Виділення стоп-слів в тексті"
+      ],
+      "evidence": [
+        "Stop-word removal is explicitly taught in lecture topics and required in the lab preprocessing pipeline.  "
+      ]
+    },
+    {
+      "skill_id": "lemmatization",
+      "skill_label": "Lemmatization",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "лематизація",
+        "Лематизацію вхідного тексту"
+      ],
+      "evidence": [
+        "Lemmatization is a dedicated lecture topic and a required lab implementation step.  "
+      ]
+    },
+    {
+      "skill_id": "stemming",
+      "skill_label": "Stemming",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "стемінг",
+        "Стемінг вхідного тексту"
+      ],
+      "evidence": [
+        "Stemming is explicitly part of both the lecture sequence and the required lab workflow.  "
+      ]
+    },
+    {
+      "skill_id": "text_vectorization",
+      "skill_label": "Text Vectorization",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Векторизація текстових повідомлень",
+        "векторизація"
+      ],
+      "evidence": [
+        "Vectorization is a dedicated lecture topic and part of both the syllabus sequence and lab skill set.  "
+      ]
+    },
+    {
+      "skill_id": "pos_tagging",
+      "skill_label": "Part-of-Speech Tagging",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "аналіз із виділенням частин мови",
+        "POS(Parts-Of-Speech) Tagging"
+      ],
+      "evidence": [
+        "The syllabus includes analysis with part-of-speech extraction, and lecture 6 focuses on POS tagging methods and technologies.  "
+      ]
+    },
+    {
+      "skill_id": "frequency_analysis",
+      "skill_label": "Frequency Analysis of Text",
+      "result_level": 3,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Частотний аналіз",
+        "топ 10 слів"
+      ],
+      "evidence": [
+        "Frequency analysis is a dedicated lecture/lab topic, and lab 2 explicitly requires identifying the top 10 most frequent words and interpreting them.  "
+      ]
+    },
+    {
+      "skill_id": "probabilistic_text_analysis",
+      "skill_label": "Probabilistic Text Analysis",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "medium",
+      "raw_mentions": [
+        "Частотний та ймовірнісний аналіз текстових повідомлень",
+        "Ймовірнісний аналіз"
+      ],
+      "evidence": [
+        "The syllabus and lecture sequence explicitly include frequency and probabilistic analysis of text messages.  "
+      ]
+    },
+    {
+      "skill_id": "text_clustering",
+      "skill_label": "Text Clustering",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Кластеризація текстів",
+        "Частотний аналіз та кластеризація в NLP"
+      ],
+      "evidence": [
+        "Lab 4 explicitly targets clustering of texts with machine-learning methods, and lecture materials discuss clustering among downstream text-analysis tasks.  "
+      ]
+    },
+    {
+      "skill_id": "text_classification",
+      "skill_label": "Text Classification",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Класифікація текстових повідомлень",
+        "призначення тегів/міток неструктурованому тексту"
+      ],
+      "evidence": [
+        "Lecture 8 explicitly teaches text classification, including supervised and unsupervised categorization perspectives.  "
+      ]
+    },
+    {
+      "skill_id": "semantic_similarity_analysis",
+      "skill_label": "Semantic Similarity Analysis",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Аналіз подібності текстових повідомлень",
+        "Косинуса подібність",
+        "BERT та SBERT"
+      ],
+      "evidence": [
+        "Lecture 9 explicitly covers text similarity techniques including cosine similarity, BERT, SBERT, and the Universal Sentence Encoder.  "
+      ]
+    },
+    {
+      "skill_id": "sentiment_analysis",
+      "skill_label": "Sentiment Analysis",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Визначення тональності текстових повідомлень",
+        "Аналіз настроїв"
+      ],
+      "evidence": [
+        "Lecture 10 is dedicated to sentiment analysis methods and technologies, and lab 5 requires sentiment analysis on collected text data.  "
+      ]
+    },
+    {
+      "skill_id": "neural_networks_for_nlp",
+      "skill_label": "Neural Networks for NLP",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Конструювання, навчання, застосування штучних нейронних мереж для NLP",
+        "Основні типи штучних нейронних мереж"
+      ],
+      "evidence": [
+        "Lab 6 explicitly develops constructing, training, and applying neural networks for NLP, while lecture 11 covers ANN methodology and major architectures such as FNN, RNN, LSTM, GRU, CNN, and Transformers.  "
+      ]
+    },
+    {
+      "skill_id": "script_verification",
+      "skill_label": "Verification of NLP Script Implementations",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Верифікація розроблених скриптових реалізацій"
+      ],
+      "evidence": [
+        "Verification of implemented scripts is named as a recurring skill in the lab specifications.  "
+      ]
+    },
+    {
+      "skill_id": "architecture_design_for_nlp_solutions",
+      "skill_label": "Architecture Design for NLP Solutions",
+      "result_level": 2,
+      "importance": "incidental",
+      "source": "explicit",
+      "confidence": "medium",
+      "raw_mentions": [
+        "етап архітектурного проектування (структурна схема /або/ діаграма класів /або/ блок-схема алгоритму)"
+      ],
+      "evidence": [
+        "Lab 6 explicitly requires choosing or synthesizing a mathematical model and performing architectural design using a structural scheme, class diagram, or algorithm block diagram. "
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Explain the main stages of an NLP pipeline, from data acquisition and noise filtering to syntactic and semantic analysis.",
+      "Differentiate tokenization, stop-word removal, lemmatization, stemming, vectorization, POS tagging, clustering, classification, similarity analysis, and sentiment analysis.",
+      "Describe the role of artificial neural network architectures in NLP, including feedforward, recurrent, LSTM/GRU, CNN, and transformer-based approaches."
+    ],
+    "practical_implementation": [
+      "Build Python scripts that collect text data, preprocess it, and persist intermediate and final outputs in files.",
+      "Implement end-to-end workflows for vectorization, POS-aware analysis, clustering, classification, text similarity, and sentiment analysis.",
+      "Prototype introductory neural-network-based solutions for text comparison and sentiment-related tasks on domain-specific corpora."
+    ],
+    "analysis_validation": [
+      "Interpret frequency patterns, top words, comparative source differences, and sentiment distributions in collected corpora.",
+      "Verify correctness of script implementations and compare alternative technologies or approaches when required by the assignment format.",
+      "Assess whether extracted keywords, clusters, or sentiment outputs are aligned with the underlying topic or domain."
+    ],
+    "architecture_design": [
+      "Select or synthesize an appropriate mathematical model for an NLP task.",
+      "Represent solution structure through a block diagram, structural scheme, or class diagram for at least part of the neural-methods workflow.",
+      "Organize progressive functionality growth across an NLP project rather than implementing a single isolated script."
+    ],
+    "research_and_prototyping": [
+      "Prototype applied text-analysis solutions in domains such as news, job postings, e-commerce, and real estate.",
+      "Use available datasets or scraped corpora to test different text-analysis approaches.",
+      "Justify a practical technology choice through comparative analysis when multiple approaches are implemented."
+    ]
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Progressive coding labs that increase functionality across course themes.",
+      "Level-based assignments with different difficulty tiers.",
+      "Scenario-based domain tasks using self-selected websites, corpora, or online platforms.",
+      "A syllabus-defined project practicum that extends beyond the uploaded lab set."
+    ],
+    "expected_artifacts": [
+      "Python scripts or small Python projects",
+      "Saved raw and processed text files",
+      "Aggregated domain-specific text datasets",
+      "Comparison outputs for multiple sources or categories",
+      "Similarity, clustering, and sentiment analysis results",
+      "Architecture diagrams or algorithm block schemes"
+    ],
+    "implementation_tasks": [
+      "Scrape text from multiple web sources and save the collected content.",
+      "Filter and normalize text, tokenize it, remove stop words, lemmatize, stem, and inspect top-frequency terms.",
+      "Vectorize text and perform POS-oriented or feature-oriented analysis.",
+      "Run clustering, classification, similarity analysis, and sentiment analysis on practical corpora.",
+      "Design and apply neural-network-based approaches for comparative content analysis and sentiment tasks."
+    ],
+    "engineering_practices": [
+      "Verification of implemented scripts",
+      "Storing intermediate and final outputs as separate files",
+      "Comparative analysis of alternative implementations",
+      "Architecture-level design before or alongside implementation",
+      "Virtual environment setup for lab execution",
+      "Visualization of analysis outputs"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "text_data_collection_web_scraping",
+      "to_id": "text_cleaning_and_filtering",
+      "from_label": "Text Data Collection via Web Scraping",
+      "to_label": "Text Cleaning and Filtering",
+      "relation": "supports",
+      "reason": "The course sequence starts with acquiring text data and then filtering or cleaning that collected text before further NLP processing."
+    },
+    {
+      "from_id": "text_cleaning_and_filtering",
+      "to_id": "tokenization",
+      "from_label": "Text Cleaning and Filtering",
+      "to_label": "Tokenization",
+      "relation": "enables",
+      "reason": "Lecture and lab workflows present filtering and normalization as early preprocessing steps before token-level operations."
+    },
+    {
+      "from_id": "tokenization",
+      "to_id": "stopword_removal",
+      "from_label": "Tokenization",
+      "to_label": "Stop-word Removal",
+      "relation": "enables",
+      "reason": "Stop-word removal depends on having tokenized text units."
+    },
+    {
+      "from_id": "tokenization",
+      "to_id": "lemmatization",
+      "from_label": "Tokenization",
+      "to_label": "Lemmatization",
+      "relation": "enables",
+      "reason": "The preprocessing pipeline groups tokenization with later normalization steps such as lemmatization."
+    },
+    {
+      "from_id": "tokenization",
+      "to_id": "stemming",
+      "from_label": "Tokenization",
+      "to_label": "Stemming",
+      "relation": "enables",
+      "reason": "The lab workflow treats stemming as a downstream operation applied to tokenized text."
+    },
+    {
+      "from_id": "lemmatization",
+      "to_id": "frequency_analysis",
+      "from_label": "Lemmatization",
+      "to_label": "Frequency Analysis of Text",
+      "relation": "supports",
+      "reason": "Normalized lexical forms make top-word and frequency analysis more interpretable across text variants."
+    },
+    {
+      "from_id": "text_vectorization",
+      "to_id": "text_clustering",
+      "from_label": "Text Vectorization",
+      "to_label": "Text Clustering",
+      "relation": "enables",
+      "reason": "Clustering methods in the course depend on transforming text into machine-usable representations."
+    },
+    {
+      "from_id": "text_vectorization",
+      "to_id": "text_classification",
+      "from_label": "Text Vectorization",
+      "to_label": "Text Classification",
+      "relation": "enables",
+      "reason": "Lecture materials frame text classification as a machine-learning task over represented text features."
+    },
+    {
+      "from_id": "text_vectorization",
+      "to_id": "semantic_similarity_analysis",
+      "from_label": "Text Vectorization",
+      "to_label": "Semantic Similarity Analysis",
+      "relation": "enables",
+      "reason": "Similarity analysis is taught through vector representations such as cosine-based comparisons and sentence embeddings."
+    },
+    {
+      "from_id": "text_classification",
+      "to_id": "sentiment_analysis",
+      "from_label": "Text Classification",
+      "to_label": "Sentiment Analysis",
+      "relation": "applies_to",
+      "reason": "Lecture 10 presents sentiment analysis as classification of text according to emotional tone or polarity."
+    },
+    {
+      "from_id": "semantic_similarity_analysis",
+      "to_id": "sentiment_analysis",
+      "from_label": "Semantic Similarity Analysis",
+      "to_label": "Sentiment Analysis",
+      "relation": "supports",
+      "reason": "The lecture materials explicitly connect similarity, classification, and sentiment as related analytical processes."
+    },
+    {
+      "from_id": "neural_networks_for_nlp",
+      "to_id": "semantic_similarity_analysis",
+      "from_label": "Neural Networks for NLP",
+      "to_label": "Semantic Similarity Analysis",
+      "relation": "extends",
+      "reason": "The deep-learning lab requires applying neural methods to comparative content analysis and similarity-oriented tasks."
+    },
+    {
+      "from_id": "neural_networks_for_nlp",
+      "to_id": "sentiment_analysis",
+      "from_label": "Neural Networks for NLP",
+      "to_label": "Sentiment Analysis",
+      "relation": "extends",
+      "reason": "The deep-learning lab explicitly asks students to perform sentiment analysis using neural networks."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "How a practical NLP pipeline is structured from raw text acquisition to semantic and neural analysis.",
+      "Why different preprocessing and representation choices matter for downstream text analysis tasks.",
+      "How similarity, classification, sentiment analysis, and neural text models relate to one another."
+    ],
+    "what_student_can_build": [
+      "Python scripts that scrape, clean, normalize, vectorize, and analyze text corpora.",
+      "Small applied NLP projects for domain scenarios such as news analysis, job-market analysis, e-commerce review analysis, or real-estate text analysis.",
+      "Introductory neural-network-based prototypes for text comparison and sentiment-oriented tasks."
+    ],
+    "what_student_can_apply": [
+      "Text preprocessing and feature engineering for real textual data.",
+      "Clustering, classification, similarity, and sentiment workflows on collected corpora.",
+      "Verification and comparative evaluation of alternative NLP implementations for practical use cases."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "The official scope spans classical NLP preprocessing, semantic analysis, deep learning, and a later project practicum.",
+      "source_type": "syllabus",
+      "source_title": "Силабус Аналіз та обробка природньої мови (NLP) 2025.pdf",
+      "evidence_text": "The syllabus lists modules on introduction/data acquisition, preprocessing and syntactic analysis, semantic analysis, deep learning for NLP, and a project practicum, including later audio, GPT, and global information space topics. "
+    },
+    {
+      "claim": "The course is explicitly applied and Python-centered.",
+      "source_type": "syllabus",
+      "source_title": "Силабус Аналіз та обробка природньої мови (NLP) 2025.pdf",
+      "evidence_text": "The syllabus states that practical skills are acquired in labs and that the practical part is oriented toward Python with libraries including NumPy, Pandas, Requests, NLTK, spaCy, Gensim, fastText, SciPy, scikit-learn, TensorFlow, Keras, and PyTorch. "
+    },
+    {
+      "claim": "The prerequisite profile requires programming, Python, and mathematical foundations.",
+      "source_type": "syllabus",
+      "source_title": "Силабус Аналіз та обробка природньої мови (NLP) 2025.pdf",
+      "evidence_text": "The prerequisite section explicitly names programming principles, algorithmization, Python syntax and data structures, OOP, IDE/environment work, probability, discrete mathematics, matrix theory, and analytic geometry. "
+    },
+    {
+      "claim": "The lab track is progressive and implementation-heavy.",
+      "source_type": "syllabus",
+      "source_title": "Силабус Аналіз та обробка природньої мови (NLP) 2025.pdf",
+      "evidence_text": "The syllabus says lab tasks are divided by complexity levels and built on a principle of growing functionality across topics. "
+    },
+    {
+      "claim": "Preprocessing is implemented as a concrete pipeline with persisted artifacts.",
+      "source_type": "lab",
+      "source_title": "Lab_work_2 (1).pdf",
+      "evidence_text": "Lab 2 requires saving raw input, filtering data, normalizing it, applying tokenization by selected types, removing stop words, lemmatizing, stemming, finding top words, and storing results of each stage in separate files. "
+    },
+    {
+      "claim": "Classification is taught as both supervised and unsupervised text categorization.",
+      "source_type": "lecture",
+      "source_title": "Lecture_8.pdf",
+      "evidence_text": "Lecture 8 defines text classification as assigning tags or categories to unstructured text and explicitly distinguishes supervised tag assignment from unsupervised category-based analysis. "
+    },
+    {
+      "claim": "Similarity analysis includes embedding-based methods, not only basic lexical comparison.",
+      "source_type": "lecture",
+      "source_title": "Lecture_9.pdf",
+      "evidence_text": "Lecture 9 presents cosine similarity as well as BERT, SBERT, and the Universal Sentence Encoder for sentence or text similarity tasks.  "
+    },
+    {
+      "claim": "Sentiment analysis is treated as a practical text classification problem with multiple tool families.",
+      "source_type": "lecture",
+      "source_title": "Lecture_10.pdf",
+      "evidence_text": "Lecture 10 defines sentiment analysis as determining emotional tone and lists Python libraries, deep-learning frameworks, pretrained models, and cloud services for this task.  "
+    },
+    {
+      "claim": "Neural methods are introduced at the architecture and implementation levels.",
+      "source_type": "lecture",
+      "source_title": "Lecture_11.pdf",
+      "evidence_text": "Lecture 11 covers ANN methodology and main neural architectures for NLP, including FNN, RNN, LSTM, GRU, CNN, and Transformers.  "
+    },
+    {
+      "claim": "The neural-methods lab requires model selection and architecture-level design.",
+      "source_type": "lab",
+      "source_title": "Lab_work_6 (1).pdf",
+      "evidence_text": "Lab 6 requires choosing or synthesizing a mathematical model and performing architecture design through a structural scheme, class diagram, or algorithm block diagram before implementation. "
+    }
+  ],
+  "confidence": "medium"
+}

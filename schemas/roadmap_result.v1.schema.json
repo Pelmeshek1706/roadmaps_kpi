@@ -1,0 +1,436 @@
+{
+  "$defs": {
+    "AcademicTerm": {
+      "additionalProperties": false,
+      "properties": {
+        "course": {
+          "minimum": 1,
+          "title": "Course",
+          "type": "integer"
+        },
+        "semester": {
+          "maximum": 2,
+          "minimum": 1,
+          "title": "Semester",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "course",
+        "semester"
+      ],
+      "title": "AcademicTerm",
+      "type": "object"
+    },
+    "ProgramSkillLevel": {
+      "additionalProperties": false,
+      "properties": {
+        "skill_id": {
+          "title": "Skill Id",
+          "type": "string"
+        },
+        "level": {
+          "maximum": 4,
+          "minimum": 0,
+          "title": "Level",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "skill_id",
+        "level"
+      ],
+      "title": "ProgramSkillLevel",
+      "type": "object"
+    },
+    "RankedCourseOption": {
+      "additionalProperties": false,
+      "properties": {
+        "course_id": {
+          "title": "Course Id",
+          "type": "string"
+        },
+        "course_name": {
+          "title": "Course Name",
+          "type": "string"
+        },
+        "score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Score",
+          "type": "number"
+        },
+        "track_affinity": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Track Affinity",
+          "type": "number"
+        },
+        "prerequisite_fit": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Prerequisite Fit",
+          "type": "number"
+        },
+        "readiness_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Readiness Score",
+          "type": "number"
+        },
+        "target_skill_gain": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Target Skill Gain",
+          "type": "number"
+        },
+        "unlock_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Unlock Score",
+          "type": "number"
+        },
+        "domain_alignment": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Domain Alignment",
+          "type": "number"
+        },
+        "phase_fit_score": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Phase Fit Score",
+          "type": "number"
+        },
+        "evidence_score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Evidence Score",
+          "type": "number"
+        },
+        "overlap_penalty": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Overlap Penalty",
+          "type": "number"
+        },
+        "stage": {
+          "anyOf": [
+            {
+              "enum": [
+                "foundation",
+                "core",
+                "advanced"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Stage"
+        },
+        "missing_prerequisites": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Missing Prerequisites",
+          "type": "array"
+        },
+        "gained_target_skills": {
+          "items": {
+            "$ref": "#/$defs/TargetSkillGain"
+          },
+          "title": "Gained Target Skills",
+          "type": "array"
+        },
+        "overlaps_with_selected": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Overlaps With Selected",
+          "type": "array"
+        }
+      },
+      "required": [
+        "course_id",
+        "course_name",
+        "score",
+        "prerequisite_fit",
+        "target_skill_gain",
+        "domain_alignment",
+        "evidence_score",
+        "overlap_penalty",
+        "missing_prerequisites",
+        "gained_target_skills",
+        "overlaps_with_selected"
+      ],
+      "title": "RankedCourseOption",
+      "type": "object"
+    },
+    "SemesterPlan": {
+      "additionalProperties": false,
+      "properties": {
+        "semester_index": {
+          "minimum": 1,
+          "title": "Semester Index",
+          "type": "integer"
+        },
+        "term": {
+          "$ref": "#/$defs/AcademicTerm"
+        },
+        "selected_course_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Selected Course Ids",
+          "type": "array"
+        },
+        "selected_courses": {
+          "items": {
+            "$ref": "#/$defs/RankedCourseOption"
+          },
+          "title": "Selected Courses",
+          "type": "array"
+        },
+        "candidate_courses": {
+          "items": {
+            "$ref": "#/$defs/RankedCourseOption"
+          },
+          "title": "Candidate Courses",
+          "type": "array"
+        },
+        "blocked_course_reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Blocked Course Reasons",
+          "type": "array"
+        },
+        "coverage_after": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Coverage After",
+          "type": "number"
+        },
+        "skill_bank_after": {
+          "items": {
+            "$ref": "#/$defs/ProgramSkillLevel"
+          },
+          "title": "Skill Bank After",
+          "type": "array"
+        }
+      },
+      "required": [
+        "semester_index",
+        "term",
+        "selected_course_ids",
+        "selected_courses",
+        "coverage_after",
+        "skill_bank_after"
+      ],
+      "title": "SemesterPlan",
+      "type": "object"
+    },
+    "SlotSelection": {
+      "additionalProperties": false,
+      "properties": {
+        "slot_id": {
+          "title": "Slot Id",
+          "type": "string"
+        },
+        "slot_type": {
+          "enum": [
+            "required",
+            "elective",
+            "choose_n_of_m"
+          ],
+          "title": "Slot Type",
+          "type": "string"
+        },
+        "selected_course_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Selected Course Ids",
+          "type": "array"
+        },
+        "ranked_options": {
+          "items": {
+            "$ref": "#/$defs/RankedCourseOption"
+          },
+          "title": "Ranked Options",
+          "type": "array"
+        }
+      },
+      "required": [
+        "slot_id",
+        "slot_type",
+        "selected_course_ids",
+        "ranked_options"
+      ],
+      "title": "SlotSelection",
+      "type": "object"
+    },
+    "StudentPlanSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "total_semesters": {
+          "minimum": 0,
+          "title": "Total Semesters",
+          "type": "integer"
+        },
+        "total_courses": {
+          "minimum": 0,
+          "title": "Total Courses",
+          "type": "integer"
+        },
+        "achieved_target_coverage": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Achieved Target Coverage",
+          "type": "number"
+        },
+        "gained_target_skills": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Gained Target Skills",
+          "type": "array"
+        },
+        "unmet_target_skills": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Unmet Target Skills",
+          "type": "array"
+        }
+      },
+      "required": [
+        "total_semesters",
+        "total_courses",
+        "achieved_target_coverage"
+      ],
+      "title": "StudentPlanSummary",
+      "type": "object"
+    },
+    "TargetSkillGain": {
+      "additionalProperties": false,
+      "properties": {
+        "skill_id": {
+          "title": "Skill Id",
+          "type": "string"
+        },
+        "gained_levels": {
+          "minimum": 0,
+          "title": "Gained Levels",
+          "type": "integer"
+        },
+        "target_level": {
+          "maximum": 4,
+          "minimum": 0,
+          "title": "Target Level",
+          "type": "integer"
+        },
+        "resulting_level": {
+          "maximum": 4,
+          "minimum": 0,
+          "title": "Resulting Level",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "skill_id",
+        "gained_levels",
+        "target_level",
+        "resulting_level"
+      ],
+      "title": "TargetSkillGain",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "program_id": {
+      "title": "Program Id",
+      "type": "string"
+    },
+    "selected_track_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Selected Track Id"
+    },
+    "selected_course_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Selected Course Ids",
+      "type": "array"
+    },
+    "slot_results": {
+      "items": {
+        "$ref": "#/$defs/SlotSelection"
+      },
+      "title": "Slot Results",
+      "type": "array"
+    },
+    "semester_plans": {
+      "items": {
+        "$ref": "#/$defs/SemesterPlan"
+      },
+      "title": "Semester Plans",
+      "type": "array"
+    },
+    "final_skill_bank": {
+      "items": {
+        "$ref": "#/$defs/ProgramSkillLevel"
+      },
+      "title": "Final Skill Bank",
+      "type": "array"
+    },
+    "achieved_target_coverage": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Achieved Target Coverage",
+      "type": "number"
+    },
+    "summary": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/StudentPlanSummary"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "unmet_constraints": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Unmet Constraints",
+      "type": "array"
+    }
+  },
+  "required": [
+    "program_id",
+    "selected_course_ids",
+    "final_skill_bank",
+    "achieved_target_coverage"
+  ],
+  "title": "RoadmapResult",
+  "type": "object"
+}

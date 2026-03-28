@@ -1,0 +1,804 @@
+{
+  "status": "ok",
+  "course_name": "Data Science Technologies",
+  "course_profile": {
+    "one_sentence_summary": "Applied bachelor-level course on Data Science that combines mathematical modeling, Python implementation, and project labs across statistical learning, decision support, data intelligence, machine learning, neural networks, forecasting, credit scoring, and GIS analytics. ",
+    "short_summary": "The course is positioned as an applied, Python-centered Data Science discipline aimed at helping students synthesize and verify mathematical models and develop specialized software for processing and analyzing heterogeneous data. Its structure combines a broad methodological core with progressively more practical labs and domain mini-projects in ERP/DSS, e-commerce forecasting, banking scoring, and GIS.  ",
+    "discipline_positioning": [
+      "Applied data science",
+      "Python-based analytical engineering",
+      "Mathematical modeling for intelligent systems",
+      "Project-oriented machine learning"
+    ],
+    "course_nature": {
+      "theory_level": "medium",
+      "implementation_level": "high",
+      "research_orientation": "high",
+      "software_engineering_orientation": "medium"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "data_science",
+      "domain_label": "Data Science",
+      "score": 1.0
+    },
+    {
+      "domain_id": "statistical_learning",
+      "domain_label": "Statistical Learning",
+      "score": 0.8
+    },
+    {
+      "domain_id": "machine_learning",
+      "domain_label": "Machine Learning",
+      "score": 0.78
+    },
+    {
+      "domain_id": "decision_support_systems",
+      "domain_label": "Decision Support Systems",
+      "score": 0.56
+    },
+    {
+      "domain_id": "business_intelligence",
+      "domain_label": "Business Intelligence / Data Intelligence",
+      "score": 0.42
+    },
+    {
+      "domain_id": "geospatial_analytics",
+      "domain_label": "Geospatial Analytics",
+      "score": 0.34
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "multi_source",
+    "single_document_used": false,
+    "syllabus_used": true,
+    "lab_works_used_count": 9,
+    "lectures_used_count": 9,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "The analysis is based on the official syllabus, all 9 uploaded lab descriptions, and 9 uploaded lecture decks. Some lecture topics from the syllabus were not accompanied by separate lecture PDFs in the upload set, so finer-grained details for a few subtopics were reconstructed conservatively from the syllabus and related labs rather than inferred beyond the evidence.  "
+  },
+  "discipline_tags": [
+    "data science",
+    "statistical learning",
+    "machine learning",
+    "artificial intelligence",
+    "decision support systems",
+    "data mining",
+    "time series analytics",
+    "geospatial analytics"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "data-information-knowledge pipeline",
+      "statistical learning",
+      "data intelligence",
+      "machine learning",
+      "artificial neural networks",
+      "decision support systems",
+      "geoinformation systems"
+    ],
+    "methods_models": [
+      "least squares regression",
+      "polynomial regression",
+      "Kalman filtering",
+      "constraint programming / CP-SAT",
+      "multicriteria decision analysis",
+      "OLAP",
+      "text mining",
+      "k-means clustering",
+      "k-nearest neighbors",
+      "support vector machines",
+      "decision trees",
+      "random forest",
+      "perceptron",
+      "multilayer neural networks"
+    ],
+    "data_modalities": [
+      "tabular data",
+      "big data arrays",
+      "time series",
+      "text",
+      "images",
+      "video streams",
+      "geospatial vector maps"
+    ],
+    "problem_types": [
+      "forecasting",
+      "classification",
+      "identification",
+      "clustering",
+      "outlier detection",
+      "scoring",
+      "optimization"
+    ],
+    "application_domains": [
+      "e-commerce analytics",
+      "banking credit risk",
+      "ERP/CRM automation",
+      "GIS analytics"
+    ],
+    "engineering_aspects": [
+      "Python scripting",
+      "data parsing and acquisition",
+      "data cleaning and normalization",
+      "mathematical model synthesis",
+      "architecture design",
+      "visualization",
+      "verification",
+      "R&D prototyping"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [
+      "Python"
+    ],
+    "libraries_frameworks_tools_explicit": [
+      "NumPy",
+      "Pandas",
+      "Statsmodels",
+      "SciPy",
+      "Matplotlib",
+      "scikit-learn",
+      "TensorFlow",
+      "Keras",
+      "Google OR-Tools",
+      "OpenCV",
+      "Pillow",
+      "GeoPandas",
+      "GDAL",
+      "Requests",
+      "BeautifulSoup",
+      "PyAudio",
+      "SpeechRecognition",
+      "WordCloud"
+    ],
+    "systems_platforms_explicit": [
+      "Decision Support System (DSS)",
+      "ERP",
+      "CRM",
+      "Geographic Information System (GIS)"
+    ],
+    "technologies_inferred_strong": [],
+    "technologies_mentioned_in_resources_only": [
+      "scorecardpy",
+      "FilterPy",
+      "PyKalman",
+      "OLAPy",
+      "cubes",
+      "pymcdm",
+      "pymoo"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "python_basics",
+      "skill_label": "Python basics",
+      "min_level_required": 3,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Python syntax",
+        "types and data structures",
+        "branching operators",
+        "functional programming",
+        "OOP programming",
+        "working with IDE",
+        "environment creation"
+      ],
+      "evidence": [
+        "The syllabus explicitly requires basic Python knowledge including syntax, data types, branching, functional and object-oriented programming, IDE work, and environment setup. "
+      ]
+    },
+    {
+      "skill_id": "programming_fundamentals",
+      "skill_label": "Programming fundamentals",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "principles of programming",
+        "algorithmization",
+        "basic algorithms"
+      ],
+      "evidence": [
+        "The syllabus states that successful course completion requires basic programming knowledge, algorithmization, and basic algorithms. "
+      ]
+    },
+    {
+      "skill_id": "algorithms_and_data_structures",
+      "skill_label": "Algorithms and data structures",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "algorithms and data structures",
+        "basic algorithms"
+      ],
+      "evidence": [
+        "Prerequisite coursework listed in the syllabus includes algorithms and data structures across the supported degree programs. "
+      ]
+    },
+    {
+      "skill_id": "probability_statistics",
+      "skill_label": "Probability and statistics",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "elements of probability theory",
+        "mathematical statistics"
+      ],
+      "evidence": [
+        "The syllabus explicitly lists probability theory and mathematical statistics among the mathematical prerequisites. "
+      ]
+    },
+    {
+      "skill_id": "linear_algebra",
+      "skill_label": "Linear algebra",
+      "min_level_required": 2,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "matrix theory",
+        "analytic geometry and linear algebra"
+      ],
+      "evidence": [
+        "The prerequisite block names matrix theory and degree-program courses in analytic geometry and linear algebra. "
+      ]
+    },
+    {
+      "skill_id": "discrete_mathematics",
+      "skill_label": "Discrete mathematics",
+      "min_level_required": 2,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "discrete mathematics",
+        "computer discrete mathematics"
+      ],
+      "evidence": [
+        "Discrete mathematics is explicitly included in the prerequisite knowledge and prerequisite coursework list. "
+      ]
+    },
+    {
+      "skill_id": "object_oriented_programming",
+      "skill_label": "Object-oriented programming",
+      "min_level_required": 2,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "OOP programming",
+        "object-oriented programming"
+      ],
+      "evidence": [
+        "The syllabus names OOP directly in the required Python background and in prerequisite coursework. "
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "problem_formalization",
+      "skill_label": "Problem formalization",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "formalization of the task",
+        "preliminary data analysis"
+      ],
+      "evidence": [
+        "Module 2 repeatedly includes formalization of the task and preliminary data analysis as part of forecasting, scoring, and GIS practice. "
+      ]
+    },
+    {
+      "skill_id": "data_parsing",
+      "skill_label": "Data parsing",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "file parsing",
+        "data parsing",
+        "searching and parsing data"
+      ],
+      "evidence": [
+        "Lab 1 requires file parsing and data parsing, and later labs repeat parsing as part of input data preparation.  "
+      ]
+    },
+    {
+      "skill_id": "data_preprocessing",
+      "skill_label": "Data preprocessing",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "data research and preparation",
+        "cleaning",
+        "balancing",
+        "normalization"
+      ],
+      "evidence": [
+        "The syllabus and multiple labs emphasize data research and preparation, cleaning, balancing, and normalization before modeling.  "
+      ]
+    },
+    {
+      "skill_id": "data_visualization",
+      "skill_label": "Data visualization",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "visualization of results",
+        "visualization and analysis of calculations"
+      ],
+      "evidence": [
+        "Visualization and analysis of results are repeated throughout the labs as an expected practical activity.   "
+      ]
+    },
+    {
+      "skill_id": "ols_regression",
+      "skill_label": "Least-squares regression",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "training a regression model on Big Data with LSM",
+        "polynomial regression"
+      ],
+      "evidence": [
+        "The syllabus and Lab 2 explicitly cover least-squares regression and polynomial regression for statistical learning.  "
+      ]
+    },
+    {
+      "skill_id": "kalman_filtering",
+      "skill_label": "Kalman filtering",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "alpha-beta filter",
+        "alpha-beta-gamma filter",
+        "Kalman filter"
+      ],
+      "evidence": [
+        "Lecture 4 and Lab 2 explicitly include recurrent smoothing, alpha-beta, alpha-beta-gamma, and Kalman filtering.  "
+      ]
+    },
+    {
+      "skill_id": "cp_sat_modeling",
+      "skill_label": "CP-SAT modeling",
+      "result_level": 3,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "constraint programming",
+        "CP-SAT",
+        "schedule theory with Google OR-Tools"
+      ],
+      "evidence": [
+        "Decision-support lectures and Lab 3 explicitly cover constraint programming and CP-SAT implementation with Google OR-Tools.  "
+      ]
+    },
+    {
+      "skill_id": "multicriteria_decision_analysis",
+      "skill_label": "Multicriteria decision analysis",
+      "result_level": 3,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "multicriteria decision analysis",
+        "multicriteria optimization",
+        "scoring"
+      ],
+      "evidence": [
+        "The syllabus names multicriteria decision analysis and scoring, while Lab 3 requires solving multicriteria optimization problems in code.  "
+      ]
+    },
+    {
+      "skill_id": "olap_analysis",
+      "skill_label": "OLAP analysis",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "OLAP technology",
+        "mini projects in OLAP"
+      ],
+      "evidence": [
+        "Lecture 8 and Lab 4 explicitly include OLAP as part of data intelligence practice.  "
+      ]
+    },
+    {
+      "skill_id": "text_mining",
+      "skill_label": "Text mining",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Text Mining",
+        "NLP",
+        "classification of textual information"
+      ],
+      "evidence": [
+        "Lecture 8 covers Text Mining / NLP, and Lab 4 includes mini projects in Text Mining plus an advanced text-classification R&D task.  "
+      ]
+    },
+    {
+      "skill_id": "clustering",
+      "skill_label": "Clustering",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "k-means",
+        "hierarchical clustering",
+        "clustering applicants"
+      ],
+      "evidence": [
+        "The machine-learning block explicitly teaches clustering methods, and the scoring lab requires applicant clustering.  "
+      ]
+    },
+    {
+      "skill_id": "classification",
+      "skill_label": "Classification and identification",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "classification",
+        "identification",
+        "decision tree",
+        "random forest"
+      ],
+      "evidence": [
+        "Lecture 10 and Lab 5 explicitly cover classification and identification, including decision trees, random forest, and image-related pattern recognition tasks.  "
+      ]
+    },
+    {
+      "skill_id": "neural_network_training",
+      "skill_label": "Neural network training",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "perceptron",
+        "network architecture",
+        "training Artificial Neural Networks",
+        "TensorFlow",
+        "Keras"
+      ],
+      "evidence": [
+        "Lecture 11/12 and Lab 6 explicitly cover perceptron construction, network architecture, training, and Python implementation with TensorFlow and Keras.   "
+      ]
+    },
+    {
+      "skill_id": "time_series_forecasting",
+      "skill_label": "Time-series forecasting",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "forecasting dynamics of company performance indicators",
+        "time series processing",
+        "forecasting time series with ANN"
+      ],
+      "evidence": [
+        "The forecasting lab focuses on real numeric/time series and asks students to develop processing technologies for time-series forecasting using statistical learning, approximation, and deep learning.  "
+      ]
+    },
+    {
+      "skill_id": "credit_scoring",
+      "skill_label": "Credit scoring",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "scoring analysis",
+        "credit risks for banking CRM systems",
+        "build scoring assessment"
+      ],
+      "evidence": [
+        "Lecture 14 and Lab 8 explicitly frame a banking CRM credit-scoring task involving scoring, applicant clustering, and risk categorization.   "
+      ]
+    },
+    {
+      "skill_id": "geospatial_data_processing",
+      "skill_label": "Geospatial data processing",
+      "result_level": 3,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Shapefile",
+        "vector maps",
+        "point and polygon objects",
+        "GeoPandas",
+        "GDAL"
+      ],
+      "evidence": [
+        "The GIS topic and Lab 9 explicitly include searching, parsing, processing, and visualizing geodata from Shapefiles and vector maps using GeoPandas and GDAL.  "
+      ]
+    },
+    {
+      "skill_id": "software_architecture_design",
+      "skill_label": "Software architecture design",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "medium",
+      "raw_mentions": [
+        "architectural design",
+        "backend component",
+        "architecture design of software systems"
+      ],
+      "evidence": [
+        "Architecture design appears explicitly in the applied module for forecasting, scoring, and GIS, and several labs name architectural design of software systems as a target skill.   "
+      ]
+    },
+    {
+      "skill_id": "model_verification",
+      "skill_label": "Model and script verification",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "verification of developed script implementations",
+        "verification of results"
+      ],
+      "evidence": [
+        "The syllabus defines verification as part of the course goal, and nearly all labs require verification of the developed implementations or obtained results.   "
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the Data Science processing chain from data acquisition through information extraction to knowledge use and visualization. ",
+      "Explain core methodological areas of the course: statistical learning, decision support, data intelligence, machine learning, neural networks, credit scoring, and GIS. ",
+      "Understand the mathematical logic behind least-squares regression, Kalman filtering, multicriteria scoring, clustering, and neural-network learning.  "
+    ],
+    "practical_implementation": [
+      "Implement Python scripts for data parsing, preprocessing, analysis, visualization, and verification across multiple data modalities.  ",
+      "Build practical pipelines for regression, CP-SAT optimization, ML classification/clustering, ANN training, scoring, and geospatial analysis.    ",
+      "Use major Python data-science libraries in applied mini-project settings. "
+    ],
+    "analysis_validation": [
+      "Evaluate data quality, remove anomalies, and interpret model outputs for tabular, temporal, textual, and geospatial data.  ",
+      "Validate model behavior and verify developed scripts as a standard part of course practice.  ",
+      "Compare multiple algorithmic families for forecasting and applied decision-support tasks in an R&D style. "
+    ],
+    "architecture_design": [
+      "Translate applied domain problems into mathematical models and prototype software architectures. ",
+      "Design prototype components for ERP/DSS, banking CRM scoring, and GIS systems.   "
+    ],
+    "research_and_prototyping": [
+      "Carry out bounded R&D mini-projects rather than only scripted exercises. ",
+      "Prototype advanced variants such as ANN architecture optimization, multifactor time-series analysis, and LLM-based text classification in higher-complexity tasks.   "
+    ]
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Incremental Python laboratories with increasing functional complexity",
+      "Mini-project labs tied to course themes",
+      "Applied domain prototypes for ERP/DSS, e-commerce forecasting, bank scoring, and GIS",
+      "R&D-style advanced tasks for higher-complexity completion"
+    ],
+    "expected_artifacts": [
+      "Python scripts",
+      "Model outputs and analytics reports",
+      "Plots and visual analytical outputs",
+      "Prototype components or mock systems for DSS, CRM scoring, forecasting, and GIS",
+      "Verification-oriented lab reports"
+    ],
+    "implementation_tasks": [
+      "Generate and analyze statistical samples and real datasets",
+      "Clean data, detect anomalies, fit regression models, and apply Kalman filtering",
+      "Implement CP-SAT and multicriteria decision-support models",
+      "Build OLAP, text-mining, and related data-intelligence mini-projects",
+      "Implement clustering, classification, and computer-vision style ML pipelines",
+      "Construct, train, and apply perceptrons and neural networks",
+      "Develop time-series forecasting modules for commercial indicators",
+      "Develop a bank scoring backend prototype with scoring and applicant clustering",
+      "Process and visualize Shapefile-based geospatial data"
+    ],
+    "engineering_practices": [
+      "Formalization of applied problems",
+      "Mathematical model synthesis",
+      "Architecture design",
+      "Library-based Python implementation",
+      "Visualization of results",
+      "Verification of scripts and models",
+      "Comparative R&D exploration of alternative methods"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "problem_formalization",
+      "to_id": "software_architecture_design",
+      "from_label": "Problem formalization",
+      "to_label": "Software architecture design",
+      "relation": "supports",
+      "reason": "The applied module repeatedly orders work as task formalization followed by architecture design and software development. "
+    },
+    {
+      "from_id": "data_parsing",
+      "to_id": "data_preprocessing",
+      "from_label": "Data parsing",
+      "to_label": "Data preprocessing",
+      "relation": "supports",
+      "reason": "Labs start by obtaining/parsing data and then cleaning, balancing, or normalizing them before modeling.  "
+    },
+    {
+      "from_id": "data_preprocessing",
+      "to_id": "ols_regression",
+      "from_label": "Data preprocessing",
+      "to_label": "Least-squares regression",
+      "relation": "enables",
+      "reason": "The statistical-learning block explicitly cleans anomalous observations and optimizes data models before regression training. "
+    },
+    {
+      "from_id": "data_preprocessing",
+      "to_id": "clustering",
+      "from_label": "Data preprocessing",
+      "to_label": "Clustering",
+      "relation": "enables",
+      "reason": "The scoring lab explicitly includes cleaning, balancing, and normalization before clustering and related ML tasks. "
+    },
+    {
+      "from_id": "multicriteria_decision_analysis",
+      "to_id": "credit_scoring",
+      "from_label": "Multicriteria decision analysis",
+      "to_label": "Credit scoring",
+      "relation": "applies_to",
+      "reason": "Scoring is presented as a multicriteria evaluation approach, and the scoring lecture includes a mathematical scoring model.  "
+    },
+    {
+      "from_id": "clustering",
+      "to_id": "credit_scoring",
+      "from_label": "Clustering",
+      "to_label": "Credit scoring",
+      "relation": "applies_to",
+      "reason": "The banking scoring task requires clustering applicants alongside building a scoring assessment. "
+    },
+    {
+      "from_id": "cp_sat_modeling",
+      "to_id": "multicriteria_decision_analysis",
+      "from_label": "CP-SAT modeling",
+      "to_label": "Multicriteria decision analysis",
+      "relation": "supports",
+      "reason": "Both are taught together in the DSS/ERP block as optimization-oriented approaches for automated decision support. "
+    },
+    {
+      "from_id": "classification",
+      "to_id": "neural_network_training",
+      "from_label": "Classification and identification",
+      "to_label": "Neural network training",
+      "relation": "extends",
+      "reason": "The ANN lab frames neural networks as practical technologies for classification, identification, and forecasting after the classical ML block. "
+    },
+    {
+      "from_id": "neural_network_training",
+      "to_id": "time_series_forecasting",
+      "from_label": "Neural network training",
+      "to_label": "Time-series forecasting",
+      "relation": "applies_to",
+      "reason": "The ANN lab and forecasting lab both explicitly use neural-network methods for time-series prediction.  "
+    },
+    {
+      "from_id": "geospatial_data_processing",
+      "to_id": "data_visualization",
+      "from_label": "Geospatial data processing",
+      "to_label": "Data visualization",
+      "relation": "supports",
+      "reason": "The GIS lab directly couples geodata processing with digital map visualization and analysis of results. "
+    },
+    {
+      "from_id": "software_architecture_design",
+      "to_id": "model_verification",
+      "from_label": "Software architecture design",
+      "to_label": "Model and script verification",
+      "relation": "culminates_in",
+      "reason": "Applied labs repeatedly progress from architecture/design and implementation toward verification of the developed scripts and systems.  "
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "How a broad Data Science workflow moves from raw data through mathematical modeling to actionable knowledge and decision support. ",
+      "How core modeling families differ across regression, filtering, optimization, clustering, classification, neural networks, scoring, and GIS tasks. "
+    ],
+    "what_student_can_build": [
+      "Python prototypes for statistical-learning, ML, ANN, forecasting, scoring, and GIS scenarios.  ",
+      "Small applied systems or backend-style analytical components for ERP/DSS, bank CRM scoring, and geospatial workflows.  "
+    ],
+    "what_student_can_apply": [
+      "Apply standard Python data-science libraries to parse, clean, model, visualize, and verify heterogeneous datasets. ",
+      "Transfer course methods to practical problems in e-commerce, banking analytics, and GIS-oriented data processing.   "
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "The official course goal is to teach students to synthesize and verify mathematical models and develop specialized software for processing and analyzing data of different types and volumes.",
+      "source_type": "syllabus",
+      "source_title": "05_Силабус Технології Data Science 2025.pdf",
+      "evidence_text": "The syllabus states that the course aims at acquiring the ability to synthesize and verify mathematical models and develop specialized software for data processing and analysis. "
+    },
+    {
+      "claim": "The course is explicitly practical and Python-centered, with named libraries spanning numerical computing, ML, optimization, vision, and GIS.",
+      "source_type": "syllabus",
+      "source_title": "05_Силабус Технології Data Science 2025.pdf",
+      "evidence_text": "The practical part is explicitly oriented to Python and names NumPy, Pandas, Statsmodels, SciPy, Google OR-Tools, scikit-learn, TensorFlow, Keras, Requests, Regex, OpenCV, Pillow, Matplotlib, and GeoPandas. "
+    },
+    {
+      "claim": "The official structure covers statistical learning, DSS, data intelligence, machine learning, neural networks, forecasting, scoring, and GIS.",
+      "source_type": "syllabus",
+      "source_title": "05_Силабус Технології Data Science 2025.pdf",
+      "evidence_text": "The syllabus lists modules and topics spanning statistical learning, decision support systems, data intelligence, machine learning, neural networks, forecasting of company indicators, credit-risk scoring, and GIS.  "
+    },
+    {
+      "claim": "Prerequisites include programming, Python, algorithms, and mathematics foundations rather than prior narrow domain-specialized data-science tooling.",
+      "source_type": "syllabus",
+      "source_title": "05_Силабус Технології Data Science 2025.pdf",
+      "evidence_text": "The syllabus explicitly requires basic programming, Python, and mathematics knowledge including probability, discrete mathematics, matrix theory, and related foundational coursework. "
+    },
+    {
+      "claim": "The DSS/ERP block teaches constraint programming and multicriteria decision analysis with implementation in Python.",
+      "source_type": "lab",
+      "source_title": "Lab_work_3.pdf",
+      "evidence_text": "Lab 3 targets formalization of decision-support problems, synthesis of optimization models, linear programming, multicriteria optimization, and implementation with Google OR-Tools. "
+    },
+    {
+      "claim": "The ML block includes both classical ML methods and computer-vision-oriented classification and identification tasks.",
+      "source_type": "lab",
+      "source_title": "Lab_work_5.pdf",
+      "evidence_text": "Lab 5 explicitly names k-means, SVM, k-NN, decision trees, random forest, Haar cascades, image/video processing, object tracking, and pattern recognition. "
+    },
+    {
+      "claim": "The ANN block goes beyond theory and requires construction, training, application, and optimization of neural networks.",
+      "source_type": "lab",
+      "source_title": "Lab_work_6.pdf",
+      "evidence_text": "Lab 6 requires data preparation, neural-network construction, training, use for classification/identification/forecasting, and an advanced architecture-optimization task. "
+    },
+    {
+      "claim": "The scoring block is a real applied banking-style mini-project rather than only a conceptual lecture topic.",
+      "source_type": "lab",
+      "source_title": "Lab_work_8.pdf",
+      "evidence_text": "Lab 8 describes a banking microcredit department requesting a backend component that must produce a scoring assessment and cluster applicants based on binary evaluation. "
+    },
+    {
+      "claim": "The GIS block requires operational handling of geospatial vector data, not just theoretical GIS terminology.",
+      "source_type": "lab",
+      "source_title": "Lab_work_9.pdf",
+      "evidence_text": "Lab 9 explicitly requires parsing, processing, filtering, creating, and visualizing geodata and vector maps, including Shapefile-based work with point and polygon objects. "
+    },
+    {
+      "claim": "The course summary itself frames the final student expertise as spanning multiple Data Science areas plus Python libraries and project practice.",
+      "source_type": "lecture",
+      "source_title": "Lecture_1_17.pdf",
+      "evidence_text": "The course summary lists student expertise across statistical learning, DSS, ML, data intelligence, AI, and GIS, together with Python libraries and project practice in economic forecasting, credit scoring, and GIS. "
+    }
+  ],
+  "confidence": "medium"
+}

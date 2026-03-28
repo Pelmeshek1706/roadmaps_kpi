@@ -1,0 +1,763 @@
+{
+  "taxonomy_id": "skills",
+  "version": "v1",
+  "skills": [
+    {
+      "skill_id": "3d_reconstruction",
+      "canonical_label": "3D Scene Reconstruction",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "algorithmic_thinking",
+      "canonical_label": "Algorithmic Thinking",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "algorithms_and_data_structures",
+      "canonical_label": "Algorithms and data structures",
+      "aliases": [
+        "data_structures_and_algorithms"
+      ],
+      "category": "foundation",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "analytical_geometry",
+      "canonical_label": "Analytical Geometry",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "ann_time_series_forecasting",
+      "canonical_label": "Artificial Neural Networks for Time Series",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "architecture_design_for_nlp_solutions",
+      "canonical_label": "Architecture Design for NLP Solutions",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "arima_modeling",
+      "canonical_label": "ARIMA Modeling",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "calculus",
+      "canonical_label": "Calculus",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "classification",
+      "canonical_label": "Classification and identification",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "clustering",
+      "canonical_label": "Clustering",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "computer_architecture_basics",
+      "canonical_label": "Computer Architecture Basics",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "cp_sat_modeling",
+      "canonical_label": "CP-SAT modeling",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "credit_scoring",
+      "canonical_label": "Credit scoring",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "cv_algorithm_implementation_python",
+      "canonical_label": "Computer Vision Algorithm Implementation in Python",
+      "aliases": [],
+      "category": "foundation",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "data_parsing",
+      "canonical_label": "Data parsing",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "data_preprocessing",
+      "canonical_label": "Data preprocessing",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "data_stream_analysis",
+      "canonical_label": "Data Stream Analysis",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "data_visualization",
+      "canonical_label": "Data visualization",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "digital_image_processing",
+      "canonical_label": "Digital Image Processing",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "discrete_mathematics",
+      "canonical_label": "Discrete Mathematics",
+      "aliases": [],
+      "category": "foundation",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "document_similarity_analysis",
+      "canonical_label": "Document Similarity Analysis",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "feature_extraction",
+      "canonical_label": "Feature Extraction",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "frequency_analysis",
+      "canonical_label": "Frequency Analysis of Text",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "frequent_itemset_mining",
+      "canonical_label": "Frequent Itemset Mining",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "geometric_transformations_2d_3d",
+      "canonical_label": "2D/3D Geometric Transformations",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "geospatial_data_processing",
+      "canonical_label": "Geospatial data processing",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "hierarchical_time_series_forecasting",
+      "canonical_label": "Hierarchical Time Series Forecasting",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "image_recognition_and_detection",
+      "canonical_label": "Image Recognition and Object Detection",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "kalman_filtering",
+      "canonical_label": "Kalman Filtering",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "lemmatization",
+      "canonical_label": "Lemmatization",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "linear_algebra",
+      "canonical_label": "Linear algebra",
+      "aliases": [
+        "linear_algebra_basics"
+      ],
+      "category": "foundation",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "link_analysis",
+      "canonical_label": "Link Analysis",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "locally_sensitive_hashing",
+      "canonical_label": "Locally Sensitive Hashing (LSH)",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "model_verification",
+      "canonical_label": "Model and script verification",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "multicriteria_decision_analysis",
+      "canonical_label": "Multicriteria decision analysis",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "neural_network_training",
+      "canonical_label": "Neural network training",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "neural_networks_for_nlp",
+      "canonical_label": "Neural Networks for NLP",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "object_oriented_programming",
+      "canonical_label": "Object-oriented programming",
+      "aliases": [],
+      "category": "foundation",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "olap_analysis",
+      "canonical_label": "OLAP analysis",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "ols_regression",
+      "canonical_label": "Least-squares regression",
+      "aliases": [
+        "ols_regression_modeling"
+      ],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "pos_tagging",
+      "canonical_label": "Part-of-Speech Tagging",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "probabilistic_text_analysis",
+      "canonical_label": "Probabilistic Text Analysis",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "probability_statistics",
+      "canonical_label": "Probability and statistics",
+      "aliases": [],
+      "category": "foundation",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "problem_formalization",
+      "canonical_label": "Problem formalization",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "programming_fundamentals",
+      "canonical_label": "Programming fundamentals",
+      "aliases": [
+        "basic_programming",
+        "programming_basics"
+      ],
+      "category": "foundation",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "python_basics",
+      "canonical_label": "Python basics",
+      "aliases": [],
+      "category": "foundation",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "python_environment_setup",
+      "canonical_label": "Python Environment Setup",
+      "aliases": [],
+      "category": "foundation",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "raster_and_vector_graphics",
+      "canonical_label": "Raster and Vector Graphics Processing",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "scene_understanding_and_tracking",
+      "canonical_label": "Scene Understanding and Tracking",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "script_verification",
+      "canonical_label": "Verification of NLP Script Implementations",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "semantic_similarity_analysis",
+      "canonical_label": "Semantic Similarity Analysis",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "sentiment_analysis",
+      "canonical_label": "Sentiment Analysis",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "similarity_computation",
+      "canonical_label": "Similarity Computation",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "software_architecture_design",
+      "canonical_label": "Software architecture design",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "software_engineering_processes",
+      "canonical_label": "Software Engineering Processes",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "stemming",
+      "canonical_label": "Stemming",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "stopword_removal",
+      "canonical_label": "Stop-word Removal",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "text_classification",
+      "canonical_label": "Text Classification",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "text_cleaning_and_filtering",
+      "canonical_label": "Text Cleaning and Filtering",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "text_clustering",
+      "canonical_label": "Text Clustering",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "text_data_collection_web_scraping",
+      "canonical_label": "Text Data Collection via Web Scraping",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "text_mining",
+      "canonical_label": "Text mining",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "text_vectorization",
+      "canonical_label": "Text Vectorization",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "time_series_clustering",
+      "canonical_label": "Time Series Clustering",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "time_series_decomposition",
+      "canonical_label": "Time Series Decomposition",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "time_series_forecasting",
+      "canonical_label": "Time-series forecasting",
+      "aliases": [],
+      "category": "analytics",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "time_series_preprocessing",
+      "canonical_label": "Time Series Preprocessing",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    },
+    {
+      "skill_id": "tokenization",
+      "canonical_label": "Tokenization",
+      "aliases": [],
+      "category": "applied",
+      "level_scale": {
+        "min": 0,
+        "max": 4
+      },
+      "status": "active"
+    }
+  ]
+}

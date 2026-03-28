@@ -1,0 +1,91 @@
+{
+  "$defs": {
+    "SkillLevelScale": {
+      "additionalProperties": false,
+      "properties": {
+        "min": {
+          "maximum": 4,
+          "minimum": 0,
+          "title": "Min",
+          "type": "integer"
+        },
+        "max": {
+          "maximum": 4,
+          "minimum": 0,
+          "title": "Max",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ],
+      "title": "SkillLevelScale",
+      "type": "object"
+    },
+    "SkillTaxonomyEntry": {
+      "additionalProperties": false,
+      "properties": {
+        "skill_id": {
+          "title": "Skill Id",
+          "type": "string"
+        },
+        "canonical_label": {
+          "title": "Canonical Label",
+          "type": "string"
+        },
+        "aliases": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "category": {
+          "default": "general",
+          "title": "Category",
+          "type": "string"
+        },
+        "level_scale": {
+          "$ref": "#/$defs/SkillLevelScale"
+        },
+        "status": {
+          "default": "active",
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "skill_id",
+        "canonical_label"
+      ],
+      "title": "SkillTaxonomyEntry",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "taxonomy_id": {
+      "title": "Taxonomy Id",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "skills": {
+      "items": {
+        "$ref": "#/$defs/SkillTaxonomyEntry"
+      },
+      "title": "Skills",
+      "type": "array"
+    }
+  },
+  "required": [
+    "taxonomy_id",
+    "version",
+    "skills"
+  ],
+  "title": "SkillTaxonomy",
+  "type": "object"
+}

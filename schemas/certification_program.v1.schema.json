@@ -1,0 +1,589 @@
+{
+  "$defs": {
+    "AcademicTerm": {
+      "additionalProperties": false,
+      "properties": {
+        "course": {
+          "minimum": 1,
+          "title": "Course",
+          "type": "integer"
+        },
+        "semester": {
+          "maximum": 2,
+          "minimum": 1,
+          "title": "Semester",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "course",
+        "semester"
+      ],
+      "title": "AcademicTerm",
+      "type": "object"
+    },
+    "CompletionRules": {
+      "additionalProperties": false,
+      "properties": {
+        "required_slot_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Required Slot Ids",
+          "type": "array"
+        },
+        "min_selected_courses": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Min Selected Courses",
+          "type": "integer"
+        },
+        "target_coverage_threshold": {
+          "default": 0.6,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Target Coverage Threshold",
+          "type": "number"
+        }
+      },
+      "title": "CompletionRules",
+      "type": "object"
+    },
+    "CourseOffering": {
+      "additionalProperties": false,
+      "properties": {
+        "course_id": {
+          "title": "Course Id",
+          "type": "string"
+        },
+        "stage": {
+          "enum": [
+            "foundation",
+            "core",
+            "advanced"
+          ],
+          "title": "Stage",
+          "type": "string"
+        },
+        "available_terms": {
+          "items": {
+            "$ref": "#/$defs/AcademicTerm"
+          },
+          "title": "Available Terms",
+          "type": "array"
+        },
+        "availability_confidence": {
+          "default": "medium",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Availability Confidence",
+          "type": "string"
+        },
+        "source": {
+          "default": "manual",
+          "title": "Source",
+          "type": "string"
+        }
+      },
+      "required": [
+        "course_id",
+        "stage",
+        "available_terms"
+      ],
+      "title": "CourseOffering",
+      "type": "object"
+    },
+    "PlanningWindow": {
+      "additionalProperties": false,
+      "properties": {
+        "start_term": {
+          "$ref": "#/$defs/AcademicTerm"
+        },
+        "horizon_semesters": {
+          "default": 4,
+          "maximum": 4,
+          "minimum": 1,
+          "title": "Horizon Semesters",
+          "type": "integer"
+        },
+        "max_courses_per_semester": {
+          "default": 3,
+          "minimum": 1,
+          "title": "Max Courses Per Semester",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_term"
+      ],
+      "title": "PlanningWindow",
+      "type": "object"
+    },
+    "ProgramDomainPreference": {
+      "additionalProperties": false,
+      "properties": {
+        "domain_id": {
+          "title": "Domain Id",
+          "type": "string"
+        },
+        "weight": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Weight",
+          "type": "number"
+        }
+      },
+      "required": [
+        "domain_id",
+        "weight"
+      ],
+      "title": "ProgramDomainPreference",
+      "type": "object"
+    },
+    "ProgramEdge": {
+      "additionalProperties": false,
+      "properties": {
+        "from_course_id": {
+          "title": "From Course Id",
+          "type": "string"
+        },
+        "to_course_id": {
+          "title": "To Course Id",
+          "type": "string"
+        },
+        "relation_type": {
+          "enum": [
+            "prerequisite",
+            "recommended_after",
+            "overlap_alternative"
+          ],
+          "title": "Relation Type",
+          "type": "string"
+        },
+        "support_skill_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Support Skill Ids",
+          "type": "array"
+        },
+        "strength": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Strength",
+          "type": "number"
+        },
+        "status": {
+          "title": "Status",
+          "type": "string"
+        },
+        "provenance": {
+          "title": "Provenance",
+          "type": "string"
+        }
+      },
+      "required": [
+        "from_course_id",
+        "to_course_id",
+        "relation_type",
+        "strength",
+        "status",
+        "provenance"
+      ],
+      "title": "ProgramEdge",
+      "type": "object"
+    },
+    "ProgramSkillLevel": {
+      "additionalProperties": false,
+      "properties": {
+        "skill_id": {
+          "title": "Skill Id",
+          "type": "string"
+        },
+        "level": {
+          "maximum": 4,
+          "minimum": 0,
+          "title": "Level",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "skill_id",
+        "level"
+      ],
+      "title": "ProgramSkillLevel",
+      "type": "object"
+    },
+    "ProgramSlot": {
+      "additionalProperties": false,
+      "properties": {
+        "slot_id": {
+          "title": "Slot Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "slot_type": {
+          "enum": [
+            "required",
+            "elective",
+            "choose_n_of_m"
+          ],
+          "title": "Slot Type",
+          "type": "string"
+        },
+        "candidate_course_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Candidate Course Ids",
+          "type": "array"
+        },
+        "target_skill_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Target Skill Ids",
+          "type": "array"
+        },
+        "prerequisite_slot_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Prerequisite Slot Ids",
+          "type": "array"
+        },
+        "selection_count": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Selection Count",
+          "type": "integer"
+        },
+        "course": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Course"
+        },
+        "semester": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Semester"
+        }
+      },
+      "required": [
+        "slot_id",
+        "title",
+        "slot_type",
+        "candidate_course_ids"
+      ],
+      "title": "ProgramSlot",
+      "type": "object"
+    },
+    "ProgramTargetSkill": {
+      "additionalProperties": false,
+      "properties": {
+        "skill_id": {
+          "title": "Skill Id",
+          "type": "string"
+        },
+        "target_level": {
+          "maximum": 4,
+          "minimum": 0,
+          "title": "Target Level",
+          "type": "integer"
+        },
+        "weight": {
+          "exclusiveMinimum": 0.0,
+          "title": "Weight",
+          "type": "number"
+        }
+      },
+      "required": [
+        "skill_id",
+        "target_level",
+        "weight"
+      ],
+      "title": "ProgramTargetSkill",
+      "type": "object"
+    },
+    "StudentProfile": {
+      "additionalProperties": false,
+      "properties": {
+        "student_id": {
+          "title": "Student Id",
+          "type": "string"
+        },
+        "baseline_skill_bank": {
+          "items": {
+            "$ref": "#/$defs/ProgramSkillLevel"
+          },
+          "title": "Baseline Skill Bank",
+          "type": "array"
+        },
+        "completed_course_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Completed Course Ids",
+          "type": "array"
+        },
+        "starting_term": {
+          "$ref": "#/$defs/AcademicTerm"
+        }
+      },
+      "required": [
+        "student_id",
+        "starting_term"
+      ],
+      "title": "StudentProfile",
+      "type": "object"
+    },
+    "TrackDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "track_id": {
+          "title": "Track Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "selector_domains": {
+          "items": {
+            "$ref": "#/$defs/ProgramDomainPreference"
+          },
+          "title": "Selector Domains",
+          "type": "array"
+        },
+        "selector_tags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Selector Tags",
+          "type": "array"
+        },
+        "selector_skill_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Selector Skill Ids",
+          "type": "array"
+        },
+        "target_skill_profile": {
+          "items": {
+            "$ref": "#/$defs/ProgramTargetSkill"
+          },
+          "title": "Target Skill Profile",
+          "type": "array"
+        },
+        "target_domain_scores": {
+          "items": {
+            "$ref": "#/$defs/ProgramDomainPreference"
+          },
+          "title": "Target Domain Scores",
+          "type": "array"
+        },
+        "foundation_skill_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Foundation Skill Ids",
+          "type": "array"
+        },
+        "roadmap_policy": {
+          "$ref": "#/$defs/TrackRoadmapPolicy"
+        },
+        "manual_includes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Manual Includes",
+          "type": "array"
+        },
+        "manual_excludes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Manual Excludes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "track_id",
+        "title",
+        "target_skill_profile"
+      ],
+      "title": "TrackDefinition",
+      "type": "object"
+    },
+    "TrackRoadmapPolicy": {
+      "additionalProperties": false,
+      "properties": {
+        "max_semesters": {
+          "default": 4,
+          "maximum": 4,
+          "minimum": 1,
+          "title": "Max Semesters",
+          "type": "integer"
+        },
+        "max_courses_per_semester": {
+          "default": 3,
+          "minimum": 1,
+          "title": "Max Courses Per Semester",
+          "type": "integer"
+        },
+        "min_track_affinity": {
+          "default": 0.25,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Min Track Affinity",
+          "type": "number"
+        },
+        "max_pairwise_overlap": {
+          "default": 0.85,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Max Pairwise Overlap",
+          "type": "number"
+        },
+        "min_target_coverage": {
+          "default": 0.6,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Min Target Coverage",
+          "type": "number"
+        }
+      },
+      "title": "TrackRoadmapPolicy",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "program_id": {
+      "title": "Program Id",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "track_id": {
+      "title": "Track Id",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "roadmap_mode": {
+      "title": "Roadmap Mode",
+      "type": "string"
+    },
+    "tracks": {
+      "items": {
+        "$ref": "#/$defs/TrackDefinition"
+      },
+      "title": "Tracks",
+      "type": "array"
+    },
+    "planning_window": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/PlanningWindow"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "student_profile": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/StudentProfile"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "course_offerings": {
+      "items": {
+        "$ref": "#/$defs/CourseOffering"
+      },
+      "title": "Course Offerings",
+      "type": "array"
+    },
+    "target_skill_profile": {
+      "items": {
+        "$ref": "#/$defs/ProgramTargetSkill"
+      },
+      "title": "Target Skill Profile",
+      "type": "array"
+    },
+    "baseline_skill_bank": {
+      "items": {
+        "$ref": "#/$defs/ProgramSkillLevel"
+      },
+      "title": "Baseline Skill Bank",
+      "type": "array"
+    },
+    "target_domain_scores": {
+      "items": {
+        "$ref": "#/$defs/ProgramDomainPreference"
+      },
+      "title": "Target Domain Scores",
+      "type": "array"
+    },
+    "slots": {
+      "items": {
+        "$ref": "#/$defs/ProgramSlot"
+      },
+      "title": "Slots",
+      "type": "array"
+    },
+    "program_edges": {
+      "items": {
+        "$ref": "#/$defs/ProgramEdge"
+      },
+      "title": "Program Edges",
+      "type": "array"
+    },
+    "completion_rules": {
+      "$ref": "#/$defs/CompletionRules"
+    }
+  },
+  "required": [
+    "program_id",
+    "title",
+    "track_id",
+    "version",
+    "roadmap_mode"
+  ],
+  "title": "CertificationProgram",
+  "type": "object"
+}

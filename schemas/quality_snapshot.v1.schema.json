@@ -1,0 +1,110 @@
+{
+  "$defs": {
+    "SourceCoverage": {
+      "additionalProperties": false,
+      "properties": {
+        "analysis_mode": {
+          "title": "Analysis Mode",
+          "type": "string"
+        },
+        "single_document_used": {
+          "title": "Single Document Used",
+          "type": "boolean"
+        },
+        "syllabus_used": {
+          "title": "Syllabus Used",
+          "type": "boolean"
+        },
+        "lab_works_used_count": {
+          "minimum": 0,
+          "title": "Lab Works Used Count",
+          "type": "integer"
+        },
+        "lectures_used_count": {
+          "minimum": 0,
+          "title": "Lectures Used Count",
+          "type": "integer"
+        },
+        "extra_materials_used_count": {
+          "minimum": 0,
+          "title": "Extra Materials Used Count",
+          "type": "integer"
+        },
+        "coverage_comment": {
+          "title": "Coverage Comment",
+          "type": "string"
+        }
+      },
+      "required": [
+        "analysis_mode",
+        "single_document_used",
+        "syllabus_used",
+        "lab_works_used_count",
+        "lectures_used_count",
+        "extra_materials_used_count",
+        "coverage_comment"
+      ],
+      "title": "SourceCoverage",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "entity_id": {
+      "title": "Entity Id",
+      "type": "string"
+    },
+    "entity_type": {
+      "title": "Entity Type",
+      "type": "string"
+    },
+    "raw_source_file": {
+      "title": "Raw Source File",
+      "type": "string"
+    },
+    "extraction_confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "title": "Extraction Confidence",
+      "type": "string"
+    },
+    "source_coverage": {
+      "$ref": "#/$defs/SourceCoverage"
+    },
+    "review_status": {
+      "enum": [
+        "unreviewed",
+        "reviewed",
+        "placeholder"
+      ],
+      "title": "Review Status",
+      "type": "string"
+    },
+    "evidence_count": {
+      "minimum": 0,
+      "title": "Evidence Count",
+      "type": "integer"
+    },
+    "quality_score_placeholder": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Quality Score Placeholder",
+      "type": "number"
+    }
+  },
+  "required": [
+    "entity_id",
+    "entity_type",
+    "raw_source_file",
+    "extraction_confidence",
+    "source_coverage",
+    "review_status",
+    "evidence_count",
+    "quality_score_placeholder"
+  ],
+  "title": "QualitySnapshot",
+  "type": "object"
+}

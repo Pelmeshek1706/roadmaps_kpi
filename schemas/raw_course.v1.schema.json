@@ -1,0 +1,679 @@
+{
+  "$defs": {
+    "CourseNature": {
+      "additionalProperties": false,
+      "properties": {
+        "theory_level": {
+          "title": "Theory Level",
+          "type": "string"
+        },
+        "implementation_level": {
+          "title": "Implementation Level",
+          "type": "string"
+        },
+        "research_orientation": {
+          "title": "Research Orientation",
+          "type": "string"
+        },
+        "software_engineering_orientation": {
+          "title": "Software Engineering Orientation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "theory_level",
+        "implementation_level",
+        "research_orientation",
+        "software_engineering_orientation"
+      ],
+      "title": "CourseNature",
+      "type": "object"
+    },
+    "CourseProfile": {
+      "additionalProperties": false,
+      "properties": {
+        "one_sentence_summary": {
+          "title": "One Sentence Summary",
+          "type": "string"
+        },
+        "short_summary": {
+          "title": "Short Summary",
+          "type": "string"
+        },
+        "discipline_positioning": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Discipline Positioning",
+          "type": "array"
+        },
+        "course_nature": {
+          "$ref": "#/$defs/CourseNature"
+        }
+      },
+      "required": [
+        "one_sentence_summary",
+        "short_summary",
+        "discipline_positioning",
+        "course_nature"
+      ],
+      "title": "CourseProfile",
+      "type": "object"
+    },
+    "DomainScore": {
+      "additionalProperties": false,
+      "properties": {
+        "domain_id": {
+          "title": "Domain Id",
+          "type": "string"
+        },
+        "domain_label": {
+          "title": "Domain Label",
+          "type": "string"
+        },
+        "score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Score",
+          "type": "number"
+        }
+      },
+      "required": [
+        "domain_id",
+        "domain_label",
+        "score"
+      ],
+      "title": "DomainScore",
+      "type": "object"
+    },
+    "EvidenceItem": {
+      "additionalProperties": false,
+      "properties": {
+        "claim": {
+          "title": "Claim",
+          "type": "string"
+        },
+        "source_type": {
+          "title": "Source Type",
+          "type": "string"
+        },
+        "source_title": {
+          "title": "Source Title",
+          "type": "string"
+        },
+        "evidence_text": {
+          "title": "Evidence Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "claim",
+        "source_type",
+        "source_title",
+        "evidence_text"
+      ],
+      "title": "EvidenceItem",
+      "type": "object"
+    },
+    "LearningOutcomes": {
+      "additionalProperties": false,
+      "properties": {
+        "theoretical_understanding": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Theoretical Understanding",
+          "type": "array"
+        },
+        "practical_implementation": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Practical Implementation",
+          "type": "array"
+        },
+        "analysis_validation": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Analysis Validation",
+          "type": "array"
+        },
+        "architecture_design": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Architecture Design",
+          "type": "array"
+        },
+        "research_and_prototyping": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Research And Prototyping",
+          "type": "array"
+        }
+      },
+      "required": [
+        "theoretical_understanding",
+        "practical_implementation",
+        "analysis_validation",
+        "architecture_design",
+        "research_and_prototyping"
+      ],
+      "title": "LearningOutcomes",
+      "type": "object"
+    },
+    "PracticalComponents": {
+      "additionalProperties": false,
+      "properties": {
+        "lab_formats": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Lab Formats",
+          "type": "array"
+        },
+        "expected_artifacts": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Expected Artifacts",
+          "type": "array"
+        },
+        "implementation_tasks": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Implementation Tasks",
+          "type": "array"
+        },
+        "engineering_practices": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Engineering Practices",
+          "type": "array"
+        }
+      },
+      "required": [
+        "lab_formats",
+        "expected_artifacts",
+        "implementation_tasks",
+        "engineering_practices"
+      ],
+      "title": "PracticalComponents",
+      "type": "object"
+    },
+    "RawCurricularRelation": {
+      "additionalProperties": false,
+      "properties": {
+        "from_id": {
+          "title": "From Id",
+          "type": "string"
+        },
+        "to_id": {
+          "title": "To Id",
+          "type": "string"
+        },
+        "from_label": {
+          "title": "From Label",
+          "type": "string"
+        },
+        "to_label": {
+          "title": "To Label",
+          "type": "string"
+        },
+        "relation": {
+          "title": "Relation",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "from_id",
+        "to_id",
+        "from_label",
+        "to_label",
+        "relation",
+        "reason"
+      ],
+      "title": "RawCurricularRelation",
+      "type": "object"
+    },
+    "RawInputSkill": {
+      "additionalProperties": false,
+      "properties": {
+        "skill_id": {
+          "title": "Skill Id",
+          "type": "string"
+        },
+        "skill_label": {
+          "title": "Skill Label",
+          "type": "string"
+        },
+        "min_level_required": {
+          "maximum": 4,
+          "minimum": 0,
+          "title": "Min Level Required",
+          "type": "integer"
+        },
+        "importance": {
+          "enum": [
+            "required",
+            "recommended",
+            "optional"
+          ],
+          "title": "Importance",
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "explicit",
+            "inferred"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "raw_mentions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Raw Mentions",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "skill_id",
+        "skill_label",
+        "min_level_required",
+        "importance",
+        "source",
+        "confidence",
+        "raw_mentions",
+        "evidence"
+      ],
+      "title": "RawInputSkill",
+      "type": "object"
+    },
+    "RawOutputSkill": {
+      "additionalProperties": false,
+      "properties": {
+        "skill_id": {
+          "title": "Skill Id",
+          "type": "string"
+        },
+        "skill_label": {
+          "title": "Skill Label",
+          "type": "string"
+        },
+        "result_level": {
+          "maximum": 4,
+          "minimum": 0,
+          "title": "Result Level",
+          "type": "integer"
+        },
+        "importance": {
+          "enum": [
+            "core",
+            "secondary",
+            "incidental"
+          ],
+          "title": "Importance",
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "explicit",
+            "inferred"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "raw_mentions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Raw Mentions",
+          "type": "array"
+        },
+        "evidence": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "skill_id",
+        "skill_label",
+        "result_level",
+        "importance",
+        "source",
+        "confidence",
+        "raw_mentions",
+        "evidence"
+      ],
+      "title": "RawOutputSkill",
+      "type": "object"
+    },
+    "SourceCoverage": {
+      "additionalProperties": false,
+      "properties": {
+        "analysis_mode": {
+          "title": "Analysis Mode",
+          "type": "string"
+        },
+        "single_document_used": {
+          "title": "Single Document Used",
+          "type": "boolean"
+        },
+        "syllabus_used": {
+          "title": "Syllabus Used",
+          "type": "boolean"
+        },
+        "lab_works_used_count": {
+          "minimum": 0,
+          "title": "Lab Works Used Count",
+          "type": "integer"
+        },
+        "lectures_used_count": {
+          "minimum": 0,
+          "title": "Lectures Used Count",
+          "type": "integer"
+        },
+        "extra_materials_used_count": {
+          "minimum": 0,
+          "title": "Extra Materials Used Count",
+          "type": "integer"
+        },
+        "coverage_comment": {
+          "title": "Coverage Comment",
+          "type": "string"
+        }
+      },
+      "required": [
+        "analysis_mode",
+        "single_document_used",
+        "syllabus_used",
+        "lab_works_used_count",
+        "lectures_used_count",
+        "extra_materials_used_count",
+        "coverage_comment"
+      ],
+      "title": "SourceCoverage",
+      "type": "object"
+    },
+    "StudentTakeaway": {
+      "additionalProperties": false,
+      "properties": {
+        "what_student_can_understand": {
+          "items": {
+            "type": "string"
+          },
+          "title": "What Student Can Understand",
+          "type": "array"
+        },
+        "what_student_can_build": {
+          "items": {
+            "type": "string"
+          },
+          "title": "What Student Can Build",
+          "type": "array"
+        },
+        "what_student_can_apply": {
+          "items": {
+            "type": "string"
+          },
+          "title": "What Student Can Apply",
+          "type": "array"
+        }
+      },
+      "required": [
+        "what_student_can_understand",
+        "what_student_can_build",
+        "what_student_can_apply"
+      ],
+      "title": "StudentTakeaway",
+      "type": "object"
+    },
+    "TechnologyTags": {
+      "additionalProperties": false,
+      "properties": {
+        "programming_languages": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Programming Languages",
+          "type": "array"
+        },
+        "libraries_frameworks_tools_explicit": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Libraries Frameworks Tools Explicit",
+          "type": "array"
+        },
+        "systems_platforms_explicit": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Systems Platforms Explicit",
+          "type": "array"
+        },
+        "technologies_inferred_strong": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Technologies Inferred Strong",
+          "type": "array"
+        },
+        "technologies_mentioned_in_resources_only": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Technologies Mentioned In Resources Only",
+          "type": "array"
+        }
+      },
+      "required": [
+        "programming_languages",
+        "libraries_frameworks_tools_explicit",
+        "systems_platforms_explicit",
+        "technologies_inferred_strong",
+        "technologies_mentioned_in_resources_only"
+      ],
+      "title": "TechnologyTags",
+      "type": "object"
+    },
+    "TopicTags": {
+      "additionalProperties": false,
+      "properties": {
+        "core_concepts": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Core Concepts",
+          "type": "array"
+        },
+        "methods_models": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Methods Models",
+          "type": "array"
+        },
+        "data_modalities": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Data Modalities",
+          "type": "array"
+        },
+        "problem_types": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Problem Types",
+          "type": "array"
+        },
+        "application_domains": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Application Domains",
+          "type": "array"
+        },
+        "engineering_aspects": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Engineering Aspects",
+          "type": "array"
+        }
+      },
+      "required": [
+        "core_concepts",
+        "methods_models",
+        "data_modalities",
+        "problem_types",
+        "application_domains",
+        "engineering_aspects"
+      ],
+      "title": "TopicTags",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "title": "Status",
+      "type": "string"
+    },
+    "course_name": {
+      "title": "Course Name",
+      "type": "string"
+    },
+    "course_profile": {
+      "$ref": "#/$defs/CourseProfile"
+    },
+    "domain_scores": {
+      "items": {
+        "$ref": "#/$defs/DomainScore"
+      },
+      "title": "Domain Scores",
+      "type": "array"
+    },
+    "source_coverage": {
+      "$ref": "#/$defs/SourceCoverage"
+    },
+    "discipline_tags": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Discipline Tags",
+      "type": "array"
+    },
+    "topic_tags": {
+      "$ref": "#/$defs/TopicTags"
+    },
+    "technology_tags": {
+      "$ref": "#/$defs/TechnologyTags"
+    },
+    "input_skills_normalized": {
+      "items": {
+        "$ref": "#/$defs/RawInputSkill"
+      },
+      "title": "Input Skills Normalized",
+      "type": "array"
+    },
+    "output_skills_normalized": {
+      "items": {
+        "$ref": "#/$defs/RawOutputSkill"
+      },
+      "title": "Output Skills Normalized",
+      "type": "array"
+    },
+    "curricular_relations": {
+      "items": {
+        "$ref": "#/$defs/RawCurricularRelation"
+      },
+      "title": "Curricular Relations",
+      "type": "array"
+    },
+    "practical_components": {
+      "$ref": "#/$defs/PracticalComponents"
+    },
+    "learning_outcomes": {
+      "$ref": "#/$defs/LearningOutcomes"
+    },
+    "student_takeaway": {
+      "$ref": "#/$defs/StudentTakeaway"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/EvidenceItem"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "title": "Confidence",
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "course_name",
+    "course_profile",
+    "domain_scores",
+    "source_coverage",
+    "discipline_tags",
+    "topic_tags",
+    "technology_tags",
+    "input_skills_normalized",
+    "output_skills_normalized",
+    "curricular_relations",
+    "practical_components",
+    "learning_outcomes",
+    "student_takeaway",
+    "evidence",
+    "confidence"
+  ],
+  "title": "RawCourse",
+  "type": "object"
+}

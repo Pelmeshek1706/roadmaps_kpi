@@ -1,0 +1,317 @@
+{
+  "total_unique_skill_ids": 73,
+  "alias_groups": {
+    "algorithms_and_data_structures": [
+      "algorithms_and_data_structures",
+      "data_structures_and_algorithms"
+    ],
+    "linear_algebra": [
+      "linear_algebra",
+      "linear_algebra_basics"
+    ],
+    "ols_regression": [
+      "ols_regression",
+      "ols_regression_modeling"
+    ],
+    "programming_fundamentals": [
+      "basic_programming",
+      "programming_basics",
+      "programming_fundamentals"
+    ]
+  },
+  "skill_occurrences": {
+    "3d_reconstruction": {
+      "resolved_to": "3d_reconstruction",
+      "status": "canonical"
+    },
+    "algorithmic_thinking": {
+      "resolved_to": "algorithmic_thinking",
+      "status": "canonical"
+    },
+    "algorithms_and_data_structures": {
+      "resolved_to": "algorithms_and_data_structures",
+      "status": "canonical"
+    },
+    "analytical_geometry": {
+      "resolved_to": "analytical_geometry",
+      "status": "canonical"
+    },
+    "ann_time_series_forecasting": {
+      "resolved_to": "ann_time_series_forecasting",
+      "status": "canonical"
+    },
+    "architecture_design_for_nlp_solutions": {
+      "resolved_to": "architecture_design_for_nlp_solutions",
+      "status": "canonical"
+    },
+    "arima_modeling": {
+      "resolved_to": "arima_modeling",
+      "status": "canonical"
+    },
+    "basic_programming": {
+      "resolved_to": "programming_fundamentals",
+      "status": "aliased"
+    },
+    "calculus": {
+      "resolved_to": "calculus",
+      "status": "canonical"
+    },
+    "classification": {
+      "resolved_to": "classification",
+      "status": "canonical"
+    },
+    "clustering": {
+      "resolved_to": "clustering",
+      "status": "canonical"
+    },
+    "computer_architecture_basics": {
+      "resolved_to": "computer_architecture_basics",
+      "status": "canonical"
+    },
+    "cp_sat_modeling": {
+      "resolved_to": "cp_sat_modeling",
+      "status": "canonical"
+    },
+    "credit_scoring": {
+      "resolved_to": "credit_scoring",
+      "status": "canonical"
+    },
+    "cv_algorithm_implementation_python": {
+      "resolved_to": "cv_algorithm_implementation_python",
+      "status": "canonical"
+    },
+    "data_parsing": {
+      "resolved_to": "data_parsing",
+      "status": "canonical"
+    },
+    "data_preprocessing": {
+      "resolved_to": "data_preprocessing",
+      "status": "canonical"
+    },
+    "data_stream_analysis": {
+      "resolved_to": "data_stream_analysis",
+      "status": "canonical"
+    },
+    "data_structures_and_algorithms": {
+      "resolved_to": "algorithms_and_data_structures",
+      "status": "aliased"
+    },
+    "data_visualization": {
+      "resolved_to": "data_visualization",
+      "status": "canonical"
+    },
+    "digital_image_processing": {
+      "resolved_to": "digital_image_processing",
+      "status": "canonical"
+    },
+    "discrete_mathematics": {
+      "resolved_to": "discrete_mathematics",
+      "status": "canonical"
+    },
+    "document_similarity_analysis": {
+      "resolved_to": "document_similarity_analysis",
+      "status": "canonical"
+    },
+    "feature_extraction": {
+      "resolved_to": "feature_extraction",
+      "status": "canonical"
+    },
+    "frequency_analysis": {
+      "resolved_to": "frequency_analysis",
+      "status": "canonical"
+    },
+    "frequent_itemset_mining": {
+      "resolved_to": "frequent_itemset_mining",
+      "status": "canonical"
+    },
+    "geometric_transformations_2d_3d": {
+      "resolved_to": "geometric_transformations_2d_3d",
+      "status": "canonical"
+    },
+    "geospatial_data_processing": {
+      "resolved_to": "geospatial_data_processing",
+      "status": "canonical"
+    },
+    "hierarchical_time_series_forecasting": {
+      "resolved_to": "hierarchical_time_series_forecasting",
+      "status": "canonical"
+    },
+    "image_recognition_and_detection": {
+      "resolved_to": "image_recognition_and_detection",
+      "status": "canonical"
+    },
+    "kalman_filtering": {
+      "resolved_to": "kalman_filtering",
+      "status": "canonical"
+    },
+    "lemmatization": {
+      "resolved_to": "lemmatization",
+      "status": "canonical"
+    },
+    "linear_algebra": {
+      "resolved_to": "linear_algebra",
+      "status": "canonical"
+    },
+    "linear_algebra_basics": {
+      "resolved_to": "linear_algebra",
+      "status": "aliased"
+    },
+    "link_analysis": {
+      "resolved_to": "link_analysis",
+      "status": "canonical"
+    },
+    "locally_sensitive_hashing": {
+      "resolved_to": "locally_sensitive_hashing",
+      "status": "canonical"
+    },
+    "model_verification": {
+      "resolved_to": "model_verification",
+      "status": "canonical"
+    },
+    "multicriteria_decision_analysis": {
+      "resolved_to": "multicriteria_decision_analysis",
+      "status": "canonical"
+    },
+    "neural_network_training": {
+      "resolved_to": "neural_network_training",
+      "status": "canonical"
+    },
+    "neural_networks_for_nlp": {
+      "resolved_to": "neural_networks_for_nlp",
+      "status": "canonical"
+    },
+    "object_oriented_programming": {
+      "resolved_to": "object_oriented_programming",
+      "status": "canonical"
+    },
+    "olap_analysis": {
+      "resolved_to": "olap_analysis",
+      "status": "canonical"
+    },
+    "ols_regression": {
+      "resolved_to": "ols_regression",
+      "status": "canonical"
+    },
+    "ols_regression_modeling": {
+      "resolved_to": "ols_regression",
+      "status": "aliased"
+    },
+    "pos_tagging": {
+      "resolved_to": "pos_tagging",
+      "status": "canonical"
+    },
+    "probabilistic_text_analysis": {
+      "resolved_to": "probabilistic_text_analysis",
+      "status": "canonical"
+    },
+    "probability_statistics": {
+      "resolved_to": "probability_statistics",
+      "status": "canonical"
+    },
+    "problem_formalization": {
+      "resolved_to": "problem_formalization",
+      "status": "canonical"
+    },
+    "programming_basics": {
+      "resolved_to": "programming_fundamentals",
+      "status": "aliased"
+    },
+    "programming_fundamentals": {
+      "resolved_to": "programming_fundamentals",
+      "status": "canonical"
+    },
+    "python_basics": {
+      "resolved_to": "python_basics",
+      "status": "canonical"
+    },
+    "python_environment_setup": {
+      "resolved_to": "python_environment_setup",
+      "status": "canonical"
+    },
+    "raster_and_vector_graphics": {
+      "resolved_to": "raster_and_vector_graphics",
+      "status": "canonical"
+    },
+    "scene_understanding_and_tracking": {
+      "resolved_to": "scene_understanding_and_tracking",
+      "status": "canonical"
+    },
+    "script_verification": {
+      "resolved_to": "script_verification",
+      "status": "canonical"
+    },
+    "semantic_similarity_analysis": {
+      "resolved_to": "semantic_similarity_analysis",
+      "status": "canonical"
+    },
+    "sentiment_analysis": {
+      "resolved_to": "sentiment_analysis",
+      "status": "canonical"
+    },
+    "similarity_computation": {
+      "resolved_to": "similarity_computation",
+      "status": "canonical"
+    },
+    "software_architecture_design": {
+      "resolved_to": "software_architecture_design",
+      "status": "canonical"
+    },
+    "software_engineering_processes": {
+      "resolved_to": "software_engineering_processes",
+      "status": "canonical"
+    },
+    "stemming": {
+      "resolved_to": "stemming",
+      "status": "canonical"
+    },
+    "stopword_removal": {
+      "resolved_to": "stopword_removal",
+      "status": "canonical"
+    },
+    "text_classification": {
+      "resolved_to": "text_classification",
+      "status": "canonical"
+    },
+    "text_cleaning_and_filtering": {
+      "resolved_to": "text_cleaning_and_filtering",
+      "status": "canonical"
+    },
+    "text_clustering": {
+      "resolved_to": "text_clustering",
+      "status": "canonical"
+    },
+    "text_data_collection_web_scraping": {
+      "resolved_to": "text_data_collection_web_scraping",
+      "status": "canonical"
+    },
+    "text_mining": {
+      "resolved_to": "text_mining",
+      "status": "canonical"
+    },
+    "text_vectorization": {
+      "resolved_to": "text_vectorization",
+      "status": "canonical"
+    },
+    "time_series_clustering": {
+      "resolved_to": "time_series_clustering",
+      "status": "canonical"
+    },
+    "time_series_decomposition": {
+      "resolved_to": "time_series_decomposition",
+      "status": "canonical"
+    },
+    "time_series_forecasting": {
+      "resolved_to": "time_series_forecasting",
+      "status": "canonical"
+    },
+    "time_series_preprocessing": {
+      "resolved_to": "time_series_preprocessing",
+      "status": "canonical"
+    },
+    "tokenization": {
+      "resolved_to": "tokenization",
+      "status": "canonical"
+    }
+  },
+  "unmapped_skill_ids": []
+}

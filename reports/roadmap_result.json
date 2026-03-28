@@ -1,0 +1,1480 @@
+{
+  "program_id": "data_science_certification_mvp",
+  "selected_track_id": "data_science",
+  "selected_course_ids": [
+    "fundamentals_of_data_science",
+    "data_science_technologies",
+    "natural_language_analysis_and_processing_nlp",
+    "analysis_and_processing_of_time_series",
+    "computer_vision_technologies"
+  ],
+  "slot_results": [],
+  "semester_plans": [
+    {
+      "semester_index": 1,
+      "term": {
+        "course": 1,
+        "semester": 1
+      },
+      "selected_course_ids": [
+        "fundamentals_of_data_science"
+      ],
+      "selected_courses": [
+        {
+          "course_id": "fundamentals_of_data_science",
+          "course_name": "Fundamentals of Data Science",
+          "score": 0.3547,
+          "track_affinity": 0.18,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.1648,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.18,
+          "phase_fit_score": 1.0,
+          "evidence_score": 0.7,
+          "overlap_penalty": 0.0,
+          "stage": "foundation",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "feature_extraction",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "similarity_computation",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": []
+        }
+      ],
+      "candidate_courses": [
+        {
+          "course_id": "fundamentals_of_data_science",
+          "course_name": "Fundamentals of Data Science",
+          "score": 0.3547,
+          "track_affinity": 0.18,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.1648,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.18,
+          "phase_fit_score": 1.0,
+          "evidence_score": 0.7,
+          "overlap_penalty": 0.0,
+          "stage": "foundation",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "feature_extraction",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "similarity_computation",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": []
+        }
+      ],
+      "blocked_course_reasons": [
+        "analysis_and_processing_of_time_series:not_offered",
+        "computer_vision_technologies:not_offered",
+        "data_science_technologies:not_offered",
+        "natural_language_analysis_and_processing_nlp:not_offered"
+      ],
+      "coverage_after": 0.1648,
+      "skill_bank_after": [
+        {
+          "skill_id": "algorithmic_thinking",
+          "level": 2
+        },
+        {
+          "skill_id": "algorithms_and_data_structures",
+          "level": 2
+        },
+        {
+          "skill_id": "analytical_geometry",
+          "level": 2
+        },
+        {
+          "skill_id": "calculus",
+          "level": 2
+        },
+        {
+          "skill_id": "computer_architecture_basics",
+          "level": 1
+        },
+        {
+          "skill_id": "data_stream_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "discrete_mathematics",
+          "level": 2
+        },
+        {
+          "skill_id": "document_similarity_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "feature_extraction",
+          "level": 3
+        },
+        {
+          "skill_id": "frequent_itemset_mining",
+          "level": 3
+        },
+        {
+          "skill_id": "linear_algebra",
+          "level": 2
+        },
+        {
+          "skill_id": "link_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "locally_sensitive_hashing",
+          "level": 3
+        },
+        {
+          "skill_id": "object_oriented_programming",
+          "level": 2
+        },
+        {
+          "skill_id": "probability_statistics",
+          "level": 2
+        },
+        {
+          "skill_id": "programming_fundamentals",
+          "level": 2
+        },
+        {
+          "skill_id": "python_basics",
+          "level": 3
+        },
+        {
+          "skill_id": "python_environment_setup",
+          "level": 1
+        },
+        {
+          "skill_id": "similarity_computation",
+          "level": 3
+        },
+        {
+          "skill_id": "software_engineering_processes",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "semester_index": 2,
+      "term": {
+        "course": 1,
+        "semester": 2
+      },
+      "selected_course_ids": [
+        "data_science_technologies"
+      ],
+      "selected_courses": [
+        {
+          "course_id": "data_science_technologies",
+          "course_name": "Data Science Technologies",
+          "score": 0.4611,
+          "track_affinity": 0.3647,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.3626,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.3647,
+          "phase_fit_score": 0.75,
+          "evidence_score": 0.85,
+          "overlap_penalty": 0.0,
+          "stage": "core",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "data_preprocessing",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "data_visualization",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "multicriteria_decision_analysis",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "ols_regression",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": []
+        }
+      ],
+      "candidate_courses": [
+        {
+          "course_id": "data_science_technologies",
+          "course_name": "Data Science Technologies",
+          "score": 0.4611,
+          "track_affinity": 0.3647,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.3626,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.3647,
+          "phase_fit_score": 0.75,
+          "evidence_score": 0.85,
+          "overlap_penalty": 0.0,
+          "stage": "core",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "data_preprocessing",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "data_visualization",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "multicriteria_decision_analysis",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "ols_regression",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": []
+        }
+      ],
+      "blocked_course_reasons": [
+        "analysis_and_processing_of_time_series:not_offered",
+        "computer_vision_technologies:not_offered",
+        "natural_language_analysis_and_processing_nlp:not_offered"
+      ],
+      "coverage_after": 0.5275,
+      "skill_bank_after": [
+        {
+          "skill_id": "algorithmic_thinking",
+          "level": 2
+        },
+        {
+          "skill_id": "algorithms_and_data_structures",
+          "level": 2
+        },
+        {
+          "skill_id": "analytical_geometry",
+          "level": 2
+        },
+        {
+          "skill_id": "calculus",
+          "level": 2
+        },
+        {
+          "skill_id": "classification",
+          "level": 3
+        },
+        {
+          "skill_id": "clustering",
+          "level": 3
+        },
+        {
+          "skill_id": "computer_architecture_basics",
+          "level": 1
+        },
+        {
+          "skill_id": "cp_sat_modeling",
+          "level": 3
+        },
+        {
+          "skill_id": "credit_scoring",
+          "level": 2
+        },
+        {
+          "skill_id": "data_parsing",
+          "level": 3
+        },
+        {
+          "skill_id": "data_preprocessing",
+          "level": 3
+        },
+        {
+          "skill_id": "data_stream_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "data_visualization",
+          "level": 3
+        },
+        {
+          "skill_id": "discrete_mathematics",
+          "level": 2
+        },
+        {
+          "skill_id": "document_similarity_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "feature_extraction",
+          "level": 3
+        },
+        {
+          "skill_id": "frequent_itemset_mining",
+          "level": 3
+        },
+        {
+          "skill_id": "geospatial_data_processing",
+          "level": 3
+        },
+        {
+          "skill_id": "kalman_filtering",
+          "level": 2
+        },
+        {
+          "skill_id": "linear_algebra",
+          "level": 2
+        },
+        {
+          "skill_id": "link_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "locally_sensitive_hashing",
+          "level": 3
+        },
+        {
+          "skill_id": "model_verification",
+          "level": 3
+        },
+        {
+          "skill_id": "multicriteria_decision_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "neural_network_training",
+          "level": 3
+        },
+        {
+          "skill_id": "object_oriented_programming",
+          "level": 2
+        },
+        {
+          "skill_id": "olap_analysis",
+          "level": 2
+        },
+        {
+          "skill_id": "ols_regression",
+          "level": 3
+        },
+        {
+          "skill_id": "probability_statistics",
+          "level": 2
+        },
+        {
+          "skill_id": "problem_formalization",
+          "level": 3
+        },
+        {
+          "skill_id": "programming_fundamentals",
+          "level": 2
+        },
+        {
+          "skill_id": "python_basics",
+          "level": 3
+        },
+        {
+          "skill_id": "python_environment_setup",
+          "level": 1
+        },
+        {
+          "skill_id": "similarity_computation",
+          "level": 3
+        },
+        {
+          "skill_id": "software_architecture_design",
+          "level": 2
+        },
+        {
+          "skill_id": "software_engineering_processes",
+          "level": 1
+        },
+        {
+          "skill_id": "text_mining",
+          "level": 2
+        },
+        {
+          "skill_id": "time_series_forecasting",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "semester_index": 3,
+      "term": {
+        "course": 2,
+        "semester": 1
+      },
+      "selected_course_ids": [
+        "natural_language_analysis_and_processing_nlp",
+        "analysis_and_processing_of_time_series"
+      ],
+      "selected_courses": [
+        {
+          "course_id": "natural_language_analysis_and_processing_nlp",
+          "course_name": "Natural Language Analysis and Processing (NLP)",
+          "score": 0.3768,
+          "track_affinity": 0.2515,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.1429,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.2515,
+          "phase_fit_score": 0.8667,
+          "evidence_score": 0.85,
+          "overlap_penalty": 0.0,
+          "stage": "advanced",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "lemmatization",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "text_vectorization",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": []
+        },
+        {
+          "course_id": "analysis_and_processing_of_time_series",
+          "course_name": "Analysis and Processing of Time Series",
+          "score": 0.3703,
+          "track_affinity": 0.3714,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.1758,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.3714,
+          "phase_fit_score": 0.8667,
+          "evidence_score": 0.69,
+          "overlap_penalty": 0.0605,
+          "stage": "advanced",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "ann_time_series_forecasting",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "time_series_decomposition",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": [
+            "data_science_technologies"
+          ]
+        }
+      ],
+      "candidate_courses": [
+        {
+          "course_id": "analysis_and_processing_of_time_series",
+          "course_name": "Analysis and Processing of Time Series",
+          "score": 0.3824,
+          "track_affinity": 0.3714,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.1758,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.3714,
+          "phase_fit_score": 0.8667,
+          "evidence_score": 0.69,
+          "overlap_penalty": 0.0605,
+          "stage": "advanced",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "ann_time_series_forecasting",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "time_series_decomposition",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": [
+            "data_science_technologies"
+          ]
+        },
+        {
+          "course_id": "natural_language_analysis_and_processing_nlp",
+          "course_name": "Natural Language Analysis and Processing (NLP)",
+          "score": 0.3768,
+          "track_affinity": 0.2515,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.1429,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.2515,
+          "phase_fit_score": 0.8667,
+          "evidence_score": 0.85,
+          "overlap_penalty": 0.0,
+          "stage": "advanced",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "lemmatization",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "text_vectorization",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": []
+        }
+      ],
+      "blocked_course_reasons": [
+        "computer_vision_technologies:not_offered"
+      ],
+      "coverage_after": 0.8462,
+      "skill_bank_after": [
+        {
+          "skill_id": "algorithmic_thinking",
+          "level": 2
+        },
+        {
+          "skill_id": "algorithms_and_data_structures",
+          "level": 2
+        },
+        {
+          "skill_id": "analytical_geometry",
+          "level": 2
+        },
+        {
+          "skill_id": "ann_time_series_forecasting",
+          "level": 3
+        },
+        {
+          "skill_id": "architecture_design_for_nlp_solutions",
+          "level": 2
+        },
+        {
+          "skill_id": "arima_modeling",
+          "level": 3
+        },
+        {
+          "skill_id": "calculus",
+          "level": 2
+        },
+        {
+          "skill_id": "classification",
+          "level": 3
+        },
+        {
+          "skill_id": "clustering",
+          "level": 3
+        },
+        {
+          "skill_id": "computer_architecture_basics",
+          "level": 1
+        },
+        {
+          "skill_id": "cp_sat_modeling",
+          "level": 3
+        },
+        {
+          "skill_id": "credit_scoring",
+          "level": 2
+        },
+        {
+          "skill_id": "data_parsing",
+          "level": 3
+        },
+        {
+          "skill_id": "data_preprocessing",
+          "level": 3
+        },
+        {
+          "skill_id": "data_stream_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "data_visualization",
+          "level": 3
+        },
+        {
+          "skill_id": "discrete_mathematics",
+          "level": 2
+        },
+        {
+          "skill_id": "document_similarity_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "feature_extraction",
+          "level": 3
+        },
+        {
+          "skill_id": "frequency_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "frequent_itemset_mining",
+          "level": 3
+        },
+        {
+          "skill_id": "geospatial_data_processing",
+          "level": 3
+        },
+        {
+          "skill_id": "hierarchical_time_series_forecasting",
+          "level": 2
+        },
+        {
+          "skill_id": "kalman_filtering",
+          "level": 2
+        },
+        {
+          "skill_id": "lemmatization",
+          "level": 3
+        },
+        {
+          "skill_id": "linear_algebra",
+          "level": 2
+        },
+        {
+          "skill_id": "link_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "locally_sensitive_hashing",
+          "level": 3
+        },
+        {
+          "skill_id": "model_verification",
+          "level": 3
+        },
+        {
+          "skill_id": "multicriteria_decision_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "neural_network_training",
+          "level": 3
+        },
+        {
+          "skill_id": "neural_networks_for_nlp",
+          "level": 2
+        },
+        {
+          "skill_id": "object_oriented_programming",
+          "level": 2
+        },
+        {
+          "skill_id": "olap_analysis",
+          "level": 2
+        },
+        {
+          "skill_id": "ols_regression",
+          "level": 3
+        },
+        {
+          "skill_id": "pos_tagging",
+          "level": 2
+        },
+        {
+          "skill_id": "probabilistic_text_analysis",
+          "level": 2
+        },
+        {
+          "skill_id": "probability_statistics",
+          "level": 2
+        },
+        {
+          "skill_id": "problem_formalization",
+          "level": 3
+        },
+        {
+          "skill_id": "programming_fundamentals",
+          "level": 2
+        },
+        {
+          "skill_id": "python_basics",
+          "level": 3
+        },
+        {
+          "skill_id": "python_environment_setup",
+          "level": 1
+        },
+        {
+          "skill_id": "script_verification",
+          "level": 2
+        },
+        {
+          "skill_id": "semantic_similarity_analysis",
+          "level": 2
+        },
+        {
+          "skill_id": "sentiment_analysis",
+          "level": 2
+        },
+        {
+          "skill_id": "similarity_computation",
+          "level": 3
+        },
+        {
+          "skill_id": "software_architecture_design",
+          "level": 2
+        },
+        {
+          "skill_id": "software_engineering_processes",
+          "level": 1
+        },
+        {
+          "skill_id": "stemming",
+          "level": 3
+        },
+        {
+          "skill_id": "stopword_removal",
+          "level": 3
+        },
+        {
+          "skill_id": "text_classification",
+          "level": 2
+        },
+        {
+          "skill_id": "text_cleaning_and_filtering",
+          "level": 3
+        },
+        {
+          "skill_id": "text_clustering",
+          "level": 2
+        },
+        {
+          "skill_id": "text_data_collection_web_scraping",
+          "level": 2
+        },
+        {
+          "skill_id": "text_mining",
+          "level": 2
+        },
+        {
+          "skill_id": "text_vectorization",
+          "level": 3
+        },
+        {
+          "skill_id": "time_series_clustering",
+          "level": 2
+        },
+        {
+          "skill_id": "time_series_decomposition",
+          "level": 3
+        },
+        {
+          "skill_id": "time_series_forecasting",
+          "level": 3
+        },
+        {
+          "skill_id": "time_series_preprocessing",
+          "level": 3
+        },
+        {
+          "skill_id": "tokenization",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "semester_index": 4,
+      "term": {
+        "course": 2,
+        "semester": 2
+      },
+      "selected_course_ids": [
+        "computer_vision_technologies"
+      ],
+      "selected_courses": [
+        {
+          "course_id": "computer_vision_technologies",
+          "course_name": "Computer Vision Technologies",
+          "score": 0.3564,
+          "track_affinity": 0.18,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.1538,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.18,
+          "phase_fit_score": 1.0,
+          "evidence_score": 0.69,
+          "overlap_penalty": 0.0,
+          "stage": "advanced",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "digital_image_processing",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "image_recognition_and_detection",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": []
+        }
+      ],
+      "candidate_courses": [
+        {
+          "course_id": "computer_vision_technologies",
+          "course_name": "Computer Vision Technologies",
+          "score": 0.3564,
+          "track_affinity": 0.18,
+          "prerequisite_fit": 1.0,
+          "readiness_score": 1.0,
+          "target_skill_gain": 0.1538,
+          "unlock_score": 0.0,
+          "domain_alignment": 0.18,
+          "phase_fit_score": 1.0,
+          "evidence_score": 0.69,
+          "overlap_penalty": 0.0,
+          "stage": "advanced",
+          "missing_prerequisites": [],
+          "gained_target_skills": [
+            {
+              "skill_id": "digital_image_processing",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "image_recognition_and_detection",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": []
+        }
+      ],
+      "blocked_course_reasons": [],
+      "coverage_after": 1.0,
+      "skill_bank_after": [
+        {
+          "skill_id": "3d_reconstruction",
+          "level": 2
+        },
+        {
+          "skill_id": "algorithmic_thinking",
+          "level": 2
+        },
+        {
+          "skill_id": "algorithms_and_data_structures",
+          "level": 2
+        },
+        {
+          "skill_id": "analytical_geometry",
+          "level": 2
+        },
+        {
+          "skill_id": "ann_time_series_forecasting",
+          "level": 3
+        },
+        {
+          "skill_id": "architecture_design_for_nlp_solutions",
+          "level": 2
+        },
+        {
+          "skill_id": "arima_modeling",
+          "level": 3
+        },
+        {
+          "skill_id": "calculus",
+          "level": 2
+        },
+        {
+          "skill_id": "classification",
+          "level": 3
+        },
+        {
+          "skill_id": "clustering",
+          "level": 3
+        },
+        {
+          "skill_id": "computer_architecture_basics",
+          "level": 1
+        },
+        {
+          "skill_id": "cp_sat_modeling",
+          "level": 3
+        },
+        {
+          "skill_id": "credit_scoring",
+          "level": 2
+        },
+        {
+          "skill_id": "cv_algorithm_implementation_python",
+          "level": 3
+        },
+        {
+          "skill_id": "data_parsing",
+          "level": 3
+        },
+        {
+          "skill_id": "data_preprocessing",
+          "level": 3
+        },
+        {
+          "skill_id": "data_stream_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "data_visualization",
+          "level": 3
+        },
+        {
+          "skill_id": "digital_image_processing",
+          "level": 3
+        },
+        {
+          "skill_id": "discrete_mathematics",
+          "level": 2
+        },
+        {
+          "skill_id": "document_similarity_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "feature_extraction",
+          "level": 3
+        },
+        {
+          "skill_id": "frequency_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "frequent_itemset_mining",
+          "level": 3
+        },
+        {
+          "skill_id": "geometric_transformations_2d_3d",
+          "level": 3
+        },
+        {
+          "skill_id": "geospatial_data_processing",
+          "level": 3
+        },
+        {
+          "skill_id": "hierarchical_time_series_forecasting",
+          "level": 2
+        },
+        {
+          "skill_id": "image_recognition_and_detection",
+          "level": 3
+        },
+        {
+          "skill_id": "kalman_filtering",
+          "level": 2
+        },
+        {
+          "skill_id": "lemmatization",
+          "level": 3
+        },
+        {
+          "skill_id": "linear_algebra",
+          "level": 2
+        },
+        {
+          "skill_id": "link_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "locally_sensitive_hashing",
+          "level": 3
+        },
+        {
+          "skill_id": "model_verification",
+          "level": 3
+        },
+        {
+          "skill_id": "multicriteria_decision_analysis",
+          "level": 3
+        },
+        {
+          "skill_id": "neural_network_training",
+          "level": 3
+        },
+        {
+          "skill_id": "neural_networks_for_nlp",
+          "level": 2
+        },
+        {
+          "skill_id": "object_oriented_programming",
+          "level": 2
+        },
+        {
+          "skill_id": "olap_analysis",
+          "level": 2
+        },
+        {
+          "skill_id": "ols_regression",
+          "level": 3
+        },
+        {
+          "skill_id": "pos_tagging",
+          "level": 2
+        },
+        {
+          "skill_id": "probabilistic_text_analysis",
+          "level": 2
+        },
+        {
+          "skill_id": "probability_statistics",
+          "level": 2
+        },
+        {
+          "skill_id": "problem_formalization",
+          "level": 3
+        },
+        {
+          "skill_id": "programming_fundamentals",
+          "level": 2
+        },
+        {
+          "skill_id": "python_basics",
+          "level": 3
+        },
+        {
+          "skill_id": "python_environment_setup",
+          "level": 1
+        },
+        {
+          "skill_id": "raster_and_vector_graphics",
+          "level": 3
+        },
+        {
+          "skill_id": "scene_understanding_and_tracking",
+          "level": 2
+        },
+        {
+          "skill_id": "script_verification",
+          "level": 2
+        },
+        {
+          "skill_id": "semantic_similarity_analysis",
+          "level": 2
+        },
+        {
+          "skill_id": "sentiment_analysis",
+          "level": 2
+        },
+        {
+          "skill_id": "similarity_computation",
+          "level": 3
+        },
+        {
+          "skill_id": "software_architecture_design",
+          "level": 2
+        },
+        {
+          "skill_id": "software_engineering_processes",
+          "level": 1
+        },
+        {
+          "skill_id": "stemming",
+          "level": 3
+        },
+        {
+          "skill_id": "stopword_removal",
+          "level": 3
+        },
+        {
+          "skill_id": "text_classification",
+          "level": 2
+        },
+        {
+          "skill_id": "text_cleaning_and_filtering",
+          "level": 3
+        },
+        {
+          "skill_id": "text_clustering",
+          "level": 2
+        },
+        {
+          "skill_id": "text_data_collection_web_scraping",
+          "level": 2
+        },
+        {
+          "skill_id": "text_mining",
+          "level": 2
+        },
+        {
+          "skill_id": "text_vectorization",
+          "level": 3
+        },
+        {
+          "skill_id": "time_series_clustering",
+          "level": 2
+        },
+        {
+          "skill_id": "time_series_decomposition",
+          "level": 3
+        },
+        {
+          "skill_id": "time_series_forecasting",
+          "level": 3
+        },
+        {
+          "skill_id": "time_series_preprocessing",
+          "level": 3
+        },
+        {
+          "skill_id": "tokenization",
+          "level": 3
+        }
+      ]
+    }
+  ],
+  "final_skill_bank": [
+    {
+      "skill_id": "3d_reconstruction",
+      "level": 2
+    },
+    {
+      "skill_id": "algorithmic_thinking",
+      "level": 2
+    },
+    {
+      "skill_id": "algorithms_and_data_structures",
+      "level": 2
+    },
+    {
+      "skill_id": "analytical_geometry",
+      "level": 2
+    },
+    {
+      "skill_id": "ann_time_series_forecasting",
+      "level": 3
+    },
+    {
+      "skill_id": "architecture_design_for_nlp_solutions",
+      "level": 2
+    },
+    {
+      "skill_id": "arima_modeling",
+      "level": 3
+    },
+    {
+      "skill_id": "calculus",
+      "level": 2
+    },
+    {
+      "skill_id": "classification",
+      "level": 3
+    },
+    {
+      "skill_id": "clustering",
+      "level": 3
+    },
+    {
+      "skill_id": "computer_architecture_basics",
+      "level": 1
+    },
+    {
+      "skill_id": "cp_sat_modeling",
+      "level": 3
+    },
+    {
+      "skill_id": "credit_scoring",
+      "level": 2
+    },
+    {
+      "skill_id": "cv_algorithm_implementation_python",
+      "level": 3
+    },
+    {
+      "skill_id": "data_parsing",
+      "level": 3
+    },
+    {
+      "skill_id": "data_preprocessing",
+      "level": 3
+    },
+    {
+      "skill_id": "data_stream_analysis",
+      "level": 3
+    },
+    {
+      "skill_id": "data_visualization",
+      "level": 3
+    },
+    {
+      "skill_id": "digital_image_processing",
+      "level": 3
+    },
+    {
+      "skill_id": "discrete_mathematics",
+      "level": 2
+    },
+    {
+      "skill_id": "document_similarity_analysis",
+      "level": 3
+    },
+    {
+      "skill_id": "feature_extraction",
+      "level": 3
+    },
+    {
+      "skill_id": "frequency_analysis",
+      "level": 3
+    },
+    {
+      "skill_id": "frequent_itemset_mining",
+      "level": 3
+    },
+    {
+      "skill_id": "geometric_transformations_2d_3d",
+      "level": 3
+    },
+    {
+      "skill_id": "geospatial_data_processing",
+      "level": 3
+    },
+    {
+      "skill_id": "hierarchical_time_series_forecasting",
+      "level": 2
+    },
+    {
+      "skill_id": "image_recognition_and_detection",
+      "level": 3
+    },
+    {
+      "skill_id": "kalman_filtering",
+      "level": 2
+    },
+    {
+      "skill_id": "lemmatization",
+      "level": 3
+    },
+    {
+      "skill_id": "linear_algebra",
+      "level": 2
+    },
+    {
+      "skill_id": "link_analysis",
+      "level": 3
+    },
+    {
+      "skill_id": "locally_sensitive_hashing",
+      "level": 3
+    },
+    {
+      "skill_id": "model_verification",
+      "level": 3
+    },
+    {
+      "skill_id": "multicriteria_decision_analysis",
+      "level": 3
+    },
+    {
+      "skill_id": "neural_network_training",
+      "level": 3
+    },
+    {
+      "skill_id": "neural_networks_for_nlp",
+      "level": 2
+    },
+    {
+      "skill_id": "object_oriented_programming",
+      "level": 2
+    },
+    {
+      "skill_id": "olap_analysis",
+      "level": 2
+    },
+    {
+      "skill_id": "ols_regression",
+      "level": 3
+    },
+    {
+      "skill_id": "pos_tagging",
+      "level": 2
+    },
+    {
+      "skill_id": "probabilistic_text_analysis",
+      "level": 2
+    },
+    {
+      "skill_id": "probability_statistics",
+      "level": 2
+    },
+    {
+      "skill_id": "problem_formalization",
+      "level": 3
+    },
+    {
+      "skill_id": "programming_fundamentals",
+      "level": 2
+    },
+    {
+      "skill_id": "python_basics",
+      "level": 3
+    },
+    {
+      "skill_id": "python_environment_setup",
+      "level": 1
+    },
+    {
+      "skill_id": "raster_and_vector_graphics",
+      "level": 3
+    },
+    {
+      "skill_id": "scene_understanding_and_tracking",
+      "level": 2
+    },
+    {
+      "skill_id": "script_verification",
+      "level": 2
+    },
+    {
+      "skill_id": "semantic_similarity_analysis",
+      "level": 2
+    },
+    {
+      "skill_id": "sentiment_analysis",
+      "level": 2
+    },
+    {
+      "skill_id": "similarity_computation",
+      "level": 3
+    },
+    {
+      "skill_id": "software_architecture_design",
+      "level": 2
+    },
+    {
+      "skill_id": "software_engineering_processes",
+      "level": 1
+    },
+    {
+      "skill_id": "stemming",
+      "level": 3
+    },
+    {
+      "skill_id": "stopword_removal",
+      "level": 3
+    },
+    {
+      "skill_id": "text_classification",
+      "level": 2
+    },
+    {
+      "skill_id": "text_cleaning_and_filtering",
+      "level": 3
+    },
+    {
+      "skill_id": "text_clustering",
+      "level": 2
+    },
+    {
+      "skill_id": "text_data_collection_web_scraping",
+      "level": 2
+    },
+    {
+      "skill_id": "text_mining",
+      "level": 2
+    },
+    {
+      "skill_id": "text_vectorization",
+      "level": 3
+    },
+    {
+      "skill_id": "time_series_clustering",
+      "level": 2
+    },
+    {
+      "skill_id": "time_series_decomposition",
+      "level": 3
+    },
+    {
+      "skill_id": "time_series_forecasting",
+      "level": 3
+    },
+    {
+      "skill_id": "time_series_preprocessing",
+      "level": 3
+    },
+    {
+      "skill_id": "tokenization",
+      "level": 3
+    }
+  ],
+  "achieved_target_coverage": 1.0,
+  "summary": {
+    "total_semesters": 4,
+    "total_courses": 5,
+    "achieved_target_coverage": 1.0,
+    "gained_target_skills": [
+      "ann_time_series_forecasting",
+      "data_preprocessing",
+      "data_visualization",
+      "digital_image_processing",
+      "feature_extraction",
+      "image_recognition_and_detection",
+      "lemmatization",
+      "multicriteria_decision_analysis",
+      "ols_regression",
+      "similarity_computation",
+      "text_vectorization",
+      "time_series_decomposition"
+    ],
+    "unmet_target_skills": []
+  },
+  "unmet_constraints": []
+}

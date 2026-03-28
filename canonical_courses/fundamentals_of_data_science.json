@@ -1,0 +1,420 @@
+{
+  "course_id": "fundamentals_of_data_science",
+  "course_name": "Fundamentals of Data Science",
+  "version": "v1",
+  "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/fundamentals_of_data_science.json",
+  "course_profile": {
+    "one_sentence_summary": "An introductory course on data science focusing on similarity search, data stream analysis, link analysis, and frequent itemset mining.",
+    "short_summary": "This course introduces fundamental data science techniques for handling large datasets. Topics include the Bonferroni principle, nearest neighbor search, document shingling, locally sensitive hashing (LSH), various distance measures, data stream filtering and counting (DGIM), PageRank algorithms, and market basket analysis using the Apriori algorithm.",
+    "discipline_positioning": [
+      "Computer Science",
+      "Data Engineering",
+      "Data Science"
+    ],
+    "course_nature": {
+      "theory_level": "medium",
+      "implementation_level": "high",
+      "research_orientation": "low",
+      "software_engineering_orientation": "medium"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "data_science",
+      "domain_label": "Data Science",
+      "score": 0.95
+    },
+    {
+      "domain_id": "data_mining",
+      "domain_label": "Data Mining",
+      "score": 0.9
+    },
+    {
+      "domain_id": "big_data_analytics",
+      "domain_label": "Big Data Analytics",
+      "score": 0.85
+    }
+  ],
+  "discipline_tags": [
+    "Data Science",
+    "Big Data",
+    "Data Mining",
+    "Data Analytics",
+    "Information Retrieval"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Data Analysis",
+      "Similarity Search",
+      "Feature Extraction",
+      "Locally Sensitive Hashing",
+      "Bonferroni Principle",
+      "Distance Measures"
+    ],
+    "methods_models": [
+      "Nearest Neighbors",
+      "Document Shingling",
+      "Apriori Algorithm",
+      "PageRank",
+      "Topic-Sensitive PageRank",
+      "DGIM Algorithm",
+      "Market Basket Model"
+    ],
+    "data_modalities": [
+      "Data Streams",
+      "Text Documents",
+      "Link Graphs",
+      "Transactional Data",
+      "Fingerprints"
+    ],
+    "problem_types": [
+      "Plagiarism Detection",
+      "Spam Detection",
+      "Frequent Itemset Mining",
+      "Recommendation Systems",
+      "Similarity Matching",
+      "Object Recognition"
+    ],
+    "application_domains": [
+      "Web Search",
+      "E-commerce",
+      "Cybersecurity",
+      "Text Analytics"
+    ],
+    "engineering_aspects": [
+      "Stream Filtering",
+      "Windowing Techniques",
+      "Efficient Computation",
+      "Systems for Undesirable Element Filtering"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [],
+    "libraries_frameworks_tools_explicit": [],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [
+      "Python",
+      "SQL"
+    ],
+    "technologies_mentioned_in_resources_only": []
+  },
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the fundamentals of data analysis and the application of the Bonferroni principle.",
+      "Comprehend models for streaming data of varying complexity and link analysis structures.",
+      "Understand the mathematical foundations behind similarity preservation in reduced datasets."
+    ],
+    "practical_implementation": [
+      "Calculate set similarities using Jaccard, Cosine, Edit, and Hamming distances.",
+      "Implement the Apriori algorithm for market basket analysis.",
+      "Perform document shingling and locally sensitive hashing for large-scale similarity search.",
+      "Calculate standard and topic-sensitive PageRank scores."
+    ],
+    "analysis_validation": [
+      "Analyze data streams by filtering elements, performing counts within sliding and decaying windows, and applying the DGIM algorithm.",
+      "Identify link spam and evaluate textual similarities to detect plagiarism or mirror pages.",
+      "Determine similarities in online purchases and movie ratings."
+    ],
+    "architecture_design": [
+      "Design software systems for the efficient filtering of undesirable elements in continuous data streams, such as email spam."
+    ],
+    "research_and_prototyping": [
+      "Create predictive and descriptive models for datasets using feature extraction and data generalization techniques."
+    ]
+  },
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "How algorithms process massive, continuous streams of data efficiently without storing everything in memory.",
+      "How search engines rank web pages and detect link spam using PageRank.",
+      "The mathematical principles behind determining how 'similar' two items (documents, users, transactions) are."
+    ],
+    "what_student_can_build": [
+      "Systems for detecting plagiarism or duplicate articles using document shingling.",
+      "Email or event stream filtering applications that catch unwanted elements.",
+      "Basic recommendation pipelines for online stores using market basket models."
+    ],
+    "what_student_can_apply": [
+      "Locally Sensitive Hashing (LSH) for fast similarity searches.",
+      "Multiple distance metrics (Jaccard, Cosine, Edit, Hamming).",
+      "The Apriori algorithm for finding frequent itemsets.",
+      "The DGIM algorithm for windowed counting in data streams."
+    ]
+  },
+  "input_skill_refs": [
+    {
+      "canonical_skill_id": "calculus",
+      "source_skill_id": "calculus",
+      "skill_label": "Calculus",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "математичний аналіз"
+      ],
+      "evidence": [
+        "Базові знання з вищої математики (математичний аналіз...)"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "linear_algebra",
+      "source_skill_id": "linear_algebra",
+      "skill_label": "Linear algebra",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "лінійна алгебра"
+      ],
+      "evidence": [
+        "Базові знання з вищої математики (... лінійна алгебра ...)"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "analytical_geometry",
+      "source_skill_id": "analytical_geometry",
+      "skill_label": "Analytical Geometry",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "аналітична геометрія"
+      ],
+      "evidence": [
+        "Базові знання з вищої математики (... та аналітична геометрія)"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "probability_statistics",
+      "source_skill_id": "probability_statistics",
+      "skill_label": "Probability and statistics",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "теорія ймовірностей та математична статистика"
+      ],
+      "evidence": [
+        "теорія ймовірностей та математична статистика"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "programming_fundamentals",
+      "source_skill_id": "programming_basics",
+      "skill_label": "Programming fundamentals",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "програмування"
+      ],
+      "evidence": [
+        "програмування"
+      ],
+      "normalization_status": "aliased"
+    }
+  ],
+  "output_skill_refs": [
+    {
+      "canonical_skill_id": "feature_extraction",
+      "source_skill_id": "feature_extraction",
+      "skill_label": "Feature Extraction",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "виділення ознак"
+      ],
+      "evidence": [
+        "Створювати моделі для даних з застосуванням узагальнення та виділення ознак"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "similarity_computation",
+      "source_skill_id": "similarity_computation",
+      "skill_label": "Similarity Computation",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "жакартової подібності множин",
+        "міри відстані",
+        "косинусну відстань",
+        "відстань редагування",
+        "відстань Хеммінга"
+      ],
+      "evidence": [
+        "Використовувати методи обчислення жакартової подібності множин",
+        "Застосовувати міри відстані для визначення подібності, зокрема, косинусну відстань, відстань редагування, відстань Хеммінга"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "locally_sensitive_hashing",
+      "source_skill_id": "locally_sensitive_hashing",
+      "skill_label": "Locally Sensitive Hashing (LSH)",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "локально-чутливе хешування",
+        "локально-чутливі функції"
+      ],
+      "evidence": [
+        "Принципи збереження схожості скорочених наборів, локально-чутливе хешування"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "data_stream_analysis",
+      "source_skill_id": "data_stream_analysis",
+      "skill_label": "Data Stream Analysis",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "аналіз потоків даних",
+        "фільтрації потоків",
+        "підрахунок у вікні та згасаючих вікнах",
+        "алгоритми DGIM"
+      ],
+      "evidence": [
+        "Аналізувати потоки даних шляхом побудови моделі потокових даних та фільтрації потоків",
+        "використовувати алгоритми DGIM"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "link_analysis",
+      "source_skill_id": "link_analysis",
+      "skill_label": "Link Analysis",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "аналіз посилань",
+        "PageRank",
+        "тематично чутливий PageRank",
+        "визначати спам посилань"
+      ],
+      "evidence": [
+        "Здійснювати аналіз посилань з застосуванням PageRank",
+        "обчислювати тематично чутливий PageRank, визначати спам посилань"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "frequent_itemset_mining",
+      "source_skill_id": "frequent_itemset_mining",
+      "skill_label": "Frequent Itemset Mining",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Модель ринкової корзини",
+        "алгоритм A-Priori"
+      ],
+      "evidence": [
+        "Модель ринкової корзини та алгоритм A-Priori"
+      ],
+      "normalization_status": "canonical"
+    },
+    {
+      "canonical_skill_id": "document_similarity_analysis",
+      "source_skill_id": "document_similarity_analysis",
+      "skill_label": "Document Similarity Analysis",
+      "result_level": 3,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "шинглінгу документів",
+        "пошуку текстуально подібних документів",
+        "плагіату"
+      ],
+      "evidence": [
+        "шинглінгу документів",
+        "для пошуку текстуально подібних документів (плагіату, дзеркальних сторінок)"
+      ],
+      "normalization_status": "canonical"
+    }
+  ],
+  "practical_profile": {
+    "lab_formats": [
+      "Laboratory works focused on algorithm implementation and data analysis."
+    ],
+    "expected_artifacts": [
+      "Implementations of distance measurement algorithms.",
+      "Scripts for stream filtering and itemset counting.",
+      "PageRank computation scripts."
+    ],
+    "implementation_tasks": [
+      "Implement Jaccard, Cosine, Hamming, and Edit distance calculations.",
+      "Build a document shingling and LSH pipeline.",
+      "Implement the Apriori algorithm for transaction datasets.",
+      "Apply the DGIM algorithm to estimate item counts in a streaming window."
+    ],
+    "engineering_practices": [
+      "Algorithmic efficiency optimization for big data.",
+      "Stream processing architecture design."
+    ]
+  },
+  "intra_course_relations": [
+    {
+      "from_skill_id": "linear_algebra",
+      "to_skill_id": "similarity_computation",
+      "from_canonical_skill_id": "linear_algebra",
+      "to_canonical_skill_id": "similarity_computation",
+      "from_label": "Linear Algebra",
+      "to_label": "Similarity Computation",
+      "relation": "supports",
+      "reason": "Vector math from linear algebra is fundamentally required for computing cosine distance and representing text as vectors."
+    },
+    {
+      "from_skill_id": "probability_statistics",
+      "to_skill_id": "locally_sensitive_hashing",
+      "from_canonical_skill_id": "probability_statistics",
+      "to_canonical_skill_id": "locally_sensitive_hashing",
+      "from_label": "Probability and Statistics",
+      "to_label": "Locally Sensitive Hashing (LSH)",
+      "relation": "supports",
+      "reason": "LSH relies on probabilistic models and hashing collisions to estimate similarities."
+    },
+    {
+      "from_skill_id": "programming_basics",
+      "to_skill_id": "data_stream_analysis",
+      "from_canonical_skill_id": "programming_fundamentals",
+      "to_canonical_skill_id": "data_stream_analysis",
+      "from_label": "Programming Basics",
+      "to_label": "Data Stream Analysis",
+      "relation": "enables",
+      "reason": "Implementing stream filtering and DGIM algorithms requires practical programming capabilities."
+    },
+    {
+      "from_skill_id": "similarity_computation",
+      "to_skill_id": "document_similarity_analysis",
+      "from_canonical_skill_id": "similarity_computation",
+      "to_canonical_skill_id": "document_similarity_analysis",
+      "from_label": "Similarity Computation",
+      "to_label": "Document Similarity Analysis",
+      "relation": "applies_to",
+      "reason": "Distance measures are directly applied to detect textual similarities, plagiarism, and duplicate documents."
+    }
+  ],
+  "quality_ref": "course:fundamentals_of_data_science"
+}
