@@ -1,0 +1,3019 @@
+{
+  "specialization_id": "data_science",
+  "current_term": {
+    "course": 1,
+    "semester": 1
+  },
+  "student_profile": {
+    "specialization_id": "data_science",
+    "current_course": 1,
+    "current_semester": 1,
+    "required_courses": [
+      {
+        "course_id": "algorithms_and_data_structures_part_1_basics_of_algorithmization",
+        "course_name": "Algorithms and Data Structures. Part 1. Basics of Algorithmization",
+        "course": 1,
+        "semester": 1,
+        "status": "in_progress",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/algorithms_and_data_structures_part_1_basics_of_algorithmization.json"
+      },
+      {
+        "course_id": "computer_discrete_mathematics",
+        "course_name": "Computer Discrete Mathematics",
+        "course": 1,
+        "semester": 1,
+        "status": "in_progress",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/computer_discrete_mathematics.json"
+      },
+      {
+        "course_id": "linear_algebra_and_analytic_geometry",
+        "course_name": "Linear Algebra and Analytic Geometry",
+        "course": 1,
+        "semester": 1,
+        "status": "in_progress",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/linear_algebra_and_analytic_geometry.json"
+      },
+      {
+        "course_id": "mathematical_analysis_part_1_differential_calculus",
+        "course_name": "Mathematical Analysis. Part 1. Differential Calculus",
+        "course": 1,
+        "semester": 1,
+        "status": "in_progress",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/mathematical_analysis_part_1_differential_calculus.json"
+      },
+      {
+        "course_id": "programming_fundamentals_part_1_basic_constructs",
+        "course_name": "Programming Fundamentals. Part 1. Basic Constructs",
+        "course": 1,
+        "semester": 1,
+        "status": "in_progress",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/programming_fundamentals_part_1_basic_constructs.json"
+      },
+      {
+        "course_id": "algorithms_and_data_structures_2_data_structures",
+        "course_name": "Algorithms and Data Structures - 2. Data Structures",
+        "course": 1,
+        "semester": 2,
+        "status": "planned",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/algorithms_and_data_structures_2_data_structures.json"
+      },
+      {
+        "course_id": "fundamentals_of_computer_systems_and_networks",
+        "course_name": "Fundamentals of Computer Systems and Networks",
+        "course": 1,
+        "semester": 2,
+        "status": "planned",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/fundamentals_of_computer_systems_and_networks.json"
+      },
+      {
+        "course_id": "fundamentals_of_programming_pr2",
+        "course_name": "Fundamentals of Programming. Part 2. Programming Methodologies",
+        "course": 1,
+        "semester": 2,
+        "status": "planned",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/fundamentals_of_programming_pr2.json"
+      },
+      {
+        "course_id": "introduction_to_software_engineering",
+        "course_name": "Introduction to Software Engineering",
+        "course": 1,
+        "semester": 2,
+        "status": "planned",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/introduction_to_software_engineering.json"
+      },
+      {
+        "course_id": "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables",
+        "course_name": "Mathematical Analysis. Part 2. Differential and Integral Calculus of Functions of Several Variables",
+        "course": 1,
+        "semester": 2,
+        "status": "planned",
+        "raw_source_file": "/Users/pelmeshek1706/Desktop/projects/roadmaps/student_db/base_subjects/121_ipi/1st_course/mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables.json"
+      }
+    ],
+    "automatically_extracted_base_skills": [
+      {
+        "skill_id": "advanced_sorting_algorithms",
+        "skill_label": "Advanced Sorting Algorithms",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "agile_process_management",
+        "skill_label": "Agile Process Management",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "algorithm_complexity_analysis",
+        "skill_label": "Algorithm Complexity Analysis",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "algorithm_design",
+        "skill_label": "Algorithm Design",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization",
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "analytic_geometry_modeling",
+        "skill_label": "Analytic Geometry Modeling",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "boolean_function_minimization",
+        "skill_label": "Boolean Function Minimization",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "c_programming",
+        "skill_label": "C Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "cisco_ios_administration",
+        "skill_label": "Cisco IOS Administration",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "combinatorial_algorithms",
+        "skill_label": "Combinatorial Algorithms",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "complex_number_manipulation",
+        "skill_label": "Complex Number Manipulation",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "computational_complexity_theory",
+        "skill_label": "Computational Complexity Theory",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "csharp_programming",
+        "skill_label": "C# Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "data_structure_implementation",
+        "skill_label": "Data Structure Implementation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "data_structures_fundamentals",
+        "skill_label": "Data Structures Fundamentals",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "definite_integration",
+        "skill_label": "Definite Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "dynamic_memory_management",
+        "skill_label": "Dynamic Memory Management",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "dynamic_programming",
+        "skill_label": "Dynamic Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "dynamic_routing_configuration",
+        "skill_label": "Dynamic Routing Configuration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "event_driven_programming_basics",
+        "skill_label": "Event-Driven Programming Basics",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "exception_handling",
+        "skill_label": "Exception Handling",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "file_io_operations",
+        "skill_label": "File I/O Operations",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "finite_state_machine_design",
+        "skill_label": "Finite State Machine Design",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "flowchart_diagramming",
+        "skill_label": "Flowchart Diagramming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "flowcharting",
+        "skill_label": "Flowcharting",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "formal_language_theory",
+        "skill_label": "Formal Language Theory",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "function_analysis_and_graphing",
+        "skill_label": "Function Analysis and Graphing",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "function_differentiation",
+        "skill_label": "Function Differentiation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "geometric_integration_applications",
+        "skill_label": "Geometric Applications of Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "graph_algorithm_application",
+        "skill_label": "Graph Algorithm Application",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "greedy_algorithm_design",
+        "skill_label": "Greedy Algorithm Design",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "hash_table_implementation",
+        "skill_label": "Hash Table Implementation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "indefinite_integration",
+        "skill_label": "Indefinite Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus",
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "ip_addressing_subnetting",
+        "skill_label": "IP Addressing and Subnetting",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "limit_evaluation",
+        "skill_label": "Limit Evaluation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "linear_data_structures",
+        "skill_label": "Linear Data Structures",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "linear_operator_analysis",
+        "skill_label": "Linear Operator Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "linq_query_development",
+        "skill_label": "LINQ Query Development",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "matrix_algebra",
+        "skill_label": "Matrix Algebra",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "multiple_integration",
+        "skill_label": "Multiple Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "multivariable_differentiation",
+        "skill_label": "Multivariable Differentiation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "multivariable_optimization",
+        "skill_label": "Multivariable Optimization",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_access_control",
+        "skill_label": "Network Access Control (ACL)",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_address_translation",
+        "skill_label": "Network Address Translation (NAT)",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_services_configuration",
+        "skill_label": "Network Services Configuration (DHCP/DNS)",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_topology_modeling",
+        "skill_label": "Network Topology Modeling",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "object_oriented_programming",
+        "skill_label": "Object-Oriented Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "pointer_manipulation",
+        "skill_label": "Pointer Manipulation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "polynomial_approximation",
+        "skill_label": "Polynomial Approximation",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "power_series_expansion",
+        "skill_label": "Power Series Expansion",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "procedural_programming",
+        "skill_label": "Procedural Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "process_maturity_assessment",
+        "skill_label": "Process Maturity Assessment",
+        "level": 1,
+        "level_label": "basic",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "propositional_and_predicate_logic",
+        "skill_label": "Propositional and Predicate Logic",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "quadratic_forms_analysis",
+        "skill_label": "Quadratic Forms Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "recursive_programming",
+        "skill_label": "Recursive Programming",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "reverse_engineering",
+        "skill_label": "Reverse Engineering",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "sdlc_modeling",
+        "skill_label": "SDLC Modeling",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "search_algorithms",
+        "skill_label": "Search Algorithms",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "series_convergence_analysis",
+        "skill_label": "Series Convergence Analysis",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "set_theory_application",
+        "skill_label": "Set Theory Application",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "software_cost_estimation",
+        "skill_label": "Software Cost Estimation",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "software_ecosystem_modeling",
+        "skill_label": "Software Ecosystem Modeling",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "software_metrics_analysis",
+        "skill_label": "Software Metrics Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "solving_linear_systems",
+        "skill_label": "Solving Linear Systems",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "sorting_algorithms",
+        "skill_label": "Sorting Algorithms",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "time_complexity_analysis",
+        "skill_label": "Time Complexity Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "tree_data_structures",
+        "skill_label": "Tree Data Structures",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "vector_algebra",
+        "skill_label": "Vector Algebra",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "wireless_network_setup",
+        "skill_label": "Wireless Network Setup",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      }
+    ],
+    "current_curriculum_skills": [
+      {
+        "skill_id": "algorithm_design",
+        "skill_label": "Algorithm Design",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization",
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "analytic_geometry_modeling",
+        "skill_label": "Analytic Geometry Modeling",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "boolean_function_minimization",
+        "skill_label": "Boolean Function Minimization",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "c_programming",
+        "skill_label": "C Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "combinatorial_algorithms",
+        "skill_label": "Combinatorial Algorithms",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "complex_number_manipulation",
+        "skill_label": "Complex Number Manipulation",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "data_structures_fundamentals",
+        "skill_label": "Data Structures Fundamentals",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "dynamic_memory_management",
+        "skill_label": "Dynamic Memory Management",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "file_io_operations",
+        "skill_label": "File I/O Operations",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "finite_state_machine_design",
+        "skill_label": "Finite State Machine Design",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "flowchart_diagramming",
+        "skill_label": "Flowchart Diagramming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "flowcharting",
+        "skill_label": "Flowcharting",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "formal_language_theory",
+        "skill_label": "Formal Language Theory",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "function_analysis_and_graphing",
+        "skill_label": "Function Analysis and Graphing",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "function_differentiation",
+        "skill_label": "Function Differentiation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "graph_algorithm_application",
+        "skill_label": "Graph Algorithm Application",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "indefinite_integration",
+        "skill_label": "Indefinite Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "limit_evaluation",
+        "skill_label": "Limit Evaluation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "linear_data_structures",
+        "skill_label": "Linear Data Structures",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "linear_operator_analysis",
+        "skill_label": "Linear Operator Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "matrix_algebra",
+        "skill_label": "Matrix Algebra",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "pointer_manipulation",
+        "skill_label": "Pointer Manipulation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "polynomial_approximation",
+        "skill_label": "Polynomial Approximation",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "procedural_programming",
+        "skill_label": "Procedural Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "propositional_and_predicate_logic",
+        "skill_label": "Propositional and Predicate Logic",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "quadratic_forms_analysis",
+        "skill_label": "Quadratic Forms Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "recursive_programming",
+        "skill_label": "Recursive Programming",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "search_algorithms",
+        "skill_label": "Search Algorithms",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "set_theory_application",
+        "skill_label": "Set Theory Application",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "solving_linear_systems",
+        "skill_label": "Solving Linear Systems",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "sorting_algorithms",
+        "skill_label": "Sorting Algorithms",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "time_complexity_analysis",
+        "skill_label": "Time Complexity Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "vector_algebra",
+        "skill_label": "Vector Algebra",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_current",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      }
+    ],
+    "planned_curriculum_skills": [
+      {
+        "skill_id": "advanced_sorting_algorithms",
+        "skill_label": "Advanced Sorting Algorithms",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "agile_process_management",
+        "skill_label": "Agile Process Management",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "algorithm_complexity_analysis",
+        "skill_label": "Algorithm Complexity Analysis",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "cisco_ios_administration",
+        "skill_label": "Cisco IOS Administration",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "computational_complexity_theory",
+        "skill_label": "Computational Complexity Theory",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "csharp_programming",
+        "skill_label": "C# Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "data_structure_implementation",
+        "skill_label": "Data Structure Implementation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "definite_integration",
+        "skill_label": "Definite Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "dynamic_programming",
+        "skill_label": "Dynamic Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "dynamic_routing_configuration",
+        "skill_label": "Dynamic Routing Configuration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "event_driven_programming_basics",
+        "skill_label": "Event-Driven Programming Basics",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "exception_handling",
+        "skill_label": "Exception Handling",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "geometric_integration_applications",
+        "skill_label": "Geometric Applications of Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "greedy_algorithm_design",
+        "skill_label": "Greedy Algorithm Design",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "hash_table_implementation",
+        "skill_label": "Hash Table Implementation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "indefinite_integration",
+        "skill_label": "Indefinite Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "ip_addressing_subnetting",
+        "skill_label": "IP Addressing and Subnetting",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "linq_query_development",
+        "skill_label": "LINQ Query Development",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "multiple_integration",
+        "skill_label": "Multiple Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "multivariable_differentiation",
+        "skill_label": "Multivariable Differentiation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "multivariable_optimization",
+        "skill_label": "Multivariable Optimization",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_access_control",
+        "skill_label": "Network Access Control (ACL)",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_address_translation",
+        "skill_label": "Network Address Translation (NAT)",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_services_configuration",
+        "skill_label": "Network Services Configuration (DHCP/DNS)",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_topology_modeling",
+        "skill_label": "Network Topology Modeling",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "object_oriented_programming",
+        "skill_label": "Object-Oriented Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "power_series_expansion",
+        "skill_label": "Power Series Expansion",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "process_maturity_assessment",
+        "skill_label": "Process Maturity Assessment",
+        "level": 1,
+        "level_label": "basic",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "reverse_engineering",
+        "skill_label": "Reverse Engineering",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "sdlc_modeling",
+        "skill_label": "SDLC Modeling",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "series_convergence_analysis",
+        "skill_label": "Series Convergence Analysis",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "software_cost_estimation",
+        "skill_label": "Software Cost Estimation",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "software_ecosystem_modeling",
+        "skill_label": "Software Ecosystem Modeling",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "software_metrics_analysis",
+        "skill_label": "Software Metrics Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "tree_data_structures",
+        "skill_label": "Tree Data Structures",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "wireless_network_setup",
+        "skill_label": "Wireless Network Setup",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      }
+    ],
+    "user_skills": [],
+    "combined_skill_profile": [
+      {
+        "skill_id": "advanced_sorting_algorithms",
+        "skill_label": "Advanced Sorting Algorithms",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "agile_process_management",
+        "skill_label": "Agile Process Management",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "algorithm_complexity_analysis",
+        "skill_label": "Algorithm Complexity Analysis",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "algorithm_design",
+        "skill_label": "Algorithm Design",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization",
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "analytic_geometry_modeling",
+        "skill_label": "Analytic Geometry Modeling",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "boolean_function_minimization",
+        "skill_label": "Boolean Function Minimization",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "c_programming",
+        "skill_label": "C Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "cisco_ios_administration",
+        "skill_label": "Cisco IOS Administration",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "combinatorial_algorithms",
+        "skill_label": "Combinatorial Algorithms",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "complex_number_manipulation",
+        "skill_label": "Complex Number Manipulation",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "computational_complexity_theory",
+        "skill_label": "Computational Complexity Theory",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "csharp_programming",
+        "skill_label": "C# Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "data_structure_implementation",
+        "skill_label": "Data Structure Implementation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "data_structures_fundamentals",
+        "skill_label": "Data Structures Fundamentals",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "definite_integration",
+        "skill_label": "Definite Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "dynamic_memory_management",
+        "skill_label": "Dynamic Memory Management",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "dynamic_programming",
+        "skill_label": "Dynamic Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "dynamic_routing_configuration",
+        "skill_label": "Dynamic Routing Configuration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "event_driven_programming_basics",
+        "skill_label": "Event-Driven Programming Basics",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "exception_handling",
+        "skill_label": "Exception Handling",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "file_io_operations",
+        "skill_label": "File I/O Operations",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "finite_state_machine_design",
+        "skill_label": "Finite State Machine Design",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "flowchart_diagramming",
+        "skill_label": "Flowchart Diagramming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "flowcharting",
+        "skill_label": "Flowcharting",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "formal_language_theory",
+        "skill_label": "Formal Language Theory",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "function_analysis_and_graphing",
+        "skill_label": "Function Analysis and Graphing",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "function_differentiation",
+        "skill_label": "Function Differentiation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "geometric_integration_applications",
+        "skill_label": "Geometric Applications of Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "graph_algorithm_application",
+        "skill_label": "Graph Algorithm Application",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "greedy_algorithm_design",
+        "skill_label": "Greedy Algorithm Design",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "hash_table_implementation",
+        "skill_label": "Hash Table Implementation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "indefinite_integration",
+        "skill_label": "Indefinite Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus",
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "ip_addressing_subnetting",
+        "skill_label": "IP Addressing and Subnetting",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "limit_evaluation",
+        "skill_label": "Limit Evaluation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "linear_data_structures",
+        "skill_label": "Linear Data Structures",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "linear_operator_analysis",
+        "skill_label": "Linear Operator Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "linq_query_development",
+        "skill_label": "LINQ Query Development",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "matrix_algebra",
+        "skill_label": "Matrix Algebra",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "multiple_integration",
+        "skill_label": "Multiple Integration",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "multivariable_differentiation",
+        "skill_label": "Multivariable Differentiation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "multivariable_optimization",
+        "skill_label": "Multivariable Optimization",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_access_control",
+        "skill_label": "Network Access Control (ACL)",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_address_translation",
+        "skill_label": "Network Address Translation (NAT)",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_services_configuration",
+        "skill_label": "Network Services Configuration (DHCP/DNS)",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "network_topology_modeling",
+        "skill_label": "Network Topology Modeling",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "object_oriented_programming",
+        "skill_label": "Object-Oriented Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "fundamentals_of_programming_pr2"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "pointer_manipulation",
+        "skill_label": "Pointer Manipulation",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "polynomial_approximation",
+        "skill_label": "Polynomial Approximation",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_1_differential_calculus"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "power_series_expansion",
+        "skill_label": "Power Series Expansion",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "procedural_programming",
+        "skill_label": "Procedural Programming",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "programming_fundamentals_part_1_basic_constructs"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "process_maturity_assessment",
+        "skill_label": "Process Maturity Assessment",
+        "level": 1,
+        "level_label": "basic",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "propositional_and_predicate_logic",
+        "skill_label": "Propositional and Predicate Logic",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "quadratic_forms_analysis",
+        "skill_label": "Quadratic Forms Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "recursive_programming",
+        "skill_label": "Recursive Programming",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "reverse_engineering",
+        "skill_label": "Reverse Engineering",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "sdlc_modeling",
+        "skill_label": "SDLC Modeling",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "search_algorithms",
+        "skill_label": "Search Algorithms",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "series_convergence_analysis",
+        "skill_label": "Series Convergence Analysis",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "mathematical_analysis_part_2_differential_and_integral_calculus_of_functions_of_several_variables"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "set_theory_application",
+        "skill_label": "Set Theory Application",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "computer_discrete_mathematics"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "software_cost_estimation",
+        "skill_label": "Software Cost Estimation",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "software_ecosystem_modeling",
+        "skill_label": "Software Ecosystem Modeling",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "software_metrics_analysis",
+        "skill_label": "Software Metrics Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "introduction_to_software_engineering"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "solving_linear_systems",
+        "skill_label": "Solving Linear Systems",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "sorting_algorithms",
+        "skill_label": "Sorting Algorithms",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "time_complexity_analysis",
+        "skill_label": "Time Complexity Analysis",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "analytics",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_part_1_basics_of_algorithmization"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "tree_data_structures",
+        "skill_label": "Tree Data Structures",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "algorithms_and_data_structures_2_data_structures"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "vector_algebra",
+        "skill_label": "Vector Algebra",
+        "level": 3,
+        "level_label": "advanced",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "foundation",
+        "evidence_course_ids": [
+          "linear_algebra_and_analytic_geometry"
+        ],
+        "raw_inputs": []
+      },
+      {
+        "skill_id": "wireless_network_setup",
+        "skill_label": "Wireless Network Setup",
+        "level": 2,
+        "level_label": "medium",
+        "source": "curriculum_program",
+        "normalization_status": "canonical",
+        "taxonomy_category": "applied",
+        "evidence_course_ids": [
+          "fundamentals_of_computer_systems_and_networks"
+        ],
+        "raw_inputs": []
+      }
+    ],
+    "unrecognized_user_skill_inputs": []
+  },
+  "term_recommendations": [
+    {
+      "term": {
+        "course": 1,
+        "semester": 1
+      },
+      "max_electives": 0,
+      "recommended_course_ids": [],
+      "recommended_courses": [],
+      "candidate_courses": [],
+      "blocked_course_reasons": [
+        "analysis_and_processing_of_time_series:electives_locked_until:1:2",
+        "computer_vision_technologies:electives_locked_until:1:2",
+        "data_science_technologies:electives_locked_until:1:2",
+        "fundamentals_of_data_science:electives_locked_until:1:2",
+        "natural_language_analysis_and_processing_nlp:electives_locked_until:1:2"
+      ]
+    },
+    {
+      "term": {
+        "course": 1,
+        "semester": 2
+      },
+      "max_electives": 1,
+      "recommended_course_ids": [
+        "data_science_technologies"
+      ],
+      "recommended_courses": [
+        {
+          "course_id": "data_science_technologies",
+          "course_name": "Data Science Technologies",
+          "score": 0.4769,
+          "track_affinity": 0.3647,
+          "prerequisite_fit": 0.1034,
+          "readiness_score": 0.1034,
+          "target_skill_gain": 0.3626,
+          "unlock_score": 1.0,
+          "domain_alignment": 0.5747,
+          "phase_fit_score": 0.0,
+          "evidence_score": 0.85,
+          "overlap_penalty": 0.0,
+          "stage": "core",
+          "missing_prerequisites": [
+            "algorithms_and_data_structures",
+            "discrete_mathematics",
+            "linear_algebra",
+            "probability_statistics",
+            "programming_fundamentals",
+            "python_basics"
+          ],
+          "gained_target_skills": [
+            {
+              "skill_id": "data_preprocessing",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "data_visualization",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "multicriteria_decision_analysis",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "ols_regression",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": [],
+          "reason_codes": [
+            "specialization_alignment",
+            "complements_existing_skills",
+            "improves_target_skills",
+            "has_prerequisite_gaps"
+          ],
+          "developed_skill_ids": [
+            "classification",
+            "clustering",
+            "cp_sat_modeling",
+            "credit_scoring",
+            "data_parsing",
+            "data_preprocessing",
+            "data_visualization",
+            "geospatial_data_processing",
+            "kalman_filtering",
+            "model_verification",
+            "multicriteria_decision_analysis",
+            "neural_network_training",
+            "olap_analysis",
+            "ols_regression",
+            "problem_formalization",
+            "software_architecture_design",
+            "text_mining",
+            "time_series_forecasting"
+          ],
+          "overlapping_skill_ids": []
+        }
+      ],
+      "candidate_courses": [
+        {
+          "course_id": "data_science_technologies",
+          "course_name": "Data Science Technologies",
+          "score": 0.4769,
+          "track_affinity": 0.3647,
+          "prerequisite_fit": 0.1034,
+          "readiness_score": 0.1034,
+          "target_skill_gain": 0.3626,
+          "unlock_score": 1.0,
+          "domain_alignment": 0.5747,
+          "phase_fit_score": 0.0,
+          "evidence_score": 0.85,
+          "overlap_penalty": 0.0,
+          "stage": "core",
+          "missing_prerequisites": [
+            "algorithms_and_data_structures",
+            "discrete_mathematics",
+            "linear_algebra",
+            "probability_statistics",
+            "programming_fundamentals",
+            "python_basics"
+          ],
+          "gained_target_skills": [
+            {
+              "skill_id": "data_preprocessing",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "data_visualization",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "multicriteria_decision_analysis",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "ols_regression",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": [],
+          "reason_codes": [
+            "specialization_alignment",
+            "complements_existing_skills",
+            "improves_target_skills",
+            "has_prerequisite_gaps"
+          ],
+          "developed_skill_ids": [
+            "classification",
+            "clustering",
+            "cp_sat_modeling",
+            "credit_scoring",
+            "data_parsing",
+            "data_preprocessing",
+            "data_visualization",
+            "geospatial_data_processing",
+            "kalman_filtering",
+            "model_verification",
+            "multicriteria_decision_analysis",
+            "neural_network_training",
+            "olap_analysis",
+            "ols_regression",
+            "problem_formalization",
+            "software_architecture_design",
+            "text_mining",
+            "time_series_forecasting"
+          ],
+          "overlapping_skill_ids": []
+        },
+        {
+          "course_id": "fundamentals_of_data_science",
+          "course_name": "Fundamentals of Data Science",
+          "score": 0.323,
+          "track_affinity": 0.18,
+          "prerequisite_fit": 0.0,
+          "readiness_score": 0.0,
+          "target_skill_gain": 0.1648,
+          "unlock_score": 1.0,
+          "domain_alignment": 0.25,
+          "phase_fit_score": 0.0,
+          "evidence_score": 0.7,
+          "overlap_penalty": 0.0,
+          "stage": "foundation",
+          "missing_prerequisites": [
+            "analytical_geometry",
+            "calculus",
+            "linear_algebra",
+            "probability_statistics",
+            "programming_fundamentals"
+          ],
+          "gained_target_skills": [
+            {
+              "skill_id": "feature_extraction",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            },
+            {
+              "skill_id": "similarity_computation",
+              "gained_levels": 3,
+              "target_level": 3,
+              "resulting_level": 3
+            }
+          ],
+          "overlaps_with_selected": [],
+          "reason_codes": [
+            "specialization_alignment",
+            "complements_existing_skills",
+            "improves_target_skills",
+            "has_prerequisite_gaps"
+          ],
+          "developed_skill_ids": [
+            "data_stream_analysis",
+            "document_similarity_analysis",
+            "feature_extraction",
+            "frequent_itemset_mining",
+            "link_analysis",
+            "locally_sensitive_hashing",
+            "similarity_computation"
+          ],
+          "overlapping_skill_ids": []
+        }
+      ],
+      "blocked_course_reasons": [
+        "analysis_and_processing_of_time_series:not_offered",
+        "computer_vision_technologies:not_offered",
+        "natural_language_analysis_and_processing_nlp:not_offered"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "course": 1,
+  "semester": 1,
+  "status": "ok",
+  "course_name": "Algorithms and Data Structures. Part 1. Basics of Algorithmization",
+  "course_profile": {
+    "one_sentence_summary": "A foundational course on algorithmic logic, problem-solving methods, and basic linear data structures for software engineering students.",
+    "short_summary": "This course introduces first-year software engineering students to the core concepts of algorithmization. It covers linear, branching, and cyclic algorithm design, alongside mathematical foundations like combinatorics and recursion. Students learn fundamental search and sorting algorithms, approximate calculations, and basic linear data structures (arrays, stacks, queues, linked lists) with practical implementation using flowcharts and pseudocode.",
+    "discipline_positioning": [
+      "Computer Science",
+      "Software Engineering"
+    ],
+    "course_nature": {
+      "theory_level": "high",
+      "implementation_level": "medium",
+      "research_orientation": "low",
+      "software_engineering_orientation": "medium"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "computer_science",
+      "domain_label": "Computer Science",
+      "score": 0.95
+    },
+    {
+      "domain_id": "software_engineering",
+      "domain_label": "Software Engineering",
+      "score": 0.75
+    },
+    {
+      "domain_id": "mathematics",
+      "domain_label": "Mathematics",
+      "score": 0.5
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 8,
+    "lectures_used_count": 15,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Extraction based on the official 2025-2026 syllabus detailing lectures, computer practicals, independent work tasks, and evaluation criteria."
+  },
+  "discipline_tags": [
+    "Algorithms",
+    "Data Structures",
+    "Computer Science Foundations",
+    "Software Development"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Algorithm Complexity",
+      "Big-O Notation",
+      "Recursion",
+      "Iteration",
+      "Data Structures"
+    ],
+    "methods_models": [
+      "Linear Algorithms",
+      "Branching Algorithms",
+      "Cyclic Algorithms",
+      "Combinatorial Algorithms",
+      "Numerical Approximations",
+      "Bitwise Operations"
+    ],
+    "data_modalities": [
+      "Numeric Data",
+      "Arrays",
+      "Linked Lists",
+      "Matrices"
+    ],
+    "problem_types": [
+      "Sorting",
+      "Searching",
+      "Matrix Traversal",
+      "Combinatorial Optimization"
+    ],
+    "application_domains": [
+      "Software Development",
+      "Computational Mathematics"
+    ],
+    "engineering_aspects": [
+      "Algorithm Design",
+      "Pseudocode Generation",
+      "Flowchart Diagramming",
+      "Software Testing"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [],
+    "libraries_frameworks_tools_explicit": [
+      "MS Visio",
+      "Draw.io"
+    ],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [
+      "C++",
+      "C"
+    ],
+    "technologies_mentioned_in_resources_only": [
+      "C++ Standard Algorithms Library"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "high_school_mathematics",
+      "skill_label": "High School Mathematics",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "базові знання з математики на рівні середньої школи"
+      ],
+      "evidence": [
+        "Для успішного засвоєння дисципліни необхідно мати базові знання з математики на рівні середньої школи"
+      ]
+    },
+    {
+      "skill_id": "basic_programming",
+      "skill_label": "Basic Programming",
+      "min_level_required": 1,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "основ програмування",
+        "алгоритмічних мов"
+      ],
+      "evidence": [
+        "основ програмування, алгоритмічних мов в обсязі, передбаченому програмою випускних класів"
+      ]
+    },
+    {
+      "skill_id": "discrete_mathematics",
+      "skill_label": "Discrete Mathematics",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Комп'ютерна дискретна математика"
+      ],
+      "evidence": [
+        "таких дисциплін як «Комп'ютерна дискретна математика»"
+      ]
+    },
+    {
+      "skill_id": "mathematical_analysis",
+      "skill_label": "Mathematical Analysis",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Математичний аналіз"
+      ],
+      "evidence": [
+        "таких дисциплін як ... «Математичний аналіз»"
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "algorithm_design",
+      "skill_label": "Algorithm Design",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "побудова алгоритмів",
+        "Основи алгоритмізації обчислювальних процесів"
+      ],
+      "evidence": [
+        "Поняття алгоритму та його властивості. Інструментальні засоби розробки алгоритмів."
+      ]
+    },
+    {
+      "skill_id": "flowchart_diagramming",
+      "skill_label": "Flowchart Diagramming",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "блок-схеми алгоритмів",
+        "розробки блок схем"
+      ],
+      "evidence": [
+        "Блок-схеми алгоритмів, правила їх побудови.",
+        "Практичні роботи виконуються з використанням середовищ розробки блок схем (MS Visio, Draw.io)."
+      ]
+    },
+    {
+      "skill_id": "time_complexity_analysis",
+      "skill_label": "Time Complexity Analysis",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Аналіз алгоритмів",
+        "Поняття О-нотації"
+      ],
+      "evidence": [
+        "Тема 1.1. Аналіз алгоритмів. Поняття О-нотації.",
+        "Часова складність ітераційних алгоритмів."
+      ]
+    },
+    {
+      "skill_id": "search_algorithms",
+      "skill_label": "Search Algorithms",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Алгоритми пошуку"
+      ],
+      "evidence": [
+        "Послідовний пошук. Інтерполяційний пошук. Бінарний пошук. Експоненційний пошук. Фібоначчі пошук."
+      ]
+    },
+    {
+      "skill_id": "sorting_algorithms",
+      "skill_label": "Sorting Algorithms",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Алгоритми сортування"
+      ],
+      "evidence": [
+        "Опис та реалізація елементарних алгоритмів сортування.",
+        "Алгоритм швидкого сортування"
+      ]
+    },
+    {
+      "skill_id": "linear_data_structures",
+      "skill_label": "Linear Data Structures",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Лінійні структури даних",
+        "Список"
+      ],
+      "evidence": [
+        "Прості спискові структури даних: стек, черга, дек.",
+        "Поняття структури список. Види списків."
+      ]
+    },
+    {
+      "skill_id": "recursive_programming",
+      "skill_label": "Recursive Programming",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Рекурсивні алгоритми"
+      ],
+      "evidence": [
+        "Поняття рекурсії. Структура рекурсивних алгоритмів."
+      ]
+    },
+    {
+      "skill_id": "combinatorial_algorithms",
+      "skill_label": "Combinatorial Algorithms",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Комбінаторні алгоритми"
+      ],
+      "evidence": [
+        "Поняття комбінаторики. Принцип комбінаторики. Типи вибірок. Алгоритми перебору всіх комбінацій..."
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the properties of algorithms and standard approaches to evaluating their correctness.",
+      "Understand Big-O notation and evaluate the time complexity of iterative and search algorithms.",
+      "Comprehend the fundamental theories behind sorting, searching, recursion, and basic combinatorial operations."
+    ],
+    "practical_implementation": [
+      "Create rigorous flowcharts using tools like MS Visio and Draw.io according to standard specifications.",
+      "Write pseudocode and implement algorithms for linear sequence processing, branching, and cyclic tasks.",
+      "Implement classic searching (binary, interpolation) and sorting (elementary, quicksort) algorithms.",
+      "Implement and manipulate arrays, stacks, queues, and linked lists."
+    ],
+    "analysis_validation": [
+      "Analyze absolute and relative errors in approximate calculations.",
+      "Test algorithms for correctness and process execution results."
+    ],
+    "architecture_design": [
+      "Design modular solutions by utilizing auxiliary (helper) algorithms.",
+      "Design physical memory layouts and operations for linked data structures."
+    ],
+    "research_and_prototyping": [
+      "Compare the efficiency and complexity tradeoffs between iterative and recursive algorithmic solutions."
+    ]
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Computer Practicals",
+      "Algorithm Flowcharting Sessions"
+    ],
+    "expected_artifacts": [
+      "Algorithm Flowcharts (MS Visio/Draw.io)",
+      "Pseudocode definitions",
+      "Tested code implementations",
+      "Lab execution reports"
+    ],
+    "implementation_tasks": [
+      "Designing linear, branching, and cyclic algorithms.",
+      "Matrix traversal algorithms.",
+      "Sorting and searching sequence implementations.",
+      "Building and interacting with linear data structures (linked lists)."
+    ],
+    "engineering_practices": [
+      "Formal problem definition and model building",
+      "Code testing against algorithmic design",
+      "Formal documentation and structured reporting"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "algorithm_design",
+      "to_id": "time_complexity_analysis",
+      "from_label": "Algorithm Design",
+      "to_label": "Time Complexity Analysis",
+      "relation": "supports",
+      "reason": "Understanding how to construct an algorithm is required before analyzing its time complexity."
+    },
+    {
+      "from_id": "linear_data_structures",
+      "to_id": "search_algorithms",
+      "from_label": "Linear Data Structures",
+      "to_label": "Search Algorithms",
+      "relation": "enables",
+      "reason": "Basic data structures like arrays and lists are the foundations upon which searching and sorting algorithms operate."
+    },
+    {
+      "from_id": "discrete_mathematics",
+      "to_id": "combinatorial_algorithms",
+      "from_label": "Discrete Mathematics",
+      "to_label": "Combinatorial Algorithms",
+      "relation": "supports",
+      "reason": "Knowledge of discrete mathematics supports the design of algorithms involving combinatorics and discrete subsets."
+    },
+    {
+      "from_id": "basic_programming",
+      "to_id": "algorithm_design",
+      "from_label": "Basic Programming",
+      "to_label": "Algorithm Design",
+      "relation": "requires",
+      "reason": "Prior basic programming knowledge is required to formalize and execute the designed algorithmic logic."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "How to mathematically and logically evaluate the efficiency and constraints of software algorithms.",
+      "The underlying mechanics and memory distribution of standard data structures like arrays, stacks, queues, and lists."
+    ],
+    "what_student_can_build": [
+      "Standard flowcharts and structured pseudocode to represent complex business logic.",
+      "Custom sorting and searching functions.",
+      "Linear data structures from scratch using primitive arrays or pointers."
+    ],
+    "what_student_can_apply": [
+      "Core problem-solving frameworks to translate a written problem into a formal algorithmic sequence.",
+      "Basic mathematical and bitwise operations to optimize computational processes."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "The course evaluates students based on flowcharts, pseudocode, code correctness, and testing.",
+      "source_type": "syllabus",
+      "source_title": "Алгоритми та структури даних. Частина 1",
+      "evidence_text": "Критерії оцінювання практичних робіт в процентах від максимального балу включають якість постановки задачі (15%), побудови математичної моделі (15%), розробки псевдокоду (20%) та блок схеми алгоритму (20%), безпомилковість виконання коду програми (20%), тестування програми (5%)"
+    },
+    {
+      "claim": "Students learn to build arrays, stacks, queues, and linked lists.",
+      "source_type": "syllabus",
+      "source_title": "Алгоритми та структури даних. Частина 1",
+      "evidence_text": "Поняття структури даних. Прості спискові структури даних: стек, черга, дек. Основні алгоритми. Розподіл пам'яті. Тема 6.2. Список."
+    },
+    {
+      "claim": "The course introduces algorithm complexity and Big-O notation.",
+      "source_type": "syllabus",
+      "source_title": "Алгоритми та структури даних. Частина 1",
+      "evidence_text": "Тема 1.1. Аналіз алгоритмів. Поняття О-нотації."
+    },
+    {
+      "claim": "The course requires the use of MS Visio and Draw.io for practicals.",
+      "source_type": "syllabus",
+      "source_title": "Алгоритми та структури даних. Частина 1",
+      "evidence_text": "Практичні роботи виконуються з використанням середовищ розробки блок схем... (MS Visio, Draw.io)."
+    }
+  ],
+  "confidence": "high"
+}

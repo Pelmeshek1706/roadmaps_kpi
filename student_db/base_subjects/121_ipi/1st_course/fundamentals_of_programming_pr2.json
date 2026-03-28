@@ -1,0 +1,354 @@
+{
+  "course": 1,
+  "semester": 2,
+  "status": "ok",
+  "course_name": "Fundamentals of Programming. Part 2. Programming Methodologies",
+  "course_profile": {
+    "one_sentence_summary": "A foundational course focusing on object-oriented programming methodologies, advanced C# features, and complex data structures.",
+    "short_summary": "This course covers the theoretical and methodological foundations of object-oriented programming using C# and the .NET framework. Students explore classes, inheritance, polymorphism, interfaces, exception handling, delegates, LINQ, and custom data structures like trees and linked lists. Practical skills are enforced through automated coding labs and Git version control.",
+    "discipline_positioning": [
+      "Software Engineering",
+      "Computer Science"
+    ],
+    "course_nature": {
+      "theory_level": "medium",
+      "implementation_level": "high",
+      "research_orientation": "low",
+      "software_engineering_orientation": "high"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "software_engineering",
+      "domain_label": "Software Engineering",
+      "score": 0.95
+    },
+    {
+      "domain_id": "object_oriented_programming",
+      "domain_label": "Object-Oriented Programming",
+      "score": 1.0
+    },
+    {
+      "domain_id": "data_structures",
+      "domain_label": "Data Structures",
+      "score": 0.85
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 8,
+    "lectures_used_count": 18,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Extraction is based on the official syllabus (Силабус) from Kyiv Polytechnic Institute, which includes detailed lecture topics, lab assignments, and assessment criteria[cite: 5, 105, 118]."
+  },
+  "discipline_tags": [
+    "Software Engineering",
+    "Programming Methodologies",
+    "Computer Science"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Object-Oriented Programming",
+      "Classes and Objects",
+      "Inheritance",
+      "Polymorphism",
+      "Encapsulation",
+      "Memory Management",
+      "Garbage Collection"
+    ],
+    "methods_models": [
+      "Class Hierarchies",
+      "Late Binding",
+      "Abstract Classes",
+      "Interfaces",
+      "Exception Handling",
+      "Lambda Expressions"
+    ],
+    "data_modalities": [
+      "In-memory Objects",
+      "Collections"
+    ],
+    "problem_types": [
+      "Software Decomposition",
+      "Error Handling",
+      "Data Structuring"
+    ],
+    "application_domains": [
+      "General Software Development"
+    ],
+    "engineering_aspects": [
+      "Automated Testing Validation",
+      "Version Control",
+      "Code Reusability"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [
+      "C#"
+    ],
+    "libraries_frameworks_tools_explicit": [
+      ".NET",
+      "Git",
+      "LINQ",
+      "MS Visual Studio",
+      "Autocode"
+    ],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [],
+    "technologies_mentioned_in_resources_only": [
+      "C++",
+      "Windows 8"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "procedural_programming",
+      "skill_label": "Procedural Programming",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Основи програмування 1. Базові конструкції"
+      ],
+      "evidence": [
+        "Для успішного засвоєння дисципліни необхідно мати базові знання з кредитного модуля «Основи програмування 1. Базові конструкції\"[cite: 38]."
+      ]
+    },
+    {
+      "skill_id": "algorithm_design",
+      "skill_label": "Algorithm Design",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Алгоритми і структури даних 1. Основи алгоритмізації"
+      ],
+      "evidence": [
+        "Для успішного засвоєння дисципліни необхідно мати базові знання з кредитного модуля ... «Алгоритми і структури даних 1. Основи алгоритмізації\"[cite: 38]."
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "object_oriented_programming",
+      "skill_label": "Object-Oriented Programming",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "парадигма об'єктно-орієнтованого програмування",
+        "Принципи ООП"
+      ],
+      "evidence": [
+        "Метою дисципліни ... є формування у студентів здатності розробляти програмне забезпечення ... з використанням методології об'єктно-орієнтованого програмування[cite: 12]."
+      ]
+    },
+    {
+      "skill_id": "csharp_programming",
+      "skill_label": "C# Programming",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "мова програмування високого рівня (C#)",
+        "створення програмного забезпечення мовою С#"
+      ],
+      "evidence": [
+        "розробляти програмне забезпечення для вирішення прикладних задач різного ступеня складності мовою програмування С#[cite: 12]."
+      ]
+    },
+    {
+      "skill_id": "data_structure_implementation",
+      "skill_label": "Data Structure Implementation",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Структури даних. Лінійні та нелінійні структури даних",
+        "Прості спискові структури",
+        "Дерева: бінарні, дерева бінарного пошуку"
+      ],
+      "evidence": [
+        "Тема 6.1. Поняття структури даних. Лінійні та нелінійні структури даних. Прості спискові структури даних: стек, черга, дека[cite: 70]."
+      ]
+    },
+    {
+      "skill_id": "exception_handling",
+      "skill_label": "Exception Handling",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Виключення. Оператори try, catch, finally",
+        "Власні виключення"
+      ],
+      "evidence": [
+        "Тема 4.1 Виключення. Оператори try, catch, finally. Виклик виключень. Оператор throw[cite: 62]."
+      ]
+    },
+    {
+      "skill_id": "linq_query_development",
+      "skill_label": "LINQ Query Development",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Введення у запити LINQ",
+        "Мова запитів LINQ",
+        "LINQ to Objects"
+      ],
+      "evidence": [
+        "Тема 5.2 Використання методів розширення та виразів запитів LINQ. Введення у запити LINQ[cite: 67]."
+      ]
+    },
+    {
+      "skill_id": "event_driven_programming_basics",
+      "skill_label": "Event-Driven Programming Basics",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Делегати. Обробка подій",
+        "Анонімні методи. Лямбда-вирази"
+      ],
+      "evidence": [
+        "Тема 5.1 Об'явлення та використання делегатів. Обробка подій. Анонімні методи. Лямбда-вирази[cite: 66]."
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the paradigms of object-oriented and procedural programming[cite: 44].",
+      "Comprehend the C# type system, memory management, stack vs heap, and .NET garbage collection[cite: 49].",
+      "Understand the concepts of inheritance, early/late binding, and polymorphism[cite: 53, 55]."
+    ],
+    "practical_implementation": [
+      "Implement classes, interfaces, and class hierarchies in C#[cite: 45, 59].",
+      "Develop programs utilizing exception handling mechanisms (try, catch, finally, throw)[cite: 62].",
+      "Implement linear and non-linear data structures including linked lists, stacks, queues, and binary search trees[cite: 70, 72].",
+      "Write LINQ queries to filter, sort, and group data collections[cite: 67, 124]."
+    ],
+    "analysis_validation": [
+      "Test and validate code through the Autocode automated verification platform[cite: 118, 154].",
+      "Analyze the stack trace of exceptions during debugging[cite: 63, 130]."
+    ],
+    "architecture_design": [
+      "Design software models establishing appropriate relationships between classes (aggregation, composition, inheritance, realization)[cite: 60].",
+      "Choose appropriate built-in .NET Generic Collections for specific algorithmic requirements[cite: 73]."
+    ],
+    "research_and_prototyping": [
+      "Self-study and experiment with dynamic LINQ and expression trees[cite: 133].",
+      "Explore the implementation of hash table collisions and highly branched/threaded trees[cite: 133]."
+    ]
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Automated coding assignments checked via Autocode system [cite: 153]",
+      "Manual defense of the implemented laboratory work [cite: 148]"
+    ],
+    "expected_artifacts": [
+      "C# Source Code [cite: 13, 111]",
+      "Source code commits pushed to a global Git repository (autocode.git.epam.com) [cite: 115]"
+    ],
+    "implementation_tasks": [
+      "Write functions and use different parameter passing methods [cite: 123]",
+      "Design and use C# classes with constructors and properties [cite: 118]",
+      "Implement single inheritance and virtual functions to achieve polymorphism [cite: 123]",
+      "Implement explicit and implicit interfaces [cite: 118]",
+      "Handle errors using custom and standard exceptions [cite: 124]",
+      "Construct custom data structures and use .NET generic collections [cite: 118, 124]"
+    ],
+    "engineering_practices": [
+      "Version Control using Git [cite: 115]",
+      "Continuous Assessment / Automated Testing via Autocode [cite: 118, 154]"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "procedural_programming",
+      "to_id": "object_oriented_programming",
+      "from_label": "Procedural Programming",
+      "to_label": "Object-Oriented Programming",
+      "relation": "supports",
+      "reason": "Procedural concepts like basic functions and logic flow are required to understand method implementation within OOP structures[cite: 38]."
+    },
+    {
+      "from_id": "algorithm_design",
+      "to_id": "data_structure_implementation",
+      "from_label": "Algorithm Design",
+      "to_label": "Data Structure Implementation",
+      "relation": "enables",
+      "reason": "Understanding basic algorithms is necessary for implementing operations (insertion, deletion, traversal) on complex data structures like binary search trees[cite: 38, 72]."
+    },
+    {
+      "from_id": "object_oriented_programming",
+      "to_id": "csharp_programming",
+      "from_label": "Object-Oriented Programming",
+      "to_label": "C# Programming",
+      "relation": "applies_to",
+      "reason": "The principles of OOP are directly applied and realized using the C# programming language syntax[cite: 12]."
+    },
+    {
+      "from_id": "csharp_programming",
+      "to_id": "linq_query_development",
+      "from_label": "C# Programming",
+      "to_label": "LINQ Query Development",
+      "relation": "enables",
+      "reason": "A solid grasp of C# fundamentals, including lambda expressions and delegates, is a prerequisite for utilizing LINQ effectively[cite: 66, 67]."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "The theoretical foundations of Object-Oriented Programming (OOP)[cite: 12].",
+      "How memory is managed in .NET via the stack, heap, and garbage collector[cite: 49].",
+      "The mechanics of early and late binding, inheritance, and polymorphism[cite: 55]."
+    ],
+    "what_student_can_build": [
+      "C# applications structured around robust class hierarchies and interfaces[cite: 45, 59].",
+      "Custom implementations of lists, queues, stacks, and binary search trees[cite: 70, 72].",
+      "Systems that safely handle execution errors using exception blocks[cite: 62]."
+    ],
+    "what_student_can_apply": [
+      "LINQ expressions to query and manipulate collections of data in-memory[cite: 67].",
+      "Delegates and events for handling asynchronous or event-driven actions[cite: 66].",
+      "Git version control for submitting code via the Autocode system[cite: 115]."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "The course serves as a continuation of 'Fundamentals of Programming 1' and 'Algorithms 1'.",
+      "source_type": "syllabus",
+      "source_title": "Силабус - Основи програмування. Частина 2",
+      "evidence_text": "Для успішного засвоєння дисципліни необхідно мати базові знання з кредитного модуля «Основи програмування 1. Базові конструкції\", кредитного модуля «Алгоритми і структури даних 1. Основи алгоритмізації\"[cite: 38]."
+    },
+    {
+      "claim": "The central language of the course is C# focusing on OOP.",
+      "source_type": "syllabus",
+      "source_title": "Силабус - Основи програмування. Частина 2",
+      "evidence_text": "Метою дисципліни ... є формування у студентів здатності розробляти програмне забезпечення для вирішення прикладних задач ... мовою програмування С# з використанням методології об'єктно-орієнтованого програмування[cite: 12]."
+    },
+    {
+      "claim": "Students learn to implement data structures like binary search trees.",
+      "source_type": "syllabus",
+      "source_title": "Силабус - Основи програмування. Частина 2",
+      "evidence_text": "Тема 6.2. Нелінійні структури даних. Дерева: бінарні, дерева бінарного пошуку. Алгоритми обробки дерев бінарного пошуку[cite: 72]."
+    },
+    {
+      "claim": "Lab assignments are evaluated using the Git-integrated Autocode system.",
+      "source_type": "syllabus",
+      "source_title": "Силабус - Основи програмування. Частина 2",
+      "evidence_text": "Вихідний код лабораторних робіт має бути розміщеним кожним студентом особисто у глобальному репозиторії [https://autocode.git.epam.com](https://autocode.git.epam.com)[cite: 115]. Виконане завдання з автоматичною перевіркою на Autocode - 5 балів[cite: 154]."
+    }
+  ],
+  "confidence": "high"
+}

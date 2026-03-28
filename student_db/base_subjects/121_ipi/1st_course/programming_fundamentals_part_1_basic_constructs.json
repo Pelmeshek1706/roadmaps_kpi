@@ -1,0 +1,418 @@
+{
+  "course": 1,
+  "semester": 1,
+  "status": "ok",
+  "course_name": "Programming Fundamentals. Part 1. Basic Constructs",
+  "course_profile": {
+    "one_sentence_summary": "A foundational programming course teaching the core constructs, memory management, and procedural paradigms of the C programming language.",
+    "short_summary": "This course is the first part of a foundational programming sequence for software engineering students. It focuses on the C programming language, covering essential syntax, control structures, pointers, dynamic memory allocation, functions, user-defined structures, and file I/O operations. Through lectures and computer practicums, students learn to design algorithms, draw flowcharts, and implement efficient procedural code.",
+    "discipline_positioning": [
+      "Computer Science",
+      "Software Engineering"
+    ],
+    "course_nature": {
+      "theory_level": "medium",
+      "implementation_level": "high",
+      "research_orientation": "low",
+      "software_engineering_orientation": "medium"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "computer_science",
+      "domain_label": "Computer Science",
+      "score": 0.9
+    },
+    {
+      "domain_id": "software_engineering",
+      "domain_label": "Software Engineering",
+      "score": 0.8
+    },
+    {
+      "domain_id": "systems_programming",
+      "domain_label": "Systems Programming",
+      "score": 0.6
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 9,
+    "lectures_used_count": 15,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Extraction is based on a comprehensive official syllabus containing lecture topics, practical lab outlines, prerequisites, and learning outcomes."
+  },
+  "discipline_tags": [
+    "Programming Fundamentals",
+    "Procedural Programming",
+    "Algorithms",
+    "Computer Science"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Memory Classes",
+      "Pointers",
+      "Control Structures",
+      "Functions",
+      "Data Structures",
+      "Recursion",
+      "Preprocessor Directives"
+    ],
+    "methods_models": [
+      "Procedural Programming",
+      "Flowcharting",
+      "Mathematical Modeling",
+      "Algorithm Design"
+    ],
+    "data_modalities": [
+      "Text Data",
+      "Binary Data",
+      "Strings",
+      "Arrays"
+    ],
+    "problem_types": [
+      "Algorithmic Problem Solving",
+      "Data Manipulation",
+      "File I/O"
+    ],
+    "application_domains": [
+      "Software Development",
+      "Console Applications"
+    ],
+    "engineering_aspects": [
+      "Code Implementation",
+      "Debugging",
+      "Modularization",
+      "Memory Management"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [
+      "C",
+      "C++"
+    ],
+    "libraries_frameworks_tools_explicit": [
+      "Borland C++"
+    ],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [
+      "Standard C Library",
+      "GCC"
+    ],
+    "technologies_mentioned_in_resources_only": [
+      "PowerPoint",
+      "Google Classroom",
+      "Moodle"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "high_school_mathematics",
+      "skill_label": "High School Mathematics",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "базові знання з математики на рівні середньої школи"
+      ],
+      "evidence": [
+        "Для успішного засвоєння дисципліни необхідно мати базові знання з математики на рівні середньої школи"
+      ]
+    },
+    {
+      "skill_id": "basic_programming_concepts",
+      "skill_label": "Basic Programming Concepts",
+      "min_level_required": 1,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "основ програмування, алгоритмічних мов в обсязі, передбаченому програмою випускних класів середньої школи"
+      ],
+      "evidence": [
+        "основ програмування, алгоритмічних мов в обсязі, передбаченому програмою випускних класів середньої школи"
+      ]
+    },
+    {
+      "skill_id": "mathematical_analysis",
+      "skill_label": "Mathematical Analysis",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "«Математичний аналіз»"
+      ],
+      "evidence": [
+        "таких дисциплін як «Математичний аналіз»"
+      ]
+    },
+    {
+      "skill_id": "linear_algebra",
+      "skill_label": "Linear Algebra",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "«Лінійна алгебра та аналітична геометрія»"
+      ],
+      "evidence": [
+        "«Лінійна алгебра та аналітична геометрія»"
+      ]
+    },
+    {
+      "skill_id": "discrete_mathematics",
+      "skill_label": "Discrete Mathematics",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "«Комп'ютерна дискретна математика»"
+      ],
+      "evidence": [
+        "«Комп'ютерна дискретна математика»"
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "c_programming",
+      "skill_label": "C Programming",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "код програми на мові програмування С",
+        "написання коду на мові С",
+        "Особливості мови С"
+      ],
+      "evidence": [
+        "для сформованого алгоритму вирішення задачі написати програму (код програми на мові програмування С)"
+      ]
+    },
+    {
+      "skill_id": "algorithm_design",
+      "skill_label": "Algorithm Design",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "сформувати блок-схему алгоритму",
+        "методи розробки алгоритмів"
+      ],
+      "evidence": [
+        "для поставленої задачі сформувати блок-схему алгоритму вирішення задачі"
+      ]
+    },
+    {
+      "skill_id": "procedural_programming",
+      "skill_label": "Procedural Programming",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Базові конструкції",
+        "Функції та їх використання"
+      ],
+      "evidence": [
+        "Структура функцій. Оператор повернення. Виклик. Передача параметрів (параметри значення та параметри адреси)."
+      ]
+    },
+    {
+      "skill_id": "pointer_manipulation",
+      "skill_label": "Pointer Manipulation",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Покажчики та операції з ними",
+        "Покажчики та масиви"
+      ],
+      "evidence": [
+        "Покажчики та операції над ними. Одержання адреси та доступ за покажчиком."
+      ]
+    },
+    {
+      "skill_id": "dynamic_memory_management",
+      "skill_label": "Dynamic Memory Management",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Використання динамічної пам'яті",
+        "Використання динамічних масивів"
+      ],
+      "evidence": [
+        "КП 6. Тема роботи: Використання динамічних масивів."
+      ]
+    },
+    {
+      "skill_id": "file_io_operations",
+      "skill_label": "File I/O Operations",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Файли",
+        "Функції обміну з потоками",
+        "Обмін нижнього рівня"
+      ],
+      "evidence": [
+        "Функції обміну з потоками, форматний, безформатний обмін. Обмін з рядками. Довільний доступ до потоку."
+      ]
+    },
+    {
+      "skill_id": "flowcharting",
+      "skill_label": "Flowcharting",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "medium",
+      "raw_mentions": [
+        "сформувати блок-схему алгоритму",
+        "способів опису блок-схеми"
+      ],
+      "evidence": [
+        "методів, що використовуються для опису алгоритмів та логічних відношень між блоками схеми"
+      ]
+    },
+    {
+      "skill_id": "data_structures_fundamentals",
+      "skill_label": "Data Structures Fundamentals",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Масиви",
+        "Структури"
+      ],
+      "evidence": [
+        "Опис та використання структур. Структурні змінні та покажчики. Поля. Об'єднання."
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand variable lifecycles and memory classes (automatic, static, external, register).",
+      "Grasp the difference between pass-by-value and pass-by-reference in function calls.",
+      "Understand how data is stored and manipulated at the memory address level using pointers."
+    ],
+    "practical_implementation": [
+      "Write, compile, and execute C programs implementing linear and iterative algorithms.",
+      "Manage memory dynamically during program execution for single and multidimensional arrays.",
+      "Read from and write to standard text and binary files utilizing both stream-based and low-level I/O."
+    ],
+    "analysis_validation": [
+      "Analyze mathematical models to formulate corresponding algorithmic workflows.",
+      "Debug and validate basic programmatic code during computer practicums."
+    ],
+    "architecture_design": [
+      "Decompose complex tasks into modular, reusable functional blocks using C functions.",
+      "Design custom data structures using unions and structs."
+    ],
+    "research_and_prototyping": []
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Computer Practicums (9 mandatory assignments)"
+    ],
+    "expected_artifacts": [
+      "C Source Code",
+      "Practicum Reports",
+      "Algorithm Flowcharts",
+      "Pseudocode"
+    ],
+    "implementation_tasks": [
+      "Implementation of linear algorithms",
+      "Array sorting and iteration",
+      "String manipulation operations",
+      "Matrix manipulation using multidimensional arrays",
+      "Dynamic array allocation and handling",
+      "File processing using varying I/O levels"
+    ],
+    "engineering_practices": [
+      "Defensive programming (handling memory bounds)",
+      "Procedural modularization",
+      "Documentation of logic via flowcharts and reports"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "c_programming",
+      "to_id": "pointer_manipulation",
+      "from_label": "C Programming",
+      "to_label": "Pointer Manipulation",
+      "relation": "enables",
+      "reason": "Mastery of C syntax and concepts is required before effectively learning pointer operations."
+    },
+    {
+      "from_id": "pointer_manipulation",
+      "to_id": "dynamic_memory_management",
+      "from_label": "Pointer Manipulation",
+      "to_label": "Dynamic Memory Management",
+      "relation": "enables",
+      "reason": "Pointers are the foundational prerequisite mechanism used in C to interact with dynamically allocated memory blocks."
+    },
+    {
+      "from_id": "algorithm_design",
+      "to_id": "c_programming",
+      "from_label": "Algorithm Design",
+      "to_label": "C Programming",
+      "relation": "supports",
+      "reason": "The ability to conceptualize algorithms directly translates into writing logical structures in C code."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "How high-level procedural logic translates to hardware manipulation via memory addresses and pointers.",
+      "The lifecycle of variables and programmatic memory classes."
+    ],
+    "what_student_can_build": [
+      "Command-line software utilities that execute sorting, manipulation, and math routines.",
+      "Programs capable of long-term data processing via file stream manipulation."
+    ],
+    "what_student_can_apply": [
+      "Procedural problem solving.",
+      "Flowchart generation for logical processes.",
+      "Modularization and safe memory handling practices."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "Course teaches C Programming",
+      "source_type": "syllabus",
+      "source_title": "Основи програмування. Частина 1",
+      "evidence_text": "для сформованого алгоритму вирішення задачі написати програму (код програми на мові програмування С)"
+    },
+    {
+      "claim": "Teaches pointer manipulation and dynamic memory",
+      "source_type": "syllabus",
+      "source_title": "Основи програмування. Частина 1",
+      "evidence_text": "Покажчики та операції над ними... Використання динамічної пам'яті. Покажчики та багатовимірні масиви."
+    },
+    {
+      "claim": "Includes 9 computer practicums (labs)",
+      "source_type": "syllabus",
+      "source_title": "Основи програмування. Частина 1",
+      "evidence_text": "КП 9. Тема роботи: Програми з використанням файлів різних рівнів обміну."
+    },
+    {
+      "claim": "Borland C++ is used as a tool",
+      "source_type": "syllabus",
+      "source_title": "Основи програмування. Частина 1",
+      "evidence_text": "КП 1. Тема роботи: Особливості системи Borland C++. Основні прийоми роботи."
+    }
+  ],
+  "confidence": "high"
+}

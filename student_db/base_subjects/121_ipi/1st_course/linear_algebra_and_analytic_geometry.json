@@ -1,0 +1,339 @@
+{
+  "course": 1,
+  "semester": 1,
+  "status": "ok",
+  "course_name": "Linear Algebra and Analytic Geometry",
+  "course_profile": {
+    "one_sentence_summary": "A foundational university mathematics course covering matrices, linear systems, vector algebra, analytic geometry, and linear spaces.",
+    "short_summary": "This course provides essential mathematical knowledge for software engineering students. It covers matrix operations, determinants, solving systems of linear equations via the Gaussian method, vector dot and cross products, equations of lines and planes, and characteristics of 2nd-order curves and surfaces. Advanced topics include linear spaces, linear operators, eigenvectors, and quadratic forms.",
+    "discipline_positioning": [
+      "Core Mathematics",
+      "Engineering Foundation"
+    ],
+    "course_nature": {
+      "theory_level": "high",
+      "implementation_level": "low",
+      "research_orientation": "low",
+      "software_engineering_orientation": "low"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "mathematics",
+      "domain_label": "Mathematics",
+      "score": 1.0
+    },
+    {
+      "domain_id": "software_engineering",
+      "domain_label": "Software Engineering",
+      "score": 0.3
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 0,
+    "lectures_used_count": 18,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Extracted from the official syllabus (силлабус) provided by Igor Sikorsky Kyiv Polytechnic Institute. The syllabus details lectures, practical classes, and modular test topics."
+  },
+  "discipline_tags": [
+    "Mathematics",
+    "Linear Algebra",
+    "Analytic Geometry",
+    "Vector Algebra"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Matrices",
+      "Determinants",
+      "Vectors",
+      "Linear Spaces",
+      "Euclidean Spaces",
+      "Eigenvectors",
+      "Quadratic Forms"
+    ],
+    "methods_models": [
+      "Gaussian Elimination",
+      "Matrix Inversion",
+      "Dot Product",
+      "Cross Product",
+      "Mixed Product",
+      "Change of Basis",
+      "Diagonalization"
+    ],
+    "data_modalities": [
+      "Numerical Data",
+      "Geometric Coordinates"
+    ],
+    "problem_types": [
+      "Solving Systems of Linear Algebraic Equations",
+      "Geometric Distance and Intersection Calculation",
+      "Curve and Surface Classification",
+      "Rank Computation"
+    ],
+    "application_domains": [
+      "Physics",
+      "Mechanics",
+      "Computer Graphics (implicitly via geometry)",
+      "Computer Science (implicitly via algorithms)"
+    ],
+    "engineering_aspects": [
+      "Mathematical Modeling",
+      "Algorithmic Problem Solving"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [],
+    "libraries_frameworks_tools_explicit": [
+      "Moodle"
+    ],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [],
+    "technologies_mentioned_in_resources_only": [
+      "Zoom",
+      "Telegram"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "high_school_algebra",
+      "skill_label": "High School Algebra",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "шкільного курсу математики (алгебри...)"
+      ],
+      "evidence": [
+        "базується на знаннях, отриманих при вивченні шкільного курсу математики (алгебри та геометрії)."
+      ]
+    },
+    {
+      "skill_id": "high_school_geometry",
+      "skill_label": "High School Geometry",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "шкільного курсу математики (...та геометрії)"
+      ],
+      "evidence": [
+        "базується на знаннях, отриманих при вивченні шкільного курсу математики (алгебри та геометрії)."
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "matrix_algebra",
+      "skill_label": "Matrix Algebra",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "операції над матрицями",
+        "обчислювати визначники"
+      ],
+      "evidence": [
+        "Уміти виконувати операції над матрицями, обчислювати визначники"
+      ]
+    },
+    {
+      "skill_id": "solving_linear_systems",
+      "skill_label": "Solving Linear Systems",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "розв'язувати системи лінійних алгебраїчних рівнянь різними методами",
+        "Метод Гаусса"
+      ],
+      "evidence": [
+        "Уміти... розв'язувати системи лінійних алгебраїчних рівнянь різними методами"
+      ]
+    },
+    {
+      "skill_id": "vector_algebra",
+      "skill_label": "Vector Algebra",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "скалярний, векторний та мішаний добуток векторів"
+      ],
+      "evidence": [
+        "Уміти обчислювати скалярний, векторний та мішаний добуток векторів та застосовувати для розв'язання задач фізики та механіки"
+      ]
+    },
+    {
+      "skill_id": "analytic_geometry_modeling",
+      "skill_label": "Analytic Geometry Modeling",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "рівнянь прямої та площини",
+        "криві та поверхні другого порядку"
+      ],
+      "evidence": [
+        "Уміти складати основні типи рівнянь прямої та площини, досліджувати криві та поверхні другого порядку"
+      ]
+    },
+    {
+      "skill_id": "linear_operator_analysis",
+      "skill_label": "Linear Operator Analysis",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Лінійні простори та лінійні оператори",
+        "Власні числа та власні вектори лінійного оператора"
+      ],
+      "evidence": [
+        "Власні числа та власні вектори лінійного оператора."
+      ]
+    },
+    {
+      "skill_id": "quadratic_forms_analysis",
+      "skill_label": "Quadratic Forms Analysis",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Квадратичні форми",
+        "Зведення квадратичної форми до канонічного вигляду"
+      ],
+      "evidence": [
+        "Поняття квадратичної форми. Зведення квадратичної форми до канонічного вигляду."
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the properties of matrices and determinants.",
+      "Understand the conditions for solvability of systems of linear algebraic equations (Kronecker-Capelli theorem).",
+      "Understand the geometric interpretation of dot, cross, and mixed vector products.",
+      "Understand the theoretical basis of linear spaces, basis vectors, and linear independence.",
+      "Understand the characteristics of second-order curves (ellipse, parabola, hyperbola) and surfaces."
+    ],
+    "practical_implementation": [
+      "Perform arithmetic operations on matrices and calculate inverse matrices.",
+      "Solve systems of linear equations using Gaussian elimination and Cramer's methods.",
+      "Calculate scalar, vector, and mixed products of vectors using coordinates.",
+      "Formulate equations for lines and planes in various spatial configurations.",
+      "Find eigenvalues and eigenvectors of linear operators."
+    ],
+    "analysis_validation": [
+      "Determine the rank of a matrix.",
+      "Analyze the linear dependence or independence of a system of vectors.",
+      "Investigate the mutual positioning of straight lines and planes in space.",
+      "Reduce quadratic forms to their canonical form and determine their definiteness."
+    ],
+    "architecture_design": [],
+    "research_and_prototyping": []
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Practical problem-solving sessions (Практичні заняття)",
+      "Online Moodle quizzes after practical sessions"
+    ],
+    "expected_artifacts": [
+      "Home control work (ДКР) consisting of solved mathematical problems",
+      "Modular control works (МКР) solving thematic math problems"
+    ],
+    "implementation_tasks": [
+      "Solving matrix equations and finding inverse matrices",
+      "Calculating geometric properties using vectors",
+      "Deriving equations for analytical geometry shapes",
+      "Diagonalizing operators and working with quadratic forms"
+    ],
+    "engineering_practices": [
+      "Mathematical modeling of physical and mechanical problems",
+      "Step-by-step algorithmic execution (e.g., Gaussian elimination)"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "high_school_algebra",
+      "to_id": "matrix_algebra",
+      "from_label": "High School Algebra",
+      "to_label": "Matrix Algebra",
+      "relation": "requires",
+      "reason": "High school algebra is explicitly stated as the foundational prerequisite for this course."
+    },
+    {
+      "from_id": "matrix_algebra",
+      "to_id": "solving_linear_systems",
+      "from_label": "Matrix Algebra",
+      "to_label": "Solving Linear Systems",
+      "relation": "enables",
+      "reason": "Matrix operations and determinants are required to represent and solve systems of linear equations."
+    },
+    {
+      "from_id": "high_school_geometry",
+      "to_id": "vector_algebra",
+      "from_label": "High School Geometry",
+      "to_label": "Vector Algebra",
+      "relation": "requires",
+      "reason": "High school geometry provides the spatial understanding necessary for vector algebra."
+    },
+    {
+      "from_id": "vector_algebra",
+      "to_id": "analytic_geometry_modeling",
+      "from_label": "Vector Algebra",
+      "to_label": "Analytic Geometry Modeling",
+      "relation": "enables",
+      "reason": "Vector operations (dot, cross products) are used to derive equations for lines, planes, and normal vectors in analytical geometry."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "The mathematical foundations of linear spaces, transformations, and coordinate systems.",
+      "The theoretical mechanics behind 2D and 3D geometric intersections and surface modeling."
+    ],
+    "what_student_can_build": [
+      "Mathematical models representing lines, planes, and quadratic curves.",
+      "Solutions for complex linear systems using algorithmic matrix operations."
+    ],
+    "what_student_can_apply": [
+      "Vector calculus for physics and mechanics problems.",
+      "Matrix operations applicable to computer graphics and software engineering algorithms."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "Course is targeted towards software engineering students.",
+      "source_type": "syllabus",
+      "source_title": "Syllabus Header",
+      "evidence_text": "121 Інженерія програмного забезпечення; Освітня програма: Інженерія програмного забезпечення інформаційних систем"
+    },
+    {
+      "claim": "Prerequisites include high school algebra and geometry.",
+      "source_type": "syllabus",
+      "source_title": "Пререквізити",
+      "evidence_text": "базується на знаннях, отриманих при вивченні шкільного курсу математики (алгебри та геометрії)."
+    },
+    {
+      "claim": "Course includes matrix operations, linear systems, vector algebra, and analytic geometry.",
+      "source_type": "syllabus",
+      "source_title": "Програмні результати навчання",
+      "evidence_text": "Знати основи елементів лінійної алгебри (матриці, визначники, системи лінійних алгебраїчних рівнянь); Знати основи векторної алгебри... Знати основи елементів аналітичної геометрії..."
+    },
+    {
+      "claim": "Assessment relies heavily on modular tests and Moodle quizzes.",
+      "source_type": "syllabus",
+      "source_title": "Види контролю та рейтингова система",
+      "evidence_text": "Модульна контрольна робота розбита на 2 частини... Домашня контрольна робота проводиться у виглядів тестів у відповідних дистанційних курсах на платформі Moodle."
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,344 @@
+{
+  "course": 1,
+  "semester": 2,
+  "status": "ok",
+  "course_name": "Introduction to Software Engineering",
+  "course_profile": {
+    "one_sentence_summary": "An introductory bachelor-level course covering software lifecycles, reverse engineering, software metrics, cost estimation, and process maturity models.",
+    "short_summary": "This course provides foundational knowledge in software engineering, distinguishing between direct, reverse, and empirical engineering. Students learn to model software development lifecycles (including Agile methodologies), estimate software costs using models like COCOMO and SLIM, calculate software metrics, and evaluate software ecosystems and process maturity (CMM/CMMI).",
+    "discipline_positioning": [
+      "Software Engineering",
+      "Computer Science"
+    ],
+    "course_nature": {
+      "theory_level": "high",
+      "implementation_level": "medium",
+      "research_orientation": "low",
+      "software_engineering_orientation": "high"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "software_engineering",
+      "domain_label": "Software Engineering",
+      "score": 1.0
+    },
+    {
+      "domain_id": "project_management",
+      "domain_label": "Project Management",
+      "score": 0.75
+    },
+    {
+      "domain_id": "systems_engineering",
+      "domain_label": "Systems Engineering",
+      "score": 0.6
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 0,
+    "lectures_used_count": 0,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Information extracted from the comprehensive course syllabus (Силлабус) detailing topics, prerequisites, and laboratory assignments."
+  },
+  "discipline_tags": [
+    "Software Engineering",
+    "Software Development Life Cycle",
+    "Software Project Management",
+    "Systems Engineering"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Software Development Life Cycle (SDLC)",
+      "Process Maturity",
+      "Software Economics",
+      "Software Ecosystems",
+      "Component-Oriented Software"
+    ],
+    "methods_models": [
+      "Agile Methodology",
+      "CMM / CMMI",
+      "COCOMO / COCOMO II",
+      "SLIM",
+      "i* Framework",
+      "Reverse Engineering",
+      "Empirical Software Engineering"
+    ],
+    "data_modalities": [
+      "Software Source Code",
+      "Project Requirements",
+      "Software Metrics"
+    ],
+    "problem_types": [
+      "Cost Estimation",
+      "Process Assessment",
+      "Lifecycle Modeling",
+      "Legacy System Analysis"
+    ],
+    "application_domains": [
+      "Enterprise Software",
+      "IT Project Management"
+    ],
+    "engineering_aspects": [
+      "Requirements Engineering",
+      "Software Architecture",
+      "Software Construction",
+      "Software Maintenance",
+      "Quality Assurance"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [],
+    "libraries_frameworks_tools_explicit": [
+      "Costar Estimation"
+    ],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [
+      "UML Modeling Tools"
+    ],
+    "technologies_mentioned_in_resources_only": [
+      "UML (ISO/IEC 19501:2005)"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "object_oriented_programming",
+      "skill_label": "Object-Oriented Programming",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Об'єктно-орієнтоване програмування"
+      ],
+      "evidence": [
+        "Вивчення дисципліни спирається на знання, отримані студентами при вивченні дисциплін «Об'єктно-орієнтоване програмування»"
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "sdlc_modeling",
+      "skill_label": "SDLC Modeling",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Моделювання життєвого циклу програмного забезпечення",
+        "Моделювання процесу Специфікування вимог",
+        "Моделювання процесу Проектування"
+      ],
+      "evidence": [
+        "Лабораторна 1: Моделювання життєвого циклу програмного забезпечення і його складових."
+      ]
+    },
+    {
+      "skill_id": "agile_process_management",
+      "skill_label": "Agile Process Management",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Моделювання процесів створення програмного забезпечення за гнучкою методологією",
+        "гнучкої методології"
+      ],
+      "evidence": [
+        "Моделювання процесів Планування, моніторинг та виконання за методом гнучкої методології."
+      ]
+    },
+    {
+      "skill_id": "software_cost_estimation",
+      "skill_label": "Software Cost Estimation",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Оцінка вартості програмного забезпечення",
+        "Моделі СОСОМО, СОСОМО II, SLIM",
+        "Економіка програмного забезпечення"
+      ],
+      "evidence": [
+        "Лабораторна 5: Оцінка вартості програмного забезпечення."
+      ]
+    },
+    {
+      "skill_id": "reverse_engineering",
+      "skill_label": "Reverse Engineering",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Відновлення інформації про компоненти програмних систем методами зворотної інженерії",
+        "реверсивної інженерії"
+      ],
+      "evidence": [
+        "Лабораторна 2: Відновлення інформації про компоненти програмних систем методами зворотної інженерії."
+      ]
+    },
+    {
+      "skill_id": "software_metrics_analysis",
+      "skill_label": "Software Metrics Analysis",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Метричне забезпечення",
+        "Вимірювання у програмному забезпеченні"
+      ],
+      "evidence": [
+        "Лабораторна 4: Дослідження метричних характеристик програмного забезпечення методами емпіричної інженерії."
+      ]
+    },
+    {
+      "skill_id": "software_ecosystem_modeling",
+      "skill_label": "Software Ecosystem Modeling",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Моделювання екосистем програмного забезпечення",
+        "Засоби моделювання екосистем (i*)"
+      ],
+      "evidence": [
+        "Лабораторна 6: Моделювання екосистем програмного забезпечення."
+      ]
+    },
+    {
+      "skill_id": "process_maturity_assessment",
+      "skill_label": "Process Maturity Assessment",
+      "result_level": 1,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "medium",
+      "raw_mentions": [
+        "Моделювання зрілості процесів програмного забезпечення",
+        "СММ, СMMI, P-CMM"
+      ],
+      "evidence": [
+        "Тема 6.2. Моделювання зрілості процесів програмного забезпечення. Загальні положення моделей СММ, СMMI, P-CMM"
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the historical context and foundational concepts of software engineering.",
+      "Comprehend different software development lifecycle models and process maturity frameworks like CMMI.",
+      "Understand the core principles of software economics and cost estimation models (COCOMO, SLIM).",
+      "Understand the definition and utility of software ecosystems."
+    ],
+    "practical_implementation": [
+      "Model software development lifecycles, including sequential and agile methodologies.",
+      "Perform reverse engineering to extract component information from existing software systems.",
+      "Calculate and analyze empirical software metrics."
+    ],
+    "analysis_validation": [
+      "Analyze the economic indicators and cost associated with creating and maintaining software.",
+      "Evaluate software architectures and components using both forward and reverse engineering techniques."
+    ],
+    "architecture_design": [
+      "Model requirements specification, architecture, detailed design, construction, and maintenance processes."
+    ],
+    "research_and_prototyping": [
+      "Investigate legacy systems using reverse engineering tools to comprehend undocumented structures."
+    ]
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Process modeling exercises",
+      "Reverse engineering analysis labs",
+      "Cost estimation calculation labs"
+    ],
+    "expected_artifacts": [
+      "SDLC models",
+      "Software cost estimations based on COCOMO/SLIM",
+      "Agile process plans and models",
+      "Software metric reports",
+      "Ecosystem models using i*"
+    ],
+    "implementation_tasks": [
+      "Model the requirements specification process.",
+      "Model software architecture and detailed design phases.",
+      "Model software construction and testing processes.",
+      "Apply reverse engineering to analyze software components.",
+      "Evaluate software costs using standard economic models."
+    ],
+    "engineering_practices": [
+      "Agile lifecycle planning and monitoring",
+      "Software cost estimation",
+      "Empirical software measurement",
+      "Systems modeling"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "object_oriented_programming",
+      "to_id": "reverse_engineering",
+      "from_label": "Object-Oriented Programming",
+      "to_label": "Reverse Engineering",
+      "relation": "enables",
+      "reason": "Understanding object-oriented code is a necessary prerequisite to successfully reverse engineer and extract software components."
+    },
+    {
+      "from_id": "sdlc_modeling",
+      "to_id": "agile_process_management",
+      "from_label": "SDLC Modeling",
+      "to_label": "Agile Process Management",
+      "relation": "extends",
+      "reason": "General SDLC modeling fundamentals serve as the basis before modeling specific agile processes."
+    },
+    {
+      "from_id": "software_metrics_analysis",
+      "to_id": "software_cost_estimation",
+      "from_label": "Software Metrics Analysis",
+      "to_label": "Software Cost Estimation",
+      "relation": "supports",
+      "reason": "Software size and complexity metrics are often inputs for cost estimation models like COCOMO."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "The stages and processes involved in the software development lifecycle.",
+      "How software process maturity is measured using CMMI.",
+      "The theoretical foundations of forward, reverse, and empirical software engineering."
+    ],
+    "what_student_can_build": [
+      "Process models representing requirements, design, and construction phases.",
+      "Agile process flow diagrams.",
+      "Software cost estimates using industry-standard algorithmic models."
+    ],
+    "what_student_can_apply": [
+      "Reverse engineering techniques to analyze existing programs.",
+      "COCOMO and SLIM methods to predict software project costs and effort.",
+      "i* framework to model software ecosystems."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "The course requires Object-Oriented Programming as a prerequisite.",
+      "source_type": "syllabus",
+      "source_title": "Вступ до програмної інженерії Силабус",
+      "evidence_text": "Вивчення дисципліни спирається на знання, отримані студентами при вивченні дисциплін «Об'єктно-орієнтоване програмування»"
+    },
+    {
+      "claim": "Students learn cost estimation using specific industry models.",
+      "source_type": "syllabus",
+      "source_title": "Вступ до програмної інженерії Силабус",
+      "evidence_text": "Тема 7.2. Моделі та засоби оцінки вартості програмного забезпечення. Моделі СОСОМО, СОСОМО II, SLIM, засіб Costar Estimation."
+    },
+    {
+      "claim": "Labs include modeling agile processes from requirements to testing.",
+      "source_type": "syllabus",
+      "source_title": "Вступ до програмної інженерії Силабус",
+      "evidence_text": "Моделювання процесів створення програмного забезпечення за гнучкою методологією... Моделювання процесу Тестування за методом гнучкої методології."
+    }
+  ],
+  "confidence": "high"
+}

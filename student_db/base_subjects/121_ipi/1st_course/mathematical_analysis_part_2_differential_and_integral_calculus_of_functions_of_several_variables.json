@@ -1,0 +1,416 @@
+{
+  "course": 1,
+  "semester": 2,
+  "status": "ok",
+  "course_name": "Mathematical Analysis. Part 2. Differential and Integral Calculus of Functions of Several Variables",
+  "course_profile": {
+    "one_sentence_summary": "A foundational mathematical analysis course focusing on integral calculus, multivariable calculus, and infinite series for software engineering students.",
+    "short_summary": "This course represents the second part of a comprehensive Mathematical Analysis sequence. It covers indefinite and definite integrals with geometric applications, differential and integral calculus for functions of multiple variables (including partial derivatives, multiple integrals, and optimization), and the theory of numerical and power series (including Taylor and Maclaurin expansions). The course aims to develop logical thinking and provide the mathematical foundation necessary for advanced computer science topics.",
+    "discipline_positioning": [
+      "Mathematics",
+      "Calculus",
+      "Applied Mathematics",
+      "Fundamental Engineering Disciplines"
+    ],
+    "course_nature": {
+      "theory_level": "high",
+      "implementation_level": "low",
+      "research_orientation": "low",
+      "software_engineering_orientation": "medium"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "mathematics",
+      "domain_label": "Mathematics",
+      "score": 0.95
+    },
+    {
+      "domain_id": "software_engineering",
+      "domain_label": "Software Engineering (Foundations)",
+      "score": 0.4
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 0,
+    "lectures_used_count": 15,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Course intelligence extracted from the official syllabus (Силабус) document. The document provides clear schedules for lectures and practical sessions, as well as formal prerequisites and topics."
+  },
+  "discipline_tags": [
+    "Calculus",
+    "Mathematical Analysis",
+    "Multivariable Calculus",
+    "Integral Calculus",
+    "Infinite Series"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Indefinite Integrals",
+      "Definite Integrals",
+      "Functions of Several Variables",
+      "Partial Derivatives",
+      "Multiple Integrals",
+      "Double Integrals",
+      "Triple Integrals",
+      "Number Series",
+      "Power Series"
+    ],
+    "methods_models": [
+      "Integration by Parts",
+      "Integration by Substitution",
+      "Newton-Leibniz Formula",
+      "Taylor's Formula",
+      "Maclaurin Series",
+      "Leibniz Theorem for Alternating Series",
+      "Conditional and Absolute Convergence",
+      "Polar, Cylindrical, and Spherical Coordinates"
+    ],
+    "data_modalities": [
+      "Continuous Functions",
+      "Mathematical Equations",
+      "Geometric Figures (Areas, Volumes, Surfaces)"
+    ],
+    "problem_types": [
+      "Integration of Rational and Trigonometric Functions",
+      "Area and Volume Computation",
+      "Local and Conditional Extremum Optimization",
+      "Series Convergence Testing",
+      "Function Approximation"
+    ],
+    "application_domains": [
+      "Software Engineering Mathematics",
+      "Geometry",
+      "Physics (Physical meaning of integrals)"
+    ],
+    "engineering_aspects": [
+      "Approximate Calculations",
+      "Algorithmic Mathematical Thinking"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [],
+    "libraries_frameworks_tools_explicit": [],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [],
+    "technologies_mentioned_in_resources_only": [
+      "Moodle",
+      "Zoom",
+      "Telegram"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "single_variable_differentiation",
+      "skill_label": "Single Variable Differentiation",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Математичний аналіз. Частина 1",
+        "Диференціальне та інтегральне числення функцій однієї змінної"
+      ],
+      "evidence": [
+        "Базується на знаннях, отриманих при вивченні кредитного модуля «Математичний аналіз. Частина 1. Диференціальне та інтегральне числення функцій однієї змінної»."
+      ]
+    },
+    {
+      "skill_id": "limits_and_continuity",
+      "skill_label": "Limits and Continuity",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "inferred",
+      "confidence": "high",
+      "raw_mentions": [
+        "Математичний аналіз. Частина 1"
+      ],
+      "evidence": [
+        "Necessary foundation for understanding limits and continuity of multivariable functions (Тема 2.1)."
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "indefinite_integration",
+      "skill_label": "Indefinite Integration",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Невизначений інтеграл",
+        "Методи інтегрування невизначеного інтеграла"
+      ],
+      "evidence": [
+        "Лекція 1: Невизначений інтеграл. Первісна функція і невизначений інтеграл... Методи інтегрування невизначеного інтеграла."
+      ]
+    },
+    {
+      "skill_id": "definite_integration",
+      "skill_label": "Definite Integration",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Визначений інтеграл",
+        "Формула Ньютона-Лейбніца"
+      ],
+      "evidence": [
+        "Лекція 4: Визначений інтеграл... Обчислення визначених інтегралів. Формула Ньютона-Лейбніца."
+      ]
+    },
+    {
+      "skill_id": "geometric_integration_applications",
+      "skill_label": "Geometric Applications of Integration",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "обчислення площ плоских фігур та об'ємів тіл",
+        "обчислення довжини дуги"
+      ],
+      "evidence": [
+        "Лекція 5: Застосування визначеного інтеграла до обчислення площ плоских фігур та об'ємів тіл."
+      ]
+    },
+    {
+      "skill_id": "multivariable_differentiation",
+      "skill_label": "Multivariable Differentiation",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Диференційовність функції багатьох змінних",
+        "Частинні похідні"
+      ],
+      "evidence": [
+        "Лекція 7: Диференційовність функції багатьох змінних. Частинні похідні функції багатьох змінних..."
+      ]
+    },
+    {
+      "skill_id": "multivariable_optimization",
+      "skill_label": "Multivariable Optimization",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Екстремуми функції двох змінних",
+        "Умовний екстремум"
+      ],
+      "evidence": [
+        "Лекція 8: Екстремуми функції двох змінних. Локальні екстремуми... Найбільше та найменше значення функції в області. Умовний екстремум."
+      ]
+    },
+    {
+      "skill_id": "multiple_integration",
+      "skill_label": "Multiple Integration",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Подвійний інтеграл",
+        "Потрійний інтеграл"
+      ],
+      "evidence": [
+        "Лекції 9-11: Подвійний інтеграл... Потрійний інтеграл. Означення, умови існування, властивості..."
+      ]
+    },
+    {
+      "skill_id": "series_convergence_analysis",
+      "skill_label": "Series Convergence Analysis",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Числові ряди",
+        "ознака збіжності",
+        "Знакозмінні числові ряди"
+      ],
+      "evidence": [
+        "Лекції 12-14: Числові ряди. Означення числового ряду і його збіжності... Знакозмінні числові ряди."
+      ]
+    },
+    {
+      "skill_id": "power_series_expansion",
+      "skill_label": "Power Series Expansion",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Степеневі ряди",
+        "Ряди Тейлора та Маклорена"
+      ],
+      "evidence": [
+        "Лекція 15: Ряди Тейлора та Маклорена... Застосування степеневих рядів до наближених обчислень."
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the concepts of indefinite and definite integrals, including their geometric and physical meanings.",
+      "Understand limits, continuity, and differentiability of multivariable functions.",
+      "Understand the theory behind double and triple integrals and coordinate system transformations.",
+      "Understand the convergence criteria for numerical and power series."
+    ],
+    "practical_implementation": [
+      "Compute indefinite integrals using substitution, parts, and partial fractions.",
+      "Evaluate definite integrals using the Newton-Leibniz formula.",
+      "Calculate partial derivatives, total differentials, and tangent planes for multivariable functions.",
+      "Evaluate double and triple integrals in Cartesian, polar, cylindrical, and spherical coordinates."
+    ],
+    "analysis_validation": [
+      "Analyze functions of multiple variables to find local, global, and conditional extrema.",
+      "Determine the absolute and conditional convergence of alternating series using Leibniz's theorem.",
+      "Determine the radius and interval of convergence for power series."
+    ],
+    "architecture_design": [],
+    "research_and_prototyping": [
+      "Apply power series (Taylor and Maclaurin) for approximate calculations of functions."
+    ]
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Practical problem-solving classes (Практичні заняття)",
+      "Independent computational assignments (Типова розрахункова робота - РР)"
+    ],
+    "expected_artifacts": [
+      "Written modular control works (МКР-1, МКР-2)",
+      "Calculation Work (РР) submitted in parts matching the modules",
+      "Completed Moodle quizzes"
+    ],
+    "implementation_tasks": [
+      "Solving integration problems (rational, trigonometric, irrational functions)",
+      "Calculating areas, volumes, and arc lengths manually",
+      "Finding extrema of two-variable functions",
+      "Expanding functions into Taylor/Maclaurin series"
+    ],
+    "engineering_practices": [
+      "Rigorous mathematical derivation",
+      "Application of mathematical models to geometric and physical scenarios",
+      "Approximate numerical calculation via series"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "single_variable_differentiation",
+      "to_id": "indefinite_integration",
+      "from_label": "Single Variable Differentiation",
+      "to_label": "Indefinite Integration",
+      "relation": "requires",
+      "reason": "Integration is the inverse operation of differentiation; knowing derivatives is strictly required to find antiderivatives."
+    },
+    {
+      "from_id": "indefinite_integration",
+      "to_id": "definite_integration",
+      "from_label": "Indefinite Integration",
+      "to_label": "Definite Integration",
+      "relation": "enables",
+      "reason": "The Newton-Leibniz formula requires finding the indefinite integral (antiderivative) to evaluate the definite integral."
+    },
+    {
+      "from_id": "definite_integration",
+      "to_id": "geometric_integration_applications",
+      "from_label": "Definite Integration",
+      "to_label": "Geometric Applications of Integration",
+      "relation": "applies_to",
+      "reason": "Definite integrals are directly applied to compute areas, volumes, and arc lengths."
+    },
+    {
+      "from_id": "single_variable_differentiation",
+      "to_id": "multivariable_differentiation",
+      "from_label": "Single Variable Differentiation",
+      "to_label": "Multivariable Differentiation",
+      "relation": "extends",
+      "reason": "Partial derivatives extend the rules of single-variable differentiation to functions of multiple variables."
+    },
+    {
+      "from_id": "multivariable_differentiation",
+      "to_id": "multivariable_optimization",
+      "from_label": "Multivariable Differentiation",
+      "to_label": "Multivariable Optimization",
+      "relation": "enables",
+      "reason": "Finding critical points for optimization requires computing first and second-order partial derivatives."
+    },
+    {
+      "from_id": "definite_integration",
+      "to_id": "multiple_integration",
+      "from_label": "Definite Integration",
+      "to_label": "Multiple Integration",
+      "relation": "extends",
+      "reason": "Double and triple integrals are evaluated by iterating single definite integrals."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "The fundamental theorem of calculus and the relationship between derivatives and integrals.",
+      "The spatial behavior of functions with multiple variables.",
+      "The mathematical principles of infinite series and their convergence.",
+      "How continuous functions can be represented and approximated by infinite polynomials."
+    ],
+    "what_student_can_build": [
+      "Mathematical models for evaluating the volume, surface area, and arc length of complex geometries.",
+      "Optimization setups to find maximum and minimum values of multivariable systems under specific constraints."
+    ],
+    "what_student_can_apply": [
+      "Integration techniques to solve applied physical and geometric problems.",
+      "Taylor series to create polynomial approximations of complex functions for computational efficiency.",
+      "Coordinate transformations (polar, cylindrical, spherical) to simplify multidimensional mathematical problems."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "The course requires prior completion of Mathematical Analysis Part 1.",
+      "source_type": "syllabus",
+      "source_title": "Силабус",
+      "evidence_text": "базується на знаннях, отриманих при вивченні кредитного модуля «Математичний аналіз. Частина 1. Диференціальне та інтегральне числення функцій однієї змінної»."
+    },
+    {
+      "claim": "The course prepares students for Probability Theory and Optimization Methods.",
+      "source_type": "syllabus",
+      "source_title": "Силабус",
+      "evidence_text": "передує вивченню дисциплін «Теорія ймовірності» (ЗО 04), «Ймовірнісні моделі та статистичне оцінювання в інформаційних системах» (ПО 17), «Методи оптимізації та прийняття рішень» (ПО 20)."
+    },
+    {
+      "claim": "Students learn to compute indefinite and definite integrals.",
+      "source_type": "syllabus",
+      "source_title": "Силабус",
+      "evidence_text": "Розділ 1. Інтегральне числення функцій однієї змінної. Тема 1.1. Невизначений інтеграл... Тема 1.2. Визначений інтеграл та його застосування"
+    },
+    {
+      "claim": "Students learn to find extrema of multivariable functions.",
+      "source_type": "syllabus",
+      "source_title": "Силабус",
+      "evidence_text": "Екстремуми функції двох змінних. Локальні екстремуми функції двох змінних. Найбільше та найменше значення функції в області. Умовний екстремум."
+    },
+    {
+      "claim": "Students work with multiple integrals and coordinate transitions.",
+      "source_type": "syllabus",
+      "source_title": "Силабус",
+      "evidence_text": "Заміна змінних у потрійному інтегралі: перехід до циліндричної та сферичної систем координат."
+    },
+    {
+      "claim": "Students study series convergence and Taylor expansions.",
+      "source_type": "syllabus",
+      "source_title": "Силабус",
+      "evidence_text": "Розділ 3. Ряди. Тема 3.1. Числові ряди... Тема 3.2. Степеневі ряди. Ряди Тейлора... Застосування степеневих рядів до наближених обчислень."
+    },
+    {
+      "claim": "Course assessment relies on modular tests and a substantial calculation work.",
+      "source_type": "syllabus",
+      "source_title": "Силабус",
+      "evidence_text": "Індивідуальні завдання складаються з розрахункової роботи... Запланована одна модульна контрольна робота, яка поділяється на дві контрольні роботи... Форма семестрового контролю екзамен"
+    }
+  ],
+  "confidence": "high"
+}

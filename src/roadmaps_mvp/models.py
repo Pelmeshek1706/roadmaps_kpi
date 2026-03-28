@@ -14,6 +14,9 @@ ProgramRelationType = Literal["prerequisite", "recommended_after", "overlap_alte
 ReviewStatus = Literal["unreviewed", "reviewed", "placeholder"]
 CourseStage = Literal["foundation", "core", "advanced"]
 TrackCourseRole = Literal["foundation", "core", "specialization", "elective"]
+CurriculumCourseStatus = Literal["completed", "in_progress", "planned"]
+StudentSkillSource = Literal["curriculum_program", "curriculum_current", "student_manual"]
+SkillLevelLabel = Literal["none", "basic", "medium", "advanced", "expert"]
 
 
 class StrictModel(BaseModel):
@@ -127,6 +130,9 @@ class RawCurricularRelation(StrictModel):
 
 
 class RawCourse(StrictModel):
+    course: int | None = Field(default=None, ge=1, le=4)
+    semester: int | None = Field(default=None, ge=1, le=2)
+    discipline_kind: Literal["mandatory", "elective"] = "mandatory"
     status: str
     course_name: str
     course_profile: CourseProfile
@@ -304,6 +310,60 @@ class StudentProfile(StrictModel):
     starting_term: AcademicTerm
 
 
+class StudentSkill(StrictModel):
+    skill_id: str
+    skill_label: str
+    level: int = Field(ge=0, le=4)
+    level_label: SkillLevelLabel | None = None
+    source: StudentSkillSource
+    normalization_status: str
+    taxonomy_category: str | None = None
+    evidence_course_ids: list[str] = Field(default_factory=list)
+    raw_inputs: list[str] = Field(default_factory=list)
+
+
+class StudentRequiredCourse(StrictModel):
+    course_id: str
+    course_name: str
+    course: int = Field(ge=1)
+    semester: int = Field(ge=1, le=2)
+    status: CurriculumCourseStatus
+    raw_source_file: str
+
+
+class StudentSkillProfile(StrictModel):
+    specialization_id: str
+    current_course: int = Field(ge=1, le=4)
+    current_semester: int = Field(ge=1, le=2)
+    required_courses: list[StudentRequiredCourse]
+    automatically_extracted_base_skills: list[StudentSkill]
+    current_curriculum_skills: list[StudentSkill] = Field(default_factory=list)
+    planned_curriculum_skills: list[StudentSkill] = Field(default_factory=list)
+    user_skills: list[StudentSkill] = Field(default_factory=list)
+    combined_skill_profile: list[StudentSkill] = Field(default_factory=list)
+    unrecognized_user_skill_inputs: list[str] = Field(default_factory=list)
+
+
+class ManualSkillRecognition(StrictModel):
+    raw_input: str
+    normalized_skill: StudentSkill | None = None
+    recognized: bool
+
+
+class ManualSkillInputRound(StrictModel):
+    shown_auto_skills: list[str] = Field(default_factory=list)
+    submitted_inputs: list[str] = Field(default_factory=list)
+    recognized_skills: list[ManualSkillRecognition] = Field(default_factory=list)
+    stop_requested: bool = False
+
+
+class ManualSkillInputSession(StrictModel):
+    auto_skills_shown: list[str] = Field(default_factory=list)
+    rounds: list[ManualSkillInputRound] = Field(default_factory=list)
+    collected_user_skills: list[StudentSkill] = Field(default_factory=list)
+    unrecognized_inputs: list[str] = Field(default_factory=list)
+
+
 class ProgramSlot(StrictModel):
     slot_id: str
     title: str
@@ -385,6 +445,9 @@ class RankedCourseOption(StrictModel):
     missing_prerequisites: list[str]
     gained_target_skills: list[TargetSkillGain]
     overlaps_with_selected: list[str]
+    reason_codes: list[str] = Field(default_factory=list)
+    developed_skill_ids: list[str] = Field(default_factory=list)
+    overlapping_skill_ids: list[str] = Field(default_factory=list)
 
 
 class SlotSelection(StrictModel):
@@ -403,6 +466,22 @@ class SemesterPlan(StrictModel):
     blocked_course_reasons: list[str] = Field(default_factory=list)
     coverage_after: float = Field(ge=0.0, le=1.0)
     skill_bank_after: list[ProgramSkillLevel]
+
+
+class ElectiveTermRecommendation(StrictModel):
+    term: AcademicTerm
+    max_electives: int = Field(ge=0)
+    recommended_course_ids: list[str]
+    recommended_courses: list[RankedCourseOption]
+    candidate_courses: list[RankedCourseOption] = Field(default_factory=list)
+    blocked_course_reasons: list[str] = Field(default_factory=list)
+
+
+class ElectiveRecommendationResult(StrictModel):
+    specialization_id: str
+    current_term: AcademicTerm
+    student_profile: StudentSkillProfile
+    term_recommendations: list[ElectiveTermRecommendation]
 
 
 class StudentPlanSummary(StrictModel):

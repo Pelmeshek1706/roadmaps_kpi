@@ -5,11 +5,13 @@ from pathlib import Path
 from roadmaps_mvp.models import QualitySnapshot
 from roadmaps_mvp.normalize import SkillResolver, build_skill_taxonomy
 from roadmaps_mvp.planner import build_catalog, build_roadmap, load_program, rank_track_courses
+from roadmaps_mvp.student_recommendations import build_student_skill_profile, recommend_electives
 from roadmaps_mvp.validate import validate_raw_course_dir
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PROGRAM_PATH = REPO_ROOT / "programs" / "data_science_mvp.json"
+SPECIALIZATION_REQUIRED_DIR = REPO_ROOT / "student_db" / "base_subjects" / "121_ipi" / "1st_course"
 
 
 def test_validate_existing_raw_courses_without_errors():
@@ -169,3 +171,87 @@ def test_quality_layer_is_separate_from_canonical_course_fields(tmp_path: Path):
     assert "source_coverage" not in dumped_course
     assert "confidence" not in dumped_course
     assert isinstance(snapshot, QualitySnapshot)
+
+
+def test_specialization_required_courses_validate_with_course_and_semester_metadata():
+    courses, issues = validate_raw_course_dir(SPECIALIZATION_REQUIRED_DIR)
+
+    assert len(courses) == 10
+    assert [issue for issue in issues if issue.severity == "error"] == []
+
+
+def test_student_profile_collects_required_courses_and_curriculum_skills():
+    profile = build_student_skill_profile(
+        specialization_id="data_science",
+        current_course=1,
+        current_semester=2,
+        required_subject_dir=SPECIALIZATION_REQUIRED_DIR,
+        elective_raw_dir=REPO_ROOT,
+    )
+
+    assert len(profile.required_courses) == 10
+    assert len([item for item in profile.required_courses if item.status == "completed"]) == 5
+    assert len([item for item in profile.required_courses if item.status == "in_progress"]) == 5
+    assert len([item for item in profile.required_courses if item.status == "planned"]) == 0
+    assert any(skill.skill_id == "c_programming" for skill in profile.automatically_extracted_base_skills)
+    assert any(skill.skill_id == "matrix_algebra" for skill in profile.current_curriculum_skills)
+    assert profile.user_skills == []
+
+
+def test_manual_student_skills_are_normalized_and_default_to_medium_level():
+    profile = build_student_skill_profile(
+        specialization_id="data_science",
+        current_course=1,
+        current_semester=2,
+        required_subject_dir=SPECIALIZATION_REQUIRED_DIR,
+        elective_raw_dir=REPO_ROOT,
+        manual_skill_inputs=["basic_programming", "Python Basics", "totally unknown skill"],
+    )
+    skill_index = {skill.skill_id: skill for skill in profile.user_skills}
+
+    assert skill_index["programming_fundamentals"].level == 2
+    assert skill_index["python_basics"].level == 2
+    assert "basic_programming" in skill_index["programming_fundamentals"].raw_inputs
+    assert "Python Basics" in skill_index["python_basics"].raw_inputs
+    assert profile.unrecognized_user_skill_inputs == ["totally unknown skill"]
+
+
+def test_recommend_electives_respects_term_capacity_and_offerings(tmp_path: Path):
+    taxonomy_path = tmp_path / "skills.json"
+    canonical_courses, quality_snapshots, _ = build_catalog(REPO_ROOT, taxonomy_path)
+    program = load_program(PROGRAM_PATH)
+    profile = build_student_skill_profile(
+        specialization_id="data_science",
+        current_course=1,
+        current_semester=2,
+        required_subject_dir=SPECIALIZATION_REQUIRED_DIR,
+        elective_raw_dir=REPO_ROOT,
+        manual_skill_inputs=["Python Basics"],
+    )
+
+    recommendations = recommend_electives(
+        profile=profile,
+        program=program,
+        courses=canonical_courses,
+        quality_snapshots=quality_snapshots,
+        required_subject_dir=SPECIALIZATION_REQUIRED_DIR,
+        elective_raw_dir=REPO_ROOT,
+        term_capacities={(1, 2): 1, (2, 1): 2, (2, 2): 1},
+    )
+
+    offering_terms = {
+        offering.course_id: {(term.course, term.semester) for term in offering.available_terms}
+        for offering in program.course_offerings
+    }
+    selected_course_ids: set[str] = set()
+
+    assert [plan.max_electives for plan in recommendations.term_recommendations] == [1, 2, 1]
+    assert recommendations.term_recommendations[0].term.model_dump(mode="json") == {"course": 1, "semester": 2}
+    for plan in recommendations.term_recommendations:
+        assert len(plan.recommended_course_ids) <= plan.max_electives
+        for course_id in plan.recommended_course_ids:
+            assert (plan.term.course, plan.term.semester) in offering_terms[course_id]
+            assert course_id not in selected_course_ids
+            selected_course_ids.add(course_id)
+
+    assert selected_course_ids

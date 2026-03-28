@@ -1,0 +1,413 @@
+{
+  "course": 1,
+  "semester": 2,
+  "status": "ok",
+  "course_name": "Fundamentals of Computer Systems and Networks",
+  "course_profile": {
+    "one_sentence_summary": "A foundational course on the architecture, protocols, and practical configuration of computer networks using Cisco Packet Tracer.",
+    "short_summary": "This course covers the theoretical principles and practical aspects of computer networking. Students learn about the OSI and TCP/IP models, network topologies, routing algorithms, and physical communication media. Extensive practical labs utilizing Cisco Packet Tracer and Cisco IOS focus on configuring switches, routers, DHCP/DNS services, dynamic routing (RIP, EIGRP, OSPF), ACLs, NAT, and wireless networks.",
+    "discipline_positioning": [
+      "Computer Engineering",
+      "Software Engineering",
+      "Information Technology",
+      "Telecommunications"
+    ],
+    "course_nature": {
+      "theory_level": "medium",
+      "implementation_level": "high",
+      "research_orientation": "low",
+      "software_engineering_orientation": "low"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "computer_networking",
+      "domain_label": "Computer Networking",
+      "score": 0.95
+    },
+    {
+      "domain_id": "systems_administration",
+      "domain_label": "Systems Administration",
+      "score": 0.70
+    },
+    {
+      "domain_id": "telecommunications",
+      "domain_label": "Telecommunications",
+      "score": 0.60
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 8,
+    "lectures_used_count": 14,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Extraction is based on a comprehensive official syllabus containing lecture plans, practical laboratory topics, and explicit prerequisite mappings."
+  },
+  "discipline_tags": [
+    "Computer Networks",
+    "IT Infrastructure",
+    "Telecommunications",
+    "Systems Engineering"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "OSI Model",
+      "TCP/IP Stack",
+      "IP Addressing",
+      "MAC Addressing",
+      "Subnetting",
+      "Signal Modulation"
+    ],
+    "methods_models": [
+      "Distance Vector Routing",
+      "Link-State Routing",
+      "CSMA/CD",
+      "Token Passing"
+    ],
+    "data_modalities": [
+      "Network Packets",
+      "Data Frames",
+      "Network Traffic"
+    ],
+    "problem_types": [
+      "Network Topology Design",
+      "Routing Configuration",
+      "Network Address Translation",
+      "Access Control"
+    ],
+    "application_domains": [
+      "Local Area Networks (LAN)",
+      "Wide Area Networks (WAN)",
+      "Wireless Networks"
+    ],
+    "engineering_aspects": [
+      "Network Simulation",
+      "Command Line Interface (CLI) Configuration",
+      "Device Interconnection",
+      "Protocol Analysis"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [],
+    "libraries_frameworks_tools_explicit": [
+      "Cisco Packet Tracer"
+    ],
+    "systems_platforms_explicit": [
+      "Cisco IOS"
+    ],
+    "technologies_inferred_strong": [
+      "IPv4",
+      "IPv6",
+      "TCP",
+      "UDP",
+      "HTTP",
+      "FTP",
+      "DNS",
+      "DHCP",
+      "RIP",
+      "EIGRP",
+      "OSPF",
+      "NAT",
+      "ACL",
+      "Ethernet",
+      "Wi-Fi"
+    ],
+    "technologies_mentioned_in_resources_only": [
+      "Token Ring",
+      "FDDI",
+      "Fast Ethernet",
+      "Gigabit Ethernet"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "computer_architecture",
+      "skill_label": "Computer Architecture",
+      "min_level_required": 1,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Архітектура комп'ютера"
+      ],
+      "evidence": [
+        "Вивчення дисципліни спирається на знання, отримані студентами при вивченні дисциплін... «Архітектура комп'ютера»"
+      ]
+    },
+    {
+      "skill_id": "graph_theory",
+      "skill_label": "Graph Theory",
+      "min_level_required": 1,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Теорія графів"
+      ],
+      "evidence": [
+        "Вивчення дисципліни спирається на знання... «Теорія графів»"
+      ]
+    },
+    {
+      "skill_id": "probability_statistics",
+      "skill_label": "Probability and Statistics",
+      "min_level_required": 1,
+      "importance": "recommended",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Теорія ймовірностей та математична статистика"
+      ],
+      "evidence": [
+        "Вивчення дисципліни спирається на знання... «Теорія ймовірностей та математична статистика»"
+      ]
+    },
+    {
+      "skill_id": "algorithm_theory",
+      "skill_label": "Algorithm Theory",
+      "min_level_required": 1,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Теорія алгоритмів"
+      ],
+      "evidence": [
+        "Вивчення дисципліни спирається на знання... «Теорія алгоритмів»"
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "network_topology_modeling",
+      "skill_label": "Network Topology Modeling",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "моделювання мережі з топологією зірка",
+        "моделювати та аналізувати роботу мережі у режимі реального часу"
+      ],
+      "evidence": [
+        "Лабораторна робота 2. Моделювання мережі з топологією зірка на базі концентратора і комутатора."
+      ]
+    },
+    {
+      "skill_id": "cisco_ios_administration",
+      "skill_label": "Cisco IOS Administration",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "роботи з мережною операційною системою cisco IOS",
+        "Командний рядок управління пристроями CLI"
+      ],
+      "evidence": [
+        "Основи роботи з мережною операційною системою cisco IOS. Командний рядок управління пристроями CLI."
+      ]
+    },
+    {
+      "skill_id": "ip_addressing_subnetting",
+      "skill_label": "IP Addressing and Subnetting",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "ІР-адреси та їх застосування",
+        "Класова ІР-адресація",
+        "Безкласова ІР-адресація",
+        "ІР-адресація версії 6"
+      ],
+      "evidence": [
+        "Адресація в сучасних комп'ютерних мережах. Класова ІР-адресація. Безкласова ІР-адресація. ІР-адресація версії 6."
+      ]
+    },
+    {
+      "skill_id": "network_services_configuration",
+      "skill_label": "Network Services Configuration (DHCP/DNS)",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "налаштовувати мережеві сервіси DNS, DHCP i Web",
+        "динамічного конфігурування вузлів DHCP"
+      ],
+      "evidence": [
+        "навчитися налаштовувати мережеві сервіси DNS, DHCP i Web... дослідити процес роботи протоколу DHCP"
+      ]
+    },
+    {
+      "skill_id": "dynamic_routing_configuration",
+      "skill_label": "Dynamic Routing Configuration",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "динамічної маршрутизації на протоколах RIP, EIGRP I OSPF"
+      ],
+      "evidence": [
+        "Лабораторна робота 5. Вивчення динамічної маршрутизації на протоколах RIP, EIGRP I OSPF"
+      ]
+    },
+    {
+      "skill_id": "network_access_control",
+      "skill_label": "Network Access Control (ACL)",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Списки доступу ACL",
+        "роботи з розширеними списками доступу ACL"
+      ],
+      "evidence": [
+        "Лабораторна робота 6. Списки доступу ACL. Мета заняття: отримати навички створення стандартного списку доступу та роботи з розширеними списками доступу ACL"
+      ]
+    },
+    {
+      "skill_id": "network_address_translation",
+      "skill_label": "Network Address Translation (NAT)",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "трансляцій мережних адрес (NAT)"
+      ],
+      "evidence": [
+        "Лабораторна робота 7 Налаштування статичних та динамічних трансляцій мережних адрес (NAT)"
+      ]
+    },
+    {
+      "skill_id": "wireless_network_setup",
+      "skill_label": "Wireless Network Setup",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Створення та налаштування безпроводової мережі",
+        "налаштування комутованого WI-FI з'єднання"
+      ],
+      "evidence": [
+        "Лабораторна робота 8. Створення та налаштування безпроводової мережі... налаштування комутованого WI-FI з'єднання"
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the principles of multi-layer network architectures, specifically the OSI and TCP/IP models.",
+      "Understand physical line characteristics, modulation, and data encoding methods in networks.",
+      "Comprehend the fundamental algorithms of network routing (distance vector and link-state) and switching."
+    ],
+    "practical_implementation": [
+      "Configure network interfaces, IP addresses, and routing protocols (RIP, EIGRP, OSPF) using Cisco IOS Command Line Interface.",
+      "Implement network address translation (NAT) and dynamic host configuration protocols (DHCP).",
+      "Deploy basic network security using standard and extended Access Control Lists (ACL)."
+    ],
+    "analysis_validation": [
+      "Analyze network topologies and traffic flows in real-time simulation environments.",
+      "Diagnose and troubleshoot connectivity issues and network component misconfigurations."
+    ],
+    "architecture_design": [
+      "Design and model local area networks (LANs) and wireless networks within simulation software."
+    ],
+    "research_and_prototyping": []
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Software Simulation Sessions",
+      "Command Line Configuration Labs"
+    ],
+    "expected_artifacts": [
+      "Network Simulation Models (.pkt files)",
+      "Laboratory Reports"
+    ],
+    "implementation_tasks": [
+      "Interconnecting network components (routers, switches, hubs, PCs) in a simulator.",
+      "Assigning IP spaces and subnet masks.",
+      "Executing Cisco IOS commands to configure protocols and services.",
+      "Validating network connectivity via simulation modes."
+    ],
+    "engineering_practices": [
+      "Simulation-based verification",
+      "CLI-based system administration",
+      "Iterative troubleshooting"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "cisco_ios_administration",
+      "to_id": "dynamic_routing_configuration",
+      "from_label": "Cisco IOS Administration",
+      "to_label": "Dynamic Routing Configuration",
+      "relation": "enables",
+      "reason": "Knowledge of the Cisco IOS CLI is required to implement routing protocols on Cisco equipment."
+    },
+    {
+      "from_id": "ip_addressing_subnetting",
+      "to_id": "network_services_configuration",
+      "from_label": "IP Addressing and Subnetting",
+      "to_label": "Network Services Configuration (DHCP/DNS)",
+      "relation": "requires",
+      "reason": "Setting up DHCP scopes and DNS routing requires a firm grasp of IP address allocation and subnetting."
+    },
+    {
+      "from_id": "graph_theory",
+      "to_id": "dynamic_routing_configuration",
+      "from_label": "Graph Theory",
+      "to_label": "Dynamic Routing Configuration",
+      "relation": "supports",
+      "reason": "Graph theory forms the mathematical basis for shortest-path routing algorithms like OSPF."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "How data traverses local and global networks through different layers of the OSI model.",
+      "How IP addressing, subnetting, and routing algorithms function to direct traffic.",
+      "The differences between various network transmission technologies (Ethernet, Wi-Fi)."
+    ],
+    "what_student_can_build": [
+      "Simulated enterprise-like network infrastructures using Cisco Packet Tracer.",
+      "Configured network routers and switches providing dynamic routing, DHCP, and secure access."
+    ],
+    "what_student_can_apply": [
+      "Cisco IOS CLI commands for device administration.",
+      "Diagnostic strategies to identify and fix network connection issues."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "The course is highly practical and uses Cisco Packet Tracer for network simulation.",
+      "source_type": "syllabus",
+      "source_title": "Робоча програма навчальної дисципліни",
+      "evidence_text": "Вивчення дисципліни спрямовано на... спеціалізованого програмного забезпечення Cisco Packet Trаcег, що дає змогу моделювати та аналізувати роботу мережі у режимі реального часу."
+    },
+    {
+      "claim": "Mathematical and structural disciplines are required as prerequisites.",
+      "source_type": "syllabus",
+      "source_title": "Пререквізити та постреквізити дисципліни",
+      "evidence_text": "Вивчення дисципліни спирається на знання, отримані студентами при вивченні дисциплін «Теорія графів», «Архітектура комп'ютера», «Теорія ймовірностей та математична статистика», «Теорія алгоритмів»."
+    },
+    {
+      "claim": "The curriculum covers complex routing protocol implementation.",
+      "source_type": "lab",
+      "source_title": "Розклад занять",
+      "evidence_text": "Лабораторна робота 5. Вивчення динамічної маршрутизації на протоколах RIP, EIGRP I OSPF"
+    },
+    {
+      "claim": "Students learn to secure networks and translate addresses.",
+      "source_type": "lab",
+      "source_title": "Розклад занять",
+      "evidence_text": "Лабораторна робота 6. Списки доступу ACL. ... Лабораторна робота 7 Налаштування статичних та динамічних трансляцій мережних адрес (NAT)"
+    }
+  ],
+  "confidence": "high"
+}

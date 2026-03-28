@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
+import re
 
 from roadmaps_mvp.io import iter_raw_course_paths, load_json, load_model, write_model
 from roadmaps_mvp.models import RawCourse, SkillTaxonomy, SkillTaxonomyEntry
@@ -27,7 +28,10 @@ def prettify_skill_label(skill_id: str) -> str:
 
 
 def normalize_lookup_key(skill_id: str) -> str:
-    return skill_id.strip().lower()
+    normalized = skill_id.strip().lower()
+    normalized = re.sub(r"[\s\-/]+", "_", normalized)
+    normalized = re.sub(r"_+", "_", normalized)
+    return normalized.strip("_")
 
 
 class SkillResolver:
@@ -35,9 +39,13 @@ class SkillResolver:
         self.taxonomy = taxonomy
         self.alias_to_canonical: dict[str, str] = {}
         self.labels: dict[str, str] = {}
+        self.categories: dict[str, str] = {}
         for entry in taxonomy.skills:
             self.alias_to_canonical[normalize_lookup_key(entry.skill_id)] = entry.skill_id
             self.labels[entry.skill_id] = entry.canonical_label
+            self.categories[entry.skill_id] = entry.category
+            self.alias_to_canonical[normalize_lookup_key(entry.canonical_label)] = entry.skill_id
+            self.alias_to_canonical[normalize_lookup_key(prettify_skill_label(entry.skill_id))] = entry.skill_id
             for alias in entry.aliases:
                 self.alias_to_canonical[normalize_lookup_key(alias)] = entry.skill_id
 
@@ -52,6 +60,10 @@ class SkillResolver:
     def canonical_label(self, skill_id: str, fallback: str | None = None) -> str:
         resolved = self.resolve(skill_id)
         return self.labels.get(resolved.canonical_skill_id, fallback or prettify_skill_label(resolved.canonical_skill_id))
+
+    def category_for(self, skill_id: str) -> str | None:
+        resolved = self.resolve(skill_id)
+        return self.categories.get(resolved.canonical_skill_id)
 
 
 def _category_for_skill(skill_id: str) -> str:

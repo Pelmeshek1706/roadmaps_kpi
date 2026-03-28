@@ -1,0 +1,352 @@
+{
+  "course": 1,
+  "semester": 1,
+  "status": "ok",
+  "course_name": "Mathematical Analysis. Part 1. Differential Calculus",
+  "course_profile": {
+    "one_sentence_summary": "A foundational university course covering set theory, limits, differential calculus, and an introduction to indefinite integrals for software engineering students.",
+    "short_summary": "This course introduces first-year bachelor students to the core concepts of mathematical analysis. The curriculum focuses on logical mathematical thinking, covering limits of sequences and functions, continuity, derivatives and their applications in function analysis, complex numbers, and the techniques of indefinite integration.",
+    "discipline_positioning": [
+      "Undergraduate Core Mathematics",
+      "Software Engineering Foundation"
+    ],
+    "course_nature": {
+      "theory_level": "high",
+      "implementation_level": "low",
+      "research_orientation": "low",
+      "software_engineering_orientation": "low"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "mathematical_analysis",
+      "domain_label": "Mathematical Analysis",
+      "score": 1.0
+    },
+    {
+      "domain_id": "calculus",
+      "domain_label": "Calculus",
+      "score": 0.95
+    },
+    {
+      "domain_id": "software_engineering_foundations",
+      "domain_label": "Software Engineering Foundations",
+      "score": 0.3
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 0,
+    "lectures_used_count": 0,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Extraction based entirely on the provided official course syllabus (Силабус)."
+  },
+  "discipline_tags": [
+    "Mathematics",
+    "Calculus",
+    "Mathematical Analysis"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Sets",
+      "Real Numbers",
+      "Number Sequences",
+      "Limits",
+      "Continuity",
+      "Derivatives",
+      "Differentials",
+      "Complex Numbers",
+      "Indefinite Integrals"
+    ],
+    "methods_models": [
+      "Mathematical Induction",
+      "L'Hopital's Rule",
+      "Taylor's Formula",
+      "Maclaurin Series",
+      "Logarithmic Differentiation",
+      "Integration by Parts",
+      "Substitution Method",
+      "Partial Fraction Decomposition"
+    ],
+    "data_modalities": [
+      "Mathematical Functions",
+      "Numerical Sequences",
+      "Complex Variables"
+    ],
+    "problem_types": [
+      "Limit Evaluation",
+      "Resolving Indeterminate Forms",
+      "Differentiation",
+      "Function Extrema Optimization",
+      "Graph Plotting",
+      "Integration of Rational and Irrational Functions"
+    ],
+    "application_domains": [
+      "Mathematical Modeling",
+      "Software Engineering Prerequisites"
+    ],
+    "engineering_aspects": [
+      "Analytical Problem Solving"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [],
+    "libraries_frameworks_tools_explicit": [],
+    "systems_platforms_explicit": [
+      "Moodle",
+      "Zoom"
+    ],
+    "technologies_inferred_strong": [],
+    "technologies_mentioned_in_resources_only": [
+      "Telegram"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "high_school_algebra",
+      "skill_label": "High School Algebra",
+      "min_level_required": 3,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "шкільного курсу математики (алгебри...)"
+      ],
+      "evidence": [
+        "базується на знаннях, отриманих при вивченні шкільного курсу математики (алгебри та геометрії)"
+      ]
+    },
+    {
+      "skill_id": "high_school_geometry",
+      "skill_label": "High School Geometry",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "шкільного курсу математики (...та геометрії)"
+      ],
+      "evidence": [
+        "базується на знаннях, отриманих при вивченні шкільного курсу математики (алгебри та геометрії)"
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "limit_evaluation",
+      "skill_label": "Limit Evaluation",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Границя функції",
+        "Обчислення границь",
+        "Невизначеності, правило Лопіталя"
+      ],
+      "evidence": [
+        "Границя числової послідовності. Означення числової послідовності. Границя послідовності.",
+        "Невизначеності, правило Лопіталя."
+      ]
+    },
+    {
+      "skill_id": "function_differentiation",
+      "skill_label": "Function Differentiation",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Похідна і диференціал",
+        "Правила диференціювання",
+        "Похідні та диференціали вищих порядків"
+      ],
+      "evidence": [
+        "Означення похідної. Похідні основних елементарних функцій. Означення диференціала.",
+        "Похідні та диференціали вищих порядків."
+      ]
+    },
+    {
+      "skill_id": "function_analysis_and_graphing",
+      "skill_label": "Function Analysis and Graphing",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Повне дослідження функції",
+        "Побудова графіка функції",
+        "Дослідження функцій на монотонність та екстремуми"
+      ],
+      "evidence": [
+        "Повне дослідження функції. Опуклість, вгнутість графіка функції. Асимптоти графіка функції. Загальна схема побудови графіків функцій."
+      ]
+    },
+    {
+      "skill_id": "indefinite_integration",
+      "skill_label": "Indefinite Integration",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Невизначений інтеграл",
+        "Методи інтегрування невизначеного інтеграла",
+        "Інтегрування раціональних функцій"
+      ],
+      "evidence": [
+        "Невизначений інтеграл. Первісна функція і невизначений інтеграл.",
+        "Методи інтегрування невизначеного інтеграла. Безпосереднє інтегрування, метод заміни змінної, інтегрування частинами."
+      ]
+    },
+    {
+      "skill_id": "complex_number_manipulation",
+      "skill_label": "Complex Number Manipulation",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Комплексні числа"
+      ],
+      "evidence": [
+        "Комплексні числа. Зображення комплексних чисел на площині. Алгебраїчна, тригонометрична та показникова форма комплексного числа."
+      ]
+    },
+    {
+      "skill_id": "polynomial_approximation",
+      "skill_label": "Polynomial Approximation",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Формула Тейлора",
+        "Розвинення основних елементарних функцій за формулою Маклорена"
+      ],
+      "evidence": [
+        "Формула Тейлора з лишком в формі Пеано і Лагранжа. Використання формули Тейлора в наближених обчисленнях."
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the properties of real numbers, sets, and sequences",
+      "Comprehend the mathematical definition of limits and continuity",
+      "Understand the geometric and physical meaning of the derivative and differential",
+      "Understand the fundamental theorem of calculus and the relationship between differentiation and integration"
+    ],
+    "practical_implementation": [
+      "Calculate limits of complex sequences and functions, including the use of L'Hopital's rule",
+      "Compute first and higher-order derivatives of explicit, implicit, and parametrically defined functions",
+      "Perform indefinite integration using substitution, partial fractions, and integration by parts",
+      "Perform algebraic, trigonometric, and exponential operations with complex numbers"
+    ],
+    "analysis_validation": [
+      "Investigate functions to determine domains, asymptotes, monotonicity, local extrema, and points of inflection"
+    ],
+    "architecture_design": [],
+    "research_and_prototyping": []
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Practical problem-solving sessions (Практичні заняття)",
+      "Independent study and homework assignments (СРС)",
+      "Modular control works (МКР)"
+    ],
+    "expected_artifacts": [
+      "Typical Calculation Work (Типова розрахункова робота - ТРР)",
+      "Written examination solutions",
+      "Completed modular control tests"
+    ],
+    "implementation_tasks": [
+      "Solving mathematical limits",
+      "Deriving functions manually using established mathematical rules",
+      "Plotting accurate function graphs based on analytical investigation",
+      "Evaluating indefinite integrals of various mathematical classes"
+    ],
+    "engineering_practices": [
+      "Rigorous mathematical derivation",
+      "Analytical verification of mathematical properties"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "limit_evaluation",
+      "to_id": "function_differentiation",
+      "from_label": "Limit Evaluation",
+      "to_label": "Function Differentiation",
+      "relation": "enables",
+      "reason": "The formal definition of a derivative is based on the limit of a difference quotient."
+    },
+    {
+      "from_id": "function_differentiation",
+      "to_id": "function_analysis_and_graphing",
+      "from_label": "Function Differentiation",
+      "to_label": "Function Analysis and Graphing",
+      "relation": "applies_to",
+      "reason": "First and second-order derivatives are necessary to find monotonicity, extrema, concavity, and inflection points for function graphing."
+    },
+    {
+      "from_id": "function_differentiation",
+      "to_id": "polynomial_approximation",
+      "from_label": "Function Differentiation",
+      "to_label": "Polynomial Approximation",
+      "relation": "requires",
+      "reason": "Constructing Taylor and Maclaurin series approximations requires the calculation of higher-order derivatives."
+    },
+    {
+      "from_id": "function_differentiation",
+      "to_id": "indefinite_integration",
+      "from_label": "Function Differentiation",
+      "to_label": "Indefinite Integration",
+      "relation": "supports",
+      "reason": "Integration is the inverse operation of differentiation; understanding derivatives is required to find antiderivatives and apply the substitution method."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "The theoretical mathematical principles that govern continuous change",
+      "How basic mathematical functions behave, transform, and can be analyzed analytically",
+      "The foundational rules of differential and integral calculus"
+    ],
+    "what_student_can_build": [
+      "Comprehensive analytical profiles and visual graphs of functions",
+      "Polynomial approximations of complex functions using Taylor series"
+    ],
+    "what_student_can_apply": [
+      "Differentiation techniques to find rates of change and optimize mathematical models",
+      "Integration methods to calculate antiderivatives",
+      "L'Hopital's rule to evaluate complex mathematical limits"
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "Course requires high school algebra and geometry as a prerequisite",
+      "source_type": "syllabus",
+      "source_title": "Силабус_ФІОТ_121_МА1_2022_23.pdf",
+      "evidence_text": "базується на знаннях, отриманих при вивченні шкільного курсу математики (алгебри та геометрії)"
+    },
+    {
+      "claim": "Course evaluates students via tests, typical calculation work, and a final exam",
+      "source_type": "syllabus",
+      "source_title": "Силабус_ФІОТ_121_МА1_2022_23.pdf",
+      "evidence_text": "Поточний контроль: фронтальний (усний, письмовий), МКР, ТРР... Форма семестрового контролю - екзамен"
+    },
+    {
+      "claim": "The course is highly mathematical but positioned as a foundation for Software Engineering.",
+      "source_type": "syllabus",
+      "source_title": "Силабус_ФІОТ_121_МА1_2022_23.pdf",
+      "evidence_text": "Галузь знань: 12 Інформаційні технології. Спеціальність: 121 Інженерія програмного забезпечення... Знати і застосовувати відповідні математичні поняття... для розробки програмного забезпечення"
+    },
+    {
+      "claim": "The course utilizes the Moodle platform for remote assessments.",
+      "source_type": "syllabus",
+      "source_title": "Силабус_ФІОТ_121_МА1_2022_23.pdf",
+      "evidence_text": "Для оцінювання поточної успішності студенти мають виконувати тести на платформі Moodle."
+    }
+  ],
+  "confidence": "high"
+}

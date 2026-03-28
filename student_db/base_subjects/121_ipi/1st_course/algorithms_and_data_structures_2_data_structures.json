@@ -1,0 +1,404 @@
+{
+  "course": 1,
+  "semester": 2,
+  "status": "ok",
+  "course_name": "Algorithms and Data Structures - 2. Data Structures",
+  "course_profile": {
+    "one_sentence_summary": "A core computer science course focusing on the rigorous mathematical analysis, design, and practical implementation of advanced data structures and algorithmic strategies.",
+    "short_summary": "This course covers foundational and advanced algorithmic techniques, including divide and conquer, dynamic programming, and greedy algorithms. It extensively studies complex data structures such as hash tables, binary search trees, red-black trees, and priority queues, culminating in a theoretical exploration of computational complexity classes (P, NP, NP-complete, and PSPACE).",
+    "discipline_positioning": [
+      "Computer Science",
+      "Software Engineering",
+      "Theoretical Computer Science"
+    ],
+    "course_nature": {
+      "theory_level": "high",
+      "implementation_level": "high",
+      "research_orientation": "medium",
+      "software_engineering_orientation": "high"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "data_structures_and_algorithms",
+      "domain_label": "Data Structures and Algorithms",
+      "score": 1.0
+    },
+    {
+      "domain_id": "theoretical_computer_science",
+      "domain_label": "Theoretical Computer Science",
+      "score": 0.85
+    },
+    {
+      "domain_id": "software_engineering",
+      "domain_label": "Software Engineering",
+      "score": 0.6
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 9,
+    "lectures_used_count": 18,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Comprehensive syllabus provided, clearly detailing course objectives, topics, laboratory works, prerequisites, and evaluation criteria."
+  },
+  "discipline_tags": [
+    "Computer Science",
+    "Software Engineering",
+    "Data Structures",
+    "Algorithm Design",
+    "Computational Complexity",
+    "Discrete Mathematics"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Asymptotic Notation",
+      "Recurrence Relations",
+      "Algorithmic Complexity",
+      "P vs NP",
+      "NP-Completeness",
+      "Hamiltonian Cycles"
+    ],
+    "methods_models": [
+      "Divide and Conquer",
+      "Greedy Algorithms",
+      "Dynamic Programming",
+      "Master Theorem",
+      "Hash Functions",
+      "Collision Resolution"
+    ],
+    "data_modalities": [
+      "Graphs",
+      "Trees",
+      "Arrays",
+      "Hash Tables"
+    ],
+    "problem_types": [
+      "Sorting",
+      "Searching",
+      "Graph Traversal",
+      "Combinatorial Optimization",
+      "Scheduling",
+      "Subset Sum",
+      "Knapsack",
+      "Sequence Alignment",
+      "Boolean Satisfiability (3-SAT)"
+    ],
+    "application_domains": [
+      "Software Engineering",
+      "Systems Programming",
+      "Operations Research"
+    ],
+    "engineering_aspects": [
+      "Algorithm Implementation",
+      "Performance Profiling",
+      "Data Structure Design",
+      "Memory Management"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [
+      "Python",
+      "R"
+    ],
+    "libraries_frameworks_tools_explicit": [],
+    "systems_platforms_explicit": [
+      "BigML",
+      "SPMF",
+      "WEKA"
+    ],
+    "technologies_inferred_strong": [],
+    "technologies_mentioned_in_resources_only": [
+      "Java"
+    ]
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "discrete_mathematics",
+      "skill_label": "Discrete Mathematics",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Комп'ютерна дискретна математика",
+        "Дискретні структури"
+      ],
+      "evidence": [
+        "Міждисциплінарні зв'язки: для освоєння навчальної дисципліни... необхідні знання дисципліни «Комп'ютерна дискретна математика» «Дискретні структури»"
+      ]
+    },
+    {
+      "skill_id": "calculus",
+      "skill_label": "Calculus",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Математичного аналізу"
+      ],
+      "evidence": [
+        "необхідні знання дисципліни... «Математичного аналізу»"
+      ]
+    },
+    {
+      "skill_id": "basic_programming",
+      "skill_label": "Basic Programming",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Алгоритмізація та програмування"
+      ],
+      "evidence": [
+        "необхідні знання дисципліни... «Алгоритмізація та програмування»"
+      ]
+    },
+    {
+      "skill_id": "basic_data_structures",
+      "skill_label": "Basic Data Structures",
+      "min_level_required": 2,
+      "importance": "required",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Алгоритми та структури даних"
+      ],
+      "evidence": [
+        "необхідні знання дисципліни... «Алгоритми та структури даних»"
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "algorithm_complexity_analysis",
+      "skill_label": "Algorithm Complexity Analysis",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Аналіз алгоритмів",
+        "Асимптотичні позначення",
+        "Рекурентні співвідношення"
+      ],
+      "evidence": [
+        "Лекція 2. Аналіз алгоритмів... Асимптотичні позначення. Порівняння функцій.",
+        "Лекція 4. Рекурентні співвідношення. Метод підстановки. Метод дерев рекурсії."
+      ]
+    },
+    {
+      "skill_id": "advanced_sorting_algorithms",
+      "skill_label": "Advanced Sorting Algorithms",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Сортування злиттям",
+        "Швидке сортування",
+        "Лінійне сортування",
+        "Сортування підрахунком"
+      ],
+      "evidence": [
+        "Тема 5. Швидке сортування",
+        "Тема 6. Сортування за лінійний час"
+      ]
+    },
+    {
+      "skill_id": "tree_data_structures",
+      "skill_label": "Tree Data Structures",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Бінарні дерева пошуку",
+        "Піраміди",
+        "Червоно-чорні дерева"
+      ],
+      "evidence": [
+        "Лекція 10. Бінарні дерева пошуку. Вставка та видалення.",
+        "Лекція 11. Додаткові структури даних. Червоно-чорні дерева."
+      ]
+    },
+    {
+      "skill_id": "hash_table_implementation",
+      "skill_label": "Hash Table Implementation",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Хеш-таблиці",
+        "Уникнення колізій за допомогою ланцюгів",
+        "Відкрита адресація"
+      ],
+      "evidence": [
+        "Лекція 9. Хеш-таблиці... Уникнення колізій за допомогою ланцюгів. Хеш-функції. Відкрита адресація."
+      ]
+    },
+    {
+      "skill_id": "greedy_algorithm_design",
+      "skill_label": "Greedy Algorithm Design",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Жадібні алгоритми",
+        "Алгоритм Прима",
+        "Алгоритм Крускала"
+      ],
+      "evidence": [
+        "Лекція 12. Жадібні алгоритми. Задача складання розкладів... Мінімальні кістякові дерева. Алгоритм Прима. Алгоритм Крускала."
+      ]
+    },
+    {
+      "skill_id": "dynamic_programming",
+      "skill_label": "Dynamic Programming",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Динамічне програмування",
+        "Задача про рюкзак"
+      ],
+      "evidence": [
+        "Лекція 13. Динамічне програмування... Задача пошуку підмножин сум. Задача про рюкзак. Вирівнювання послідовностей."
+      ]
+    },
+    {
+      "skill_id": "computational_complexity_theory",
+      "skill_label": "Computational Complexity Theory",
+      "result_level": 2,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Класи Р та NP",
+        "NP-повні задачі",
+        "Клас задач PSPACE"
+      ],
+      "evidence": [
+        "Лекція 14. Складність. Задачі класу NP.",
+        "Лекція 17. Клас задач PSPACE. Означення класу задач PSPACE."
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the mathematical foundations of algorithmic complexity and asymptotic notations",
+      "Differentiate between complexity classes such as P, NP, NP-complete, and PSPACE",
+      "Comprehend the principles of recurrence relations and their proofs (Master Theorem)"
+    ],
+    "practical_implementation": [
+      "Implement advanced data structures including hash tables, priority queues, binary search trees, and red-black trees",
+      "Code sorting algorithms tailored for specific time constraints, such as quicksort, merge sort, and radix sort",
+      "Develop programmatic solutions leveraging greedy algorithms and dynamic programming paradigms"
+    ],
+    "analysis_validation": [
+      "Analyze the time and space complexity of computational algorithms mathematically",
+      "Validate the correctness and optimal substructure of dynamic programming algorithms"
+    ],
+    "architecture_design": [
+      "Select appropriate algorithms and data structures based on the constraints of a given computational problem",
+      "Model real-world scenarios as graph or scheduling problems to apply algorithmic strategies"
+    ],
+    "research_and_prototyping": [
+      "Reduce theoretical problems to prove NP-completeness (e.g., 3-SAT to Hamiltonian Cycle)"
+    ]
+  },
+  "practical_components": {
+    "lab_formats": [
+      "Algorithm Implementation Practices",
+      "Algorithm Analysis & Profiling",
+      "Oral Defense / Presentation",
+      "Written Lab Reports"
+    ],
+    "expected_artifacts": [
+      "Source Code",
+      "Algorithm Performance Benchmarks",
+      "Laboratory Reports"
+    ],
+    "implementation_tasks": [
+      "Implementing and comparing internal sorting methods",
+      "Writing graph processing algorithms",
+      "Building robust tree-based structures (BST, Heaps)",
+      "Solving optimization tasks using dynamic programming and greedy strategies"
+    ],
+    "engineering_practices": [
+      "Algorithm Benchmarking",
+      "Complexity Estimation",
+      "Code testing and defense against edge cases"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "algorithm_complexity_analysis",
+      "to_id": "advanced_sorting_algorithms",
+      "from_label": "Algorithm Complexity Analysis",
+      "to_label": "Advanced Sorting Algorithms",
+      "relation": "supports",
+      "reason": "Understanding asymptotic notation and recurrence relations is necessary to formally evaluate sorting algorithms like Merge Sort and Quicksort."
+    },
+    {
+      "from_id": "basic_programming",
+      "to_id": "tree_data_structures",
+      "from_label": "Basic Programming",
+      "to_label": "Tree Data Structures",
+      "relation": "enables",
+      "reason": "Proficiency in basic programming is required to implement complex linked data structures like trees."
+    },
+    {
+      "from_id": "greedy_algorithm_design",
+      "to_id": "computational_complexity_theory",
+      "from_label": "Greedy Algorithm Design",
+      "to_label": "Computational Complexity Theory",
+      "relation": "applies_to",
+      "reason": "Understanding optimization algorithms lays the practical groundwork for studying NP-hard optimization problems and complexity bounds."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "How to mathematically prove the efficiency of an algorithm and determine its lower limits.",
+      "The theoretical boundaries of computation and why certain problems (NP-hard) cannot be solved quickly.",
+      "How different underlying data structures impact the performance of software applications."
+    ],
+    "what_student_can_build": [
+      "Custom, highly-optimized data structures like Hash Tables and Red-Black Trees.",
+      "Programs that efficiently sort and search through massive datasets.",
+      "Graph-based models to represent and traverse complex networks."
+    ],
+    "what_student_can_apply": [
+      "Dynamic programming techniques to break down and solve multi-stage decision processes.",
+      "Greedy algorithms for real-time scheduling and resource allocation optimization."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "The course is centered on data structures, sorting, complexity, and algorithmic design strategies.",
+      "source_type": "syllabus",
+      "source_title": "Алгоритми та структури даних -2. Структура даних",
+      "evidence_text": "Розділ 1. Алгоритми... Розділ 2. Структури даних... Розділ 3. Підходи до розробки алгоритмів... Розділ 4. Класи складності"
+    },
+    {
+      "claim": "Prerequisite knowledge spans discrete math, basic programming, and fundamental structures.",
+      "source_type": "syllabus",
+      "source_title": "Алгоритми та структури даних -2. Структура даних",
+      "evidence_text": "для освоєння навчальної дисципліни... необхідні знання дисципліни «Комп'ютерна дискретна математика» «Дискретні структури», «Математичного аналізу», «Алгоритмізація та програмування», «Алгоритми та структури даних»"
+    },
+    {
+      "claim": "The course has a significant practical component requiring coding and testing of algorithms.",
+      "source_type": "syllabus",
+      "source_title": "Алгоритми та структури даних -2. Структура даних",
+      "evidence_text": "Всього на лабораторні заняття виділено 36 годин... Л.р.№ 1 Проектування і аналіз алгоритмів внутрішнього сортування... Л.р.№ 9 Динамічне програмування"
+    }
+  ],
+  "confidence": "high"
+}

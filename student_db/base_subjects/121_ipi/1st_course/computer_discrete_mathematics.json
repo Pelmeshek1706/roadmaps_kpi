@@ -1,0 +1,345 @@
+{
+  "course": 1,
+  "semester": 1,
+  "status": "ok",
+  "course_name": "Computer Discrete Mathematics",
+  "course_profile": {
+    "one_sentence_summary": "A foundational course covering essential discrete mathematics concepts, including set theory, graph theory, mathematical logic, and automata theory, tailored for software engineering students.",
+    "short_summary": "This course introduces students to the mathematical foundations of computer science. It covers sets, relations, algebraic structures, Boolean algebra, propositional and predicate logic, graph theory, and finite automata, focusing on formalizing, analyzing, and transforming mathematical models for software development.",
+    "discipline_positioning": [
+      "Foundational Computer Science",
+      "Discrete Mathematics",
+      "Software Engineering Mathematics"
+    ],
+    "course_nature": {
+      "theory_level": "high",
+      "implementation_level": "medium",
+      "research_orientation": "low",
+      "software_engineering_orientation": "medium"
+    }
+  },
+  "domain_scores": [
+    {
+      "domain_id": "discrete_mathematics",
+      "domain_label": "Discrete Mathematics",
+      "score": 0.95
+    },
+    {
+      "domain_id": "theoretical_computer_science",
+      "domain_label": "Theoretical Computer Science",
+      "score": 0.85
+    },
+    {
+      "domain_id": "software_engineering",
+      "domain_label": "Software Engineering",
+      "score": 0.60
+    }
+  ],
+  "source_coverage": {
+    "analysis_mode": "single_document",
+    "single_document_used": true,
+    "syllabus_used": true,
+    "lab_works_used_count": 0,
+    "lectures_used_count": 0,
+    "extra_materials_used_count": 0,
+    "coverage_comment": "Information extracted from a comprehensive official syllabus document (working program) for the course."
+  },
+  "discipline_tags": [
+    "Discrete Mathematics",
+    "Theoretical Computer Science",
+    "Software Engineering Foundations",
+    "Logic",
+    "Graph Theory"
+  ],
+  "topic_tags": {
+    "core_concepts": [
+      "Set Theory",
+      "Relations",
+      "Algebraic Structures",
+      "Boolean Algebra",
+      "Mathematical Logic",
+      "Graph Theory",
+      "Automata Theory",
+      "Formal Grammars"
+    ],
+    "methods_models": [
+      "Karnaugh Maps",
+      "Quine-McCluskey Algorithm",
+      "Dijkstra's Algorithm",
+      "Kruskal's Algorithm",
+      "Ford-Bellman Algorithm",
+      "Moore and Mealy Machines",
+      "Chomsky Normal Form",
+      "Zhegalkin Polynomial"
+    ],
+    "data_modalities": [
+      "Sets",
+      "Graphs",
+      "Trees",
+      "State Machines",
+      "Formal Languages"
+    ],
+    "problem_types": [
+      "Function Minimization",
+      "Shortest Path",
+      "Network Flow",
+      "Graph Coloring",
+      "Logic Deduction",
+      "Language Recognition"
+    ],
+    "application_domains": [
+      "Software Engineering",
+      "Algorithm Design",
+      "Digital Logic Design"
+    ],
+    "engineering_aspects": [
+      "Model Formalization",
+      "Complexity Estimation",
+      "Algorithm Optimization",
+      "Object and Relation Description"
+    ]
+  },
+  "technology_tags": {
+    "programming_languages": [],
+    "libraries_frameworks_tools_explicit": [],
+    "systems_platforms_explicit": [],
+    "technologies_inferred_strong": [],
+    "technologies_mentioned_in_resources_only": []
+  },
+  "input_skills_normalized": [
+    {
+      "skill_id": "high_school_mathematics",
+      "skill_label": "High School Mathematics",
+      "min_level_required": 1,
+      "importance": "required",
+      "source": "inferred",
+      "confidence": "high",
+      "raw_mentions": [
+        "Пререквізити відсутні, дисципліна є базовою."
+      ],
+      "evidence": [
+        "The syllabus explicitly states there are no prerequisites and the discipline is foundational, implying only standard high-school graduation level math is needed."
+      ]
+    }
+  ],
+  "output_skills_normalized": [
+    {
+      "skill_id": "set_theory_application",
+      "skill_label": "Set Theory Application",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Множини. Способи задання множин",
+        "Операції на множинах",
+        "Алгебра множин"
+      ],
+      "evidence": [
+        "Section 1 covers set theory, set operations, and algebra of sets, practiced in Practice session 1."
+      ]
+    },
+    {
+      "skill_id": "boolean_function_minimization",
+      "skill_label": "Boolean Function Minimization",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Мінімізація булевих функцій",
+        "Метод карт Карно",
+        "Мінімізація функцій методом Квайна Мак-Класкі"
+      ],
+      "evidence": [
+        "Lectures 5-8 and practical sessions 6-10 deeply cover Boolean algebra, normal forms, and multiple methods for minimizing Boolean functions."
+      ]
+    },
+    {
+      "skill_id": "propositional_and_predicate_logic",
+      "skill_label": "Propositional and Predicate Logic",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Поняття логіки висловлень",
+        "Логіка предикатів",
+        "Обчислення предикатів"
+      ],
+      "evidence": [
+        "Section 5 focuses on mathematical logic, including deductive conclusions, quantifiers, and normal forms."
+      ]
+    },
+    {
+      "skill_id": "graph_algorithm_application",
+      "skill_label": "Graph Algorithm Application",
+      "result_level": 3,
+      "importance": "core",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Способи задання графа",
+        "Дерева",
+        "Найкоротші відстані та шляхи у мережах",
+        "Течії у мережах"
+      ],
+      "evidence": [
+        "Section 6 thoroughly covers graph theory, including trees, shortest path algorithms (Dijkstra, Ford-Bellman), and network flows."
+      ]
+    },
+    {
+      "skill_id": "finite_state_machine_design",
+      "skill_label": "Finite State Machine Design",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "high",
+      "raw_mentions": [
+        "Скінченні автомати",
+        "Автомати Мура та Мілі",
+        "Мінімізація автоматів"
+      ],
+      "evidence": [
+        "Section 7 introduces automata theory, including FSMs, Moore and Mealy machines, and their minimization."
+      ]
+    },
+    {
+      "skill_id": "formal_language_theory",
+      "skill_label": "Formal Language Theory",
+      "result_level": 2,
+      "importance": "secondary",
+      "source": "explicit",
+      "confidence": "medium",
+      "raw_mentions": [
+        "Мови та граматики",
+        "Регулярні мови",
+        "Формальні граматики. Ієрархія граматик"
+      ],
+      "evidence": [
+        "The final parts of Section 7 cover algebraic operations with languages, Chomsky normal forms, and context-free languages."
+      ]
+    }
+  ],
+  "learning_outcomes": {
+    "theoretical_understanding": [
+      "Understand the basic concepts of discrete mathematics, including sets, relations, algebraic structures, and boolean algebra.",
+      "Comprehend the principles of propositional and predicate logic.",
+      "Understand the properties of graphs, trees, and finite automata.",
+      "Recognize the hierarchy of formal grammars and languages."
+    ],
+    "practical_implementation": [
+      "Perform operations on sets and relations.",
+      "Minimize boolean functions using various algorithmic methods (Karnaugh maps, Quine-McCluskey, etc.).",
+      "Apply graph algorithms to find shortest paths, spanning trees, and maximum network flows.",
+      "Construct and minimize Moore and Mealy state machines."
+    ],
+    "analysis_validation": [
+      "Analyze mathematical models to evaluate their complexity.",
+      "Evaluate the equivalence of boolean formulas and formal grammar normal forms."
+    ],
+    "architecture_design": [
+      "Formalize abstract mathematical problems into appropriate discrete models (graphs, automata) suitable for software engineering tasks."
+    ],
+    "research_and_prototyping": []
+  },
+  "practical_components": {
+    "lab_formats": [
+      "In-class practical problem-solving sessions",
+      "Thematic control tests",
+      "Calculation assignments (Розрахункова робота)"
+    ],
+    "expected_artifacts": [
+      "Written solutions for boolean minimization problems",
+      "Graph models and step-by-step algorithm execution traces",
+      "Constructed logic and state machine diagrams"
+    ],
+    "implementation_tasks": [
+      "Calculating set and relational operations",
+      "Applying graph traversal and optimization algorithms by hand",
+      "Converting truth tables to minimal boolean expressions"
+    ],
+    "engineering_practices": [
+      "Formal definition of requirements into discrete mathematical structures",
+      "Algorithmic thinking and step-by-step execution"
+    ]
+  },
+  "curricular_relations": [
+    {
+      "from_id": "set_theory_application",
+      "to_id": "boolean_function_minimization",
+      "from_label": "Set Theory Application",
+      "to_label": "Boolean Function Minimization",
+      "relation": "supports",
+      "reason": "Concepts of sets and algebra of sets form the foundation for understanding Boolean algebra."
+    },
+    {
+      "from_id": "set_theory_application",
+      "to_id": "propositional_and_predicate_logic",
+      "from_label": "Set Theory Application",
+      "to_label": "Propositional and Predicate Logic",
+      "relation": "supports",
+      "reason": "Set operations are heavily analogous and structurally foundational to logical operations."
+    },
+    {
+      "from_id": "propositional_and_predicate_logic",
+      "to_id": "finite_state_machine_design",
+      "from_label": "Propositional and Predicate Logic",
+      "to_label": "Finite State Machine Design",
+      "relation": "enables",
+      "reason": "Logic principles are essential for defining state transitions and automata behaviors."
+    },
+    {
+      "from_id": "graph_algorithm_application",
+      "to_id": "finite_state_machine_design",
+      "from_label": "Graph Algorithm Application",
+      "to_label": "Finite State Machine Design",
+      "relation": "applies_to",
+      "reason": "State machines are commonly visualized and analyzed as directed graphs."
+    }
+  ],
+  "student_takeaway": {
+    "what_student_can_understand": [
+      "The fundamental discrete mathematical structures underlying computer science.",
+      "The principles of formal logic and how they apply to software correctness.",
+      "How different classes of formal languages are recognized by computational automata."
+    ],
+    "what_student_can_build": [
+      "Formal models using sets, relations, and graphs.",
+      "Minimized boolean logic representations.",
+      "State transition diagrams for deterministic and non-deterministic systems."
+    ],
+    "what_student_can_apply": [
+      "Graph algorithms for practical routing and network flow problems.",
+      "Logic deduction methods for problem-solving.",
+      "Optimization techniques for Boolean circuits."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "The course has no prerequisites and is foundational.",
+      "source_type": "syllabus",
+      "source_title": "Syllabus Page 2",
+      "evidence_text": "Пререквізити відсутні, дисципліна є базовою."
+    },
+    {
+      "claim": "The course covers detailed boolean function minimization techniques.",
+      "source_type": "syllabus",
+      "source_title": "Syllabus Page 5",
+      "evidence_text": "Мінімізація булевих функцій. Основні поняття. Метод карт Карно (діаграм Вейча), частково визначені функції. Мінімізація функцій методом Квайна Мак-Класкі."
+    },
+    {
+      "claim": "Students apply graph algorithms to calculate shortest paths and network flows.",
+      "source_type": "syllabus",
+      "source_title": "Syllabus Page 6",
+      "evidence_text": "Найкоротші відстані та шляхи у мережах. Алгоритми Дейкстри, Форда-Беллмана... Течії у мережах."
+    },
+    {
+      "claim": "A major objective is to formalize mathematical problems and select models for object description.",
+      "source_type": "syllabus",
+      "source_title": "Syllabus Page 2",
+      "evidence_text": "вміння: формалізувати математичну задачу і вибрати модель для її опису;"
+    }
+  ],
+  "confidence": "high"
+}
