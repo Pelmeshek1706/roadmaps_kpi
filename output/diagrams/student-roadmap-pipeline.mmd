@@ -1,0 +1,89 @@
+%%{init: {
+  "theme": "base",
+  "flowchart": {
+    "curve": "basis",
+    "nodeSpacing": 34,
+    "rankSpacing": 42
+  },
+  "themeVariables": {
+    "fontFamily": "Helvetica, Arial, sans-serif",
+    "primaryTextColor": "#0f172a",
+    "lineColor": "#475569",
+    "background": "#ffffff",
+    "clusterBkg": "#f8fafc",
+    "clusterBorder": "#cbd5e1"
+  }
+} }%%
+flowchart TB
+
+    classDef input fill:#e0f2fe,stroke:#0284c7,color:#0f172a,stroke-width:1px;
+    classDef process fill:#fff7ed,stroke:#f97316,color:#7c2d12,stroke-width:1px;
+    classDef profile fill:#ecfdf5,stroke:#059669,color:#064e3b,stroke-width:1px;
+    classDef rules fill:#fef3c7,stroke:#d97706,color:#78350f,stroke-width:1px;
+    classDef output fill:#f5f3ff,stroke:#8b5cf6,color:#4c1d95,stroke-width:1px;
+    classDef note fill:#f1f5f9,stroke:#64748b,color:#0f172a,stroke-dasharray: 4 3;
+
+    subgraph PREP["A. Static Preparation"]
+        raw["Raw course JSONs<br/>mandatory + elective"]:::input
+        validate["Validate raw objects<br/>schema, fields, IDs"]:::process
+        taxonomy["Skill taxonomy<br/>aliases and canonical IDs"]:::input
+        canonical["Canonical course catalog<br/>normalized input and output skills"]:::process
+        quality["Quality snapshots<br/>evidence and confidence"]:::process
+        program["Program definition<br/>tracks, target skills,<br/>course offerings, term rules"]:::input
+
+        raw --> validate --> canonical
+        taxonomy --> canonical
+        validate --> quality
+    end
+
+    subgraph PROFILE["B. Student Profile Initialization"]
+        student["Student input<br/>specialization, current course,<br/>current semester"]:::input
+        required["Load mandatory courses<br/>for the specialization"]:::process
+        split["Split curriculum into<br/>completed, in progress, planned"]:::process
+        aggregate["Aggregate output skills<br/>from mandatory subjects"]:::process
+        views["Build three skill views<br/>1. auto base = all mandatory<br/>2. current = completed + in progress<br/>3. planned = future mandatory"]:::profile
+
+        student --> required --> split --> aggregate --> views
+    end
+
+    subgraph MANUAL["C. Manual Skill Processing"]
+        prompt["Interactive console loop<br/>show auto skills -> input extra skills"]:::process
+        normalize["Normalize manual inputs<br/>through taxonomy"]:::process
+        manual["User skills<br/>default level = medium"]:::profile
+        profile["StudentSkillProfile<br/>required_courses + auto_base +<br/>current + planned + user + combined"]:::profile
+        selftaught["Self-taught data science skills<br/>are added to user_skills"]:::note
+
+        views --> prompt --> normalize --> manual --> profile
+        taxonomy --> normalize
+        manual --> selftaught
+    end
+
+    subgraph ROADMAP["D. Personalized Roadmap Generation"]
+        currentbank["Current skill bank<br/>current_curriculum_skills + user_skills"]:::profile
+        futurebank["Future mandatory bank<br/>planned_curriculum_skills"]:::profile
+        candidates["Match electives<br/>to specialization or track"]:::process
+        filters["Apply hard rules<br/>not required, offered this term,<br/>electives start term, term capacity"]:::rules
+        score["Score every elective<br/>track fit + prerequisite fit + target gain + novelty + evidence + domain<br/>minus current redundancy, future redundancy, selected overlap"]:::rules
+        select["Select top electives per term<br/>and update selected courses"]:::process
+
+        profile --> currentbank
+        profile --> futurebank
+        selftaught --> currentbank
+        canonical --> candidates
+        quality --> score
+        program --> candidates
+        program --> filters
+        candidates --> filters --> score --> select
+        currentbank --> score
+        futurebank --> score
+    end
+
+    subgraph OUTPUT["E. Output"]
+        roadmap["Student roadmap<br/>recommended electives by term"]:::output
+        explain["Explainability layer<br/>reason codes, developed skills,<br/>overlapping skills, blocked reasons"]:::output
+
+        select --> roadmap
+        score --> explain
+    end
+
+    raw -. specialization curriculum files .-> required
